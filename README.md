@@ -1,6 +1,6 @@
 # McGill Chem Visiting Scholar 🧪🍁
 
-到 McGill 大學化學系（Otto Maass Chemistry Building）短期訪問研究的住宿整理：**走路通勤、可以自己下廚、有健身房**，冬季住約 5 週。
+到 McGill 大學化學系（Otto Maass Chemistry Building）短期訪問研究的住宿與生活整理：**走路通勤、可以自己下廚、有健身房**，冬季住約 5 週；附近餐廳與超市也一起整理。
 
 *Lodging notes for a short visiting-research stay near McGill Chemistry · Montréal, QC*
 
@@ -8,8 +8,9 @@
 
 ## 🗺️ 地圖
 
-- 🌐 **互動頁面**：[GitHub Pages](https://ashur5457.github.io/McGrillChemVisitingScholar/)（比例地圖＋可排序比較表）
-- 📍 **Google 我的地圖**：MYMAPS_LINK
+- 🏨 **住宿地圖**：[GitHub Pages](https://ashur5457.github.io/McGrillChemVisitingScholar/)（互動地圖＋可排序比較表）
+- 🍜 **餐廳・超市地圖**：[food.html](https://ashur5457.github.io/McGrillChemVisitingScholar/food.html)（可依類別篩選）
+- 📍 **想放進自己的 Google 地圖**：下載 [`places.kml`](places.kml)（住宿）或 [`food.kml`](food.kml)（餐廳・超市），到 [Google 我的地圖](https://www.google.com/maps/d/) 建新地圖 →「匯入」即可
 
 ## 🗓️ 條件
 
@@ -53,6 +54,15 @@
 
 詳細說明 👉 [`docs/accommodation.md`](docs/accommodation.md)
 
+## 🍜 餐廳與超市
+
+整理自小紅書的 McGill 周邊美食合集與省錢筆記，**2026-11-09 逐家用 Google Maps 確認還在營業**（已停業、暫停營業、找不到的店都剔除）。
+
+- 🍽️ 餐廳・咖啡・甜點 36 家，依離化學館步行時間排序
+- 🛒 超市・日用品 10 家，依離 Le Cantlie 步行時間排序（自己煮飯用）
+
+完整表格 👉 [`docs/food.md`](docs/food.md)｜地圖 👉 [food.html](https://ashur5457.github.io/McGrillChemVisitingScholar/food.html)
+
 ## 🛂 入境小抄
 
 短期到加拿大大學做研究的通用重點 👉 [`docs/immigration.md`](docs/immigration.md)
@@ -63,9 +73,14 @@
 McGrillChemVisitingScholar/
 ├── README.md            # 本頁：總覽
 ├── index.html           # 互動地圖＋住宿比較表（GitHub Pages）
+├── food.html            # 餐廳・超市互動地圖
 ├── places.kml           # 住宿座標（可匯入 Google 我的地圖）
+├── food.kml             # 餐廳・超市座標（可匯入 Google 我的地圖）
+├── data/
+│   └── food.json        # 餐廳・超市原始資料
 └── docs/
     ├── accommodation.md # 住宿詳細比較與小紅書筆記摘要
+    ├── food.md          # 餐廳・超市表格
     └── immigration.md   # eTA／120 天研究豁免通用說明
 ```
 
