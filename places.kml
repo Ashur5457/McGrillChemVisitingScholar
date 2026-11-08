@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>McGill 化學館住宿</name>
+  <description>走路到 McGill 化學館（Otto Maass）的住宿候選。步行時間為估算值。</description>
+  <Folder>
+    <name>工作地點</name>
+    <Placemark>
+      <name>Otto Maass Chemistry Building（化學館）</name>
+      <description>801 Sherbrooke St W</description>
+      <Point><coordinates>-73.5742034,45.5047721,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>推薦（廚房＋健身房）</name>
+    <Placemark>
+      <name>⭐ Hôtel Le Cantlie Suites</name>
+      <description>首選。1110 Sherbrooke St W｜步行約 7 分｜Deluxe Studio 有完整廚房（爐台、烤箱）｜健身房｜早餐另付｜2027/1 長住含稅約 CAD 217／晚</description>
+      <Point><coordinates>-73.57664,45.501435,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>✅ Residence Inn Montréal Downtown</name>
+      <description>備選。2045 Rue Peel｜步行約 6 分｜完整廚房｜24 小時健身房｜含早餐｜30 晚以上長住價含稅約 CAD 206／晚</description>
+      <Point><coordinates>-73.57542,45.501465,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>⚠️ L'Appartement Hôtel</name>
+      <description>455 Sherbrooke St W｜步行約 5 分｜完整廚房｜健身房＋頂樓泳池｜含早餐｜約 CAD 222（未稅）｜有評論抱怨冬天暖氣不足</description>
+      <Point><coordinates>-73.5723909,45.5069316,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>可考慮（沒有廚房）</name>
+    <Placemark>
+      <name>HONEYROSE Hotel</name>
+      <description>355 Blvd De Maisonneuve O｜步行約 8 分｜健身房＋泳池｜小紅書高讚</description>
+      <Point><coordinates>-73.5694001,45.5071963,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Delta Hotels Montréal</name>
+      <description>475 Ave du Président-Kennedy｜步行約 7 分（座標約略）</description>
+      <Point><coordinates>-73.5690,45.5050,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Centre Sheraton</name>
+      <description>1201 Blvd René-Lévesque O｜步行約 11 分（座標約略）</description>
+      <Point><coordinates>-73.5735,45.4985,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>不建議</name>
+    <Placemark>
+      <name>Campus1 MTL</name>
+      <description>420 Sherbrooke St W｜學生宿舍，夏天才當飯店營業</description>
+      <Point><coordinates>-73.5717598,45.5072191,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Hyatt Place Montréal Downtown</name>
+      <description>1415 Rue St-Hubert｜離化學館步行約 22 分；小紅書避雷文（座標約略）</description>
+      <Point><coordinates>-73.5620,45.5131,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>
