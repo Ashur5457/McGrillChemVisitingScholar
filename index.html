@@ -270,12 +270,19 @@
 
   <section id="v-lodging" hidden>
     <div class="sechead"><div class="kicker">Home Base</div><h2>住宿：走路到化學館</h2>
-      <p>預算 ≤ CA$310／晚（含稅），優先可下廚＋有健身房。</p></div>
+      <p>預算 ≤ CA$310／晚（含稅），優先可下廚、有健身房、禁菸、不附早餐、暖氣夠熱。價格是 2026-11-09 在各家官網查的含稅實價（1/5 入住、2/9 退房，35 晚，1 人）。</p></div>
+    <ul class="note">
+      <li><b>住宿稅能省</b>：魁北克 3.5% 住宿稅，連續住超過 31 天就不用付。官網報價還含這筆，訂房後寫信請飯店扣掉，約省 CA$200 多；聯邦稅和省稅照付。</li>
+      <li><b>先訂可免費取消的</b>：價格常變動，先訂可取消的方案，出發前再比價。</li>
+      <li><b>暖氣</b>：訂房時請飯店安排不在邊間、不靠外牆角落的房間，並問有沒有電暖器可借。</li>
+      <li><b>長住細節</b>：問清楚打掃頻率（長住常改每週一次）、洗衣房、能不能代收包裹、能不能開正式收據報帳。</li>
+      <li><b>Marriott 會員價</b>：免費加入 Bonvoy 會員通常會再便宜一點。</li>
+    </ul>
     <div id="map-lodging" class="map" role="region" aria-label="住宿地圖"></div>
     <p class="note">紅圈＝化學館約 10 分鐘步行範圍；步行時間＝直線距離 × 1.3 ÷ 80 m/分。點表格或卡片可在地圖上定位。照片請點連結看原圖（版權因素不轉存）。</p>
     <div class="tablewrap"><table id="t-lodging">
       <thead><tr><th data-k="rank">推薦 ↕</th><th data-k="name">住宿</th><th data-k="walk">步行 ↕</th>
-        <th>廚房</th><th>健身房</th><th>早餐</th><th data-k="price">CAD／晚 ↕</th><th>重點</th></tr></thead><tbody></tbody>
+        <th>廚房</th><th>健身房</th><th>早餐</th><th>禁菸</th><th>暖氣</th><th data-k="price">CAD／晚（含稅）↕</th><th>重點</th></tr></thead><tbody></tbody>
     </table></div>
     <div class="cards" id="c-lodging"></div>
   </section>
@@ -422,11 +429,13 @@ INIT.lodging = async () => {
       <td><span class="tag ${TAG[p.rank][1]}">${TAG[p.rank][0]}</span></td>
       <td><div class="name">${esc(p.name)}</div><div class="small">${esc(p.addr)}</div></td>
       <td>~${p.walk} 分</td><td>${esc(p.kitchen)}</td><td>${esc(p.gym)}</td><td>${esc(p.breakfast)}</td>
-      <td>${p.price ? "~" + p.price : "待查"}</td><td class="small">${esc(p.memo)}<br>${links(p)}</td></tr>`).join("");
+      <td>${esc(p.smoke || "—")}</td><td>${esc(p.heat || "—")}</td>
+      <td>${p.price ? "~" + p.price : "待查"}<div class="small">${esc(p.total || "")}</div></td><td class="small">${esc(p.memo)}<br>${links(p)}</td></tr>`).join("");
     $("#c-lodging").innerHTML = list.map(p => `<article class="pcard" data-name="${esc(p.name)}">
       <span class="tag ${TAG[p.rank][1]}">${TAG[p.rank][0]}</span>
       <h3>${esc(p.name)}</h3><div class="row"><span>${esc(p.addr)}</span><span>🚶 ~${p.walk} 分</span><span>💴 ${p.price ? "~CA$" + p.price + "／晚" : "待查"}</span></div>
       <div class="row"><span>🍳 ${esc(p.kitchen)}</span><span>🏋️ ${esc(p.gym)}</span><span>🥐 ${esc(p.breakfast)}</span></div>
+      <div class="row"><span>🚭 ${esc(p.smoke || "—")}</span><span>🌡️ ${esc(p.heat || "—")}</span>${p.total ? `<span>🧾 ${esc(p.total)}</span>` : ""}</div>
       <p>${esc(p.memo)}</p><div class="pins">${links(p).split(" · ").map(a => a.replace("<a ", '<a class="pin" ')).join("")}</div></article>`).join("");
   };
   sortable($("#t-lodging"), () => PLACES, render, "rank")();

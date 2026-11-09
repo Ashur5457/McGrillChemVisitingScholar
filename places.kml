@@ -37,11 +37,6 @@
       <Point><coordinates>-73.5694001,45.5071963,0</coordinates></Point>
     </Placemark>
     <Placemark>
-      <name>Delta Hotels Montréal</name>
-      <description>475 Ave du Président-Kennedy｜步行約 7 分（座標約略）</description>
-      <Point><coordinates>-73.5690,45.5050,0</coordinates></Point>
-    </Placemark>
-    <Placemark>
       <name>Le Centre Sheraton</name>
       <description>1201 Blvd René-Lévesque O｜步行約 11 分（座標約略）</description>
       <Point><coordinates>-73.5735,45.4985,0</coordinates></Point>
@@ -49,16 +44,6 @@
   </Folder>
   <Folder>
     <name>不建議</name>
-    <Placemark>
-      <name>Campus1 MTL</name>
-      <description>420 Sherbrooke St W｜學生宿舍，夏天才當飯店營業</description>
-      <Point><coordinates>-73.5717598,45.5072191,0</coordinates></Point>
-    </Placemark>
-    <Placemark>
-      <name>Hyatt Place Montréal Downtown</name>
-      <description>1415 Rue St-Hubert｜離化學館步行約 22 分；小紅書避雷文（座標約略）</description>
-      <Point><coordinates>-73.5620,45.5131,0</coordinates></Point>
-    </Placemark>
   </Folder>
 </Document>
 </kml>

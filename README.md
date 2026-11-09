@@ -31,17 +31,16 @@
 
 ## 🏨 住宿比較
 
-| 住宿 | 步行* | 廚房 | 健身房 | 早餐 | CAD／晚 | 評語 | 照片 | 推薦 |
-|---|---|---|---|---|---|---|---|---|
-| **Hôtel Le Cantlie Suites**（Deluxe Studio） | ~7 分 | ✅ 完整廚房（爐台、烤箱） | ✅ 小、較舊 | 另付費 | **217（含稅實價）** | 公寓式、房間大、隔音好 | [Google Maps](https://maps.google.com/?cid=9907050724386320025) · [官網](http://www.hotelcantlie.com/) | ⭐ 首選 |
-| **Residence Inn Montréal Downtown**（Studio Suite） | ~6 分 | ✅ 完整廚房 | ✅ 24 小時 | 含 | **206（含稅長住價）** | 小紅書：位置方便但不便宜 | [Google Maps](https://maps.google.com/?cid=16845641953501163360) · [官網](https://www.marriott.com/en-us/hotels/yulri-residence-inn-montreal-downtown/photos/) | ✅ 備選 |
-| **L'Appartement Hôtel** | ~5 分 | ✅ 完整廚房 | ✅ ＋頂樓泳池 | 含 | ~222（未稅） | 房間大；**有評論抱怨冬天暖氣不足** | [Google Maps](https://maps.google.com/?cid=454884633131937210) · [官網](http://www.appartementhotel.com/) | ⚠️ 先問暖氣 |
-| HONEYROSE Hotel | ~8 分 | ❌ | ✅ ＋泳池、三溫暖 | 部分免費 | 待查 | 小紅書 352 讚「性價比爆棚」 | [Google Maps](https://maps.google.com/?cid=3061317539415499440) · [官網](https://www.marriott.com/en-us/hotels/yultx-honeyrose-hotel-montreal-a-tribute-portfolio-hotel/photos/) · [小紅書](https://www.rednote.com/discovery/item/698297d60000000028023e16) | 🔸 沒廚房 |
-| Delta Hotels Montréal | ~7 分 | ❌ | 待確認 | 依方案 | 待查 | 小紅書比價清單常見 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Delta+Hotels+Montreal+475+President-Kennedy) | 🔸 沒廚房 |
-| Le Centre Sheraton | ~11 分 | ❌ | 待確認 | 依方案 | 待查 | 小紅書建議作為 Residence Inn 替代 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Le+Centre+Sheraton+Montreal) | 🔸 沒廚房 |
-| Campus1 MTL | ~5 分 | ❌ | — | 含 | ~200（夏季） | 學生宿舍，夏天才當飯店 | [Google Maps](https://maps.google.com/?cid=11799149515757183007) · [小紅書](https://www.rednote.com/discovery/item/687b27b7000000000b02fb67) | ❌ |
-| 學期轉租（如 Drummond 街） | ~9 分 | 共用 | — | ❌ | 未標價 | 小紅書轉租多為 1–4 月整學期，沒有正式收據 | [小紅書](https://www.rednote.com/discovery/item/6ae56206000000001201ed1d) | ❌ |
-| Hyatt Place Montréal Downtown | ~22 分 | ❌ | — | 含 | ~163 | 小紅書**避雷**：環境差、吵 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Hyatt+Place+Montreal+Downtown) | ❌ |
+價格：2026-11-09 各家官網查，1/5 入住、2/9 退房（35 晚）、1 人，含稅。
+
+| 住宿 | 步行* | 廚房 | 健身房 | 早餐 | 禁菸 | CAD／晚 | 評語 | 照片 | 推薦 |
+|---|---|---|---|---|---|---|---|---|---|
+| **Hôtel Le Cantlie Suites**（Deluxe Studio） | ~7 分 | ✅ 完整廚房（爐台、烤箱） | ✅ 小、較舊 | 另付費 | 待確認 | **201**（Studio）／**217**（Deluxe） | 公寓式、房間大、隔音好 | [Google Maps](https://maps.google.com/?cid=9907050724386320025) · [官網](http://www.hotelcantlie.com/) | ⭐ 首選 |
+| **Residence Inn Montréal Downtown**（Studio Suite） | ~6 分 | ✅ 完整廚房 | ✅ 24 小時 | 含 | ✅ | **206**（長住價） | 小紅書：位置方便但不便宜 | [Google Maps](https://maps.google.com/?cid=16845641953501163360) · [官網](https://www.marriott.com/en-us/hotels/yulri-residence-inn-montreal-downtown/photos/) | ✅ 備選 |
+| **L'Appartement Hôtel** | ~5 分 | ✅ 完整廚房 | ✅ | 含 | ✅ | **215** | 房間大；**有評論抱怨冬天暖氣不足** | [Google Maps](https://maps.google.com/?cid=454884633131937210) · [官網](http://www.appartementhotel.com/) | ⚠️ 先問暖氣 |
+| HONEYROSE Hotel | ~8 分 | ❌ | ✅ ＋三溫暖 | 不含 | ✅ | **480** | 小紅書 352 讚「性價比爆棚」 | [Google Maps](https://maps.google.com/?cid=3061317539415499440) · [官網](https://www.marriott.com/en-us/hotels/yultx-honeyrose-hotel-montreal-a-tribute-portfolio-hotel/photos/) · [小紅書](https://www.rednote.com/discovery/item/698297d60000000028023e16) | 🔸 沒廚房 |
+| Le Centre Sheraton | ~11 分 | ❌ | ✅ 24 小時 | 不含 | ✅ | **287**（1/5–1/20）＋**285**（1/20–2/9） | 連續最多訂到 1/20，要分兩段訂；小紅書建議作為 Residence Inn 替代 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Le+Centre+Sheraton+Montreal) | 🔸 沒廚房 |
+| 學期轉租（如 Drummond 街） | ~9 分 | 共用 | — | ❌ | — | 未標價 | 小紅書轉租多為 1–4 月整學期，沒有正式收據 | [小紅書](https://www.rednote.com/discovery/item/6ae56206000000001201ed1d) | ❌ |
 
 \* 步行時間＝直線距離 × 1.3 ÷ 80 m/分 的估算值。粗體價格是 2026-11 在官網查到的 **2027 年 1 月入住、36 晚**實際報價，其餘為參考價。
 
