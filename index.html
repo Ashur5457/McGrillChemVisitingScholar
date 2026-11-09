@@ -362,7 +362,7 @@ const pin = (label, q) => `<a class="pin" href="${gmap(q)}" target="_blank" rel=
 const walkTxt = m => m > 25 ? "搭車" : `步行 ~${m} 分`;
 const CHEM = { lat: 45.5047721, lng: -73.5742034 }, HOTEL = { lat: 45.501435, lng: -73.57664 };
 const DATA = {};
-const load = n => DATA[n] ? Promise.resolve(DATA[n]) : fetch(`data/${n}.json`).then(r => r.json()).then(j => (DATA[n] = j));
+const load = n => DATA[n] ? Promise.resolve(DATA[n]) : fetch(`data/${n}.json`, { cache: "no-cache" }).then(r => r.json()).then(j => (DATA[n] = j));
 
 /* snow */
 (() => { const s = $(".snow"); for (let i = 0; i < 40; i++) { const e = document.createElement("i");
@@ -444,10 +444,10 @@ INIT.lodging = async () => {
   const mapBtn = p => `<button type="button" class="pin mapbtn" data-map="${esc(p.name)}">🗺️ 地圖</button>`;
   /* three detail blocks, shared by the table's expand row and the phone cards */
   const DETAIL = [
-    ["💰 價格明細", p => `<p>${esc(p.memo)}</p><div class="stays">${(p.stays || []).map(([n, v]) => `<span>${esc(n)}</span><b>${esc(v)}</b>`).join("")}</div>
+    ["💰 價格明細", p => `<p>${esc(p.memo)}</p><div class="stays">${(Array.isArray(p.stays) ? p.stays : []).map(([n, v]) => `<span>${esc(n)}</span><b>${esc(v)}</b>`).join("")}</div>
       <p class="small">${esc(p.stays_note || "")}</p>`],
     ["🏷️ 長住優惠", p => `<p>${esc(p.longstay || "—")}</p>`],
-    ["🛎️ 完整設施", p => `<ul>${(p.facilities || []).map(f => `<li>${esc(f)}</li>`).join("")}</ul>`]];
+    ["🛎️ 完整設施", p => `<ul>${(Array.isArray(p.facilities) ? p.facilities : []).map(f => `<li>${esc(f)}</li>`).join("")}</ul>`]];
   const markers = new Map();
   PLACES.forEach(p => markers.set(p.name, L.circleMarker([p.lat, p.lng], { radius: p.rank <= 2 ? 10 : 8, color: "#fff", weight: 2, fillColor: COLOR[p.rank], fillOpacity: .95 })
     .addTo(map).bindPopup(`<b>${esc(p.name)}</b><br>${esc(p.addr)}<br>🚶 約 ${p.walk} 分｜${esc(price(p))}｜🍳 ${esc(S(p).kitchen || p.kitchen)}<br>${esc(p.note || p.memo)}<br>${links(p)}`)));
