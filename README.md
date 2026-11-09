@@ -35,7 +35,7 @@
 
 | 住宿 | 步行* | 廚房 | 健身房 | 早餐 | 禁菸 | CAD／晚 | 評語 | 照片 | 推薦 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Hôtel Le Cantlie Suites**（Deluxe Studio） | ~7 分 | ✅ 完整廚房（爐台、烤箱） | ✅ 小、較舊 | 另付費 | 待確認 | **183**（Studio）／**197**（Deluxe），20/20 優惠 | 公寓式、房間大、隔音好 | [Google Maps](https://maps.google.com/?cid=9907050724386320025) · [官網](http://www.hotelcantlie.com/) | ⭐ 首選 |
+| **Hôtel Le Cantlie Suites**（Deluxe Studio） | ~7 分 | ✅ 完整廚房（爐台、烤箱） | ✅ 小、較舊 | 另付費 | 待確認 | **184**（Studio）／**≈198**（Deluxe），20/20 優惠 | 公寓式、房間大、隔音好 | [Google Maps](https://maps.google.com/?cid=9907050724386320025) · [官網](http://www.hotelcantlie.com/) | ⭐ 首選 |
 | **Residence Inn Montréal Downtown**（Studio Suite） | ~6 分 | ✅ 完整廚房 | ✅ 24 小時 | 含 | ✅ | **206**（長住價） | 小紅書：位置方便但不便宜 | [Google Maps](https://maps.google.com/?cid=16845641953501163360) · [官網](https://www.marriott.com/en-us/hotels/yulri-residence-inn-montreal-downtown/photos/) | ✅ 備選 |
 | **L'Appartement Hôtel** | ~5 分 | ✅ 完整廚房 | ✅ | 含 | ✅ | **215** | 房間大；**有評論抱怨冬天暖氣不足** | [Google Maps](https://maps.google.com/?cid=454884633131937210) · [官網](http://www.appartementhotel.com/) | ⚠️ 先問暖氣 |
 | HONEYROSE Hotel | ~8 分 | ❌ | ✅ ＋三溫暖 | 不含 | ✅ | **480** | 小紅書 352 讚「性價比爆棚」 | [Google Maps](https://maps.google.com/?cid=3061317539415499440) · [官網](https://www.marriott.com/en-us/hotels/yultx-honeyrose-hotel-montreal-a-tribute-portfolio-hotel/photos/) · [小紅書](https://www.rednote.com/discovery/item/698297d60000000028023e16) | 🔸 沒廚房 |

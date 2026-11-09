@@ -272,7 +272,7 @@
 
   <section id="v-lodging" hidden>
     <div class="sechead"><div class="kicker">Home Base</div><h2>住宿：走路到化學館</h2>
-      <p>預算 ≤ CA$310／晚（含稅），優先可下廚、有健身房、禁菸、不附早餐、暖氣夠熱。價格是 2026-11-09 在各家官網查的含稅實價（1/5 入住、2/9 退房，35 晚，1 人）。</p></div>
+      <p>預算 ≤ CA$310／晚（含稅），優先可下廚、有健身房、禁菸、不附早餐、暖氣夠熱。價格是 2026-11-09 在各家官網查的含稅實價（1 人，1/5 入住）；表格是住滿 35 晚（2/9 退房）的價格，住 2／3／4 週的總價在每家的「不同天數總價」。</p></div>
     <ul class="note">
       <li><b>住宿稅能省</b>：魁北克 3.5% 住宿稅，連續住超過 31 天就不用付。官網報價還含這筆，訂房後寫信請飯店扣掉，約省 CA$200 多；聯邦稅和省稅照付。</li>
       <li><b>先訂可免費取消的</b>：價格常變動，先訂可取消的方案，出發前再比價。</li>
@@ -423,7 +423,7 @@ INIT.lodging = async () => {
   const links = p => [`<a href="${p.gmap}" target="_blank" rel="noopener">📍 Google Maps ↗</a>`,
     p.official && `<a href="${p.official}" target="_blank" rel="noopener">🏨 官網 ↗</a>`,
     p.rednote && `<a href="${p.rednote}" target="_blank" rel="noopener">📕 小紅書 ↗</a>`].filter(Boolean).join(" · ");
-  const more = p => (p.longstay ? `<div class="small"><b>🏷️ 長住優惠：</b>${esc(p.longstay)}</div>` : "") +
+  const more = p => (p.stays ? `<div class="small"><b>📅 不同天數總價（1/5 入住）：</b>${esc(p.stays)}</div>` : "") + (p.longstay ? `<div class="small"><b>🏷️ 長住優惠：</b>${esc(p.longstay)}</div>` : "") +
     (p.facilities?.length ? `<details class="small"><summary>完整設施與服務</summary><ul>${p.facilities.map(f => `<li>${esc(f)}</li>`).join("")}</ul></details>` : "");
   const markers = new Map();
   PLACES.forEach(p => markers.set(p.name, L.circleMarker([p.lat, p.lng], { radius: p.rank <= 2 ? 10 : 8, color: "#fff", weight: 2, fillColor: COLOR[p.rank], fillOpacity: .95 })
