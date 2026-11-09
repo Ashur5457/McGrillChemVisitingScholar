@@ -11,6 +11,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 food = json.loads((ROOT / "data/food.json").read_text())
 guide = json.loads((ROOT / "data/guide.json").read_text())
 grocery = json.loads((ROOT / "data/grocery.json").read_text())
+fun = json.loads((ROOT / "data/fun.json").read_text())
 
 
 def gq(r):
@@ -96,6 +97,41 @@ def grocery_md():
     return "".join(out)
 
 
+def fun_md():
+    order = []
+    def refs(ids):
+        out = ""
+        for i in ids:
+            if i not in order:
+                order.append(i)
+            out += f"[^{order.index(i) + 1}]"
+        return out
+    pin = lambda l, q: f"[📍 {l}]({GM + quote_plus(q)})"
+    out = ["# 🎡 遊玩：週末、博物館、渥太華、多倫多\n\n",
+           f"{fun['checked']} 查核。網站版 👉 [遊玩分頁](https://ashur5457.github.io/McGrillChemVisitingScholar/#fun)\n\n## 🎉 冬季祭典\n\n"
+           "| 活動 | 日期（2027） | 票價 | 說明 | 地點 |\n|---|---|---|---|---|\n"]
+    out += [f"| **{x['name']}** | {x['dates']} | {x['price']} | {x['t']}{refs(x['src'])} | {pin(*x['place'])} |\n" for x in fun["festivals"]]
+    out.append("\n## 📅 週末行事曆\n\n")
+    for w in fun["weekends"]:
+        out.append(f"### {w['d']}：{w['title']}\n\n")
+        out += [f"- {t} {pin(*p)}\n" for t, p in w["items"]]
+        out.append("\n")
+    out.append("## 🏛️ 博物館・美術館・動物園（成人票）\n\n| 名稱 | 票價 | 優惠 | 時間 |\n|---|---|---|---|\n")
+    out += [f"| [{m['name']}]({GM + quote_plus(m['q'])}) | {m['price']} | {m['deal']} | {m['hours']}{refs(m['src'])} |\n" for m in fun["museums"]]
+    o = fun["ottawa"]
+    out.append(f"\n## 🍁 渥太華週末\n\n{o['lead']}{refs(o['src'])}\n\n" + " ・ ".join(f"**{b}** {l}" for b, l in o["stats"]) + "\n\n")
+    for d in o["days"]:
+        out.append(f"**{d['d']}：{d['title']}**\n\n")
+        out += [f"- {t} {pin(*p)}\n" for t, p in d["items"]]
+        out.append("\n")
+    t = fun["toronto"]
+    out.append(f"## 🏙️ 多倫多：U of T Acceleration Consortium\n\n{t['lead']}\n\n" + " ・ ".join(f"**{b}** {l}" for b, l in t["stats"]) + "\n\n")
+    out += [f"- {x}{refs(src)} {' '.join(pin(*p) for p in ps)}\n" for x, ps, src in t["items"]]
+    out.append("\n## 📚 資料來源\n\n")
+    out += [f"[^{n}]: [{fun['sources'][i][0]}]({fun['sources'][i][1]})\n" for n, i in enumerate(order, 1)]
+    return "".join(out)
+
+
 def kml():
     def folder(name, rows):
         pm = "".join(f"""    <Placemark>
@@ -117,5 +153,6 @@ def kml():
 (ROOT / "docs/food.md").write_text(food_md())
 (ROOT / "docs/guide.md").write_text(guide_md())
 (ROOT / "docs/grocery.md").write_text(grocery_md())
+(ROOT / "docs/fun.md").write_text(fun_md())
 (ROOT / "food.kml").write_text(kml())
 print("ok")

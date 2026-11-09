@@ -8,12 +8,13 @@
 
 ## 🌐 網站
 
-👉 **[ashur5457.github.io/McGrillChemVisitingScholar](https://ashur5457.github.io/McGrillChemVisitingScholar/)**，四個分頁：
+👉 **[ashur5457.github.io/McGrillChemVisitingScholar](https://ashur5457.github.io/McGrillChemVisitingScholar/)**，五個分頁：
 
-- 🧭 [生存攻略](https://ashur5457.github.io/McGrillChemVisitingScholar/#guide)：交通、天氣、付錢與小費、手機、校園、買菜、晚上買便當、看病、冬天去哪玩
+- 🧭 [生存攻略](https://ashur5457.github.io/McGrillChemVisitingScholar/#guide)：交通、天氣、付錢與小費、手機、校園、買菜、晚上買便當、看病
 - 🏨 [住宿](https://ashur5457.github.io/McGrillChemVisitingScholar/#lodging)：互動地圖＋可排序比較表
 - 🍜 [美食](https://ashur5457.github.io/McGrillChemVisitingScholar/#food)：推薦餐點與價格、可依類別篩選（含「便當・熟食」「市區必吃」）
 - 🛒 [超市](https://ashur5457.github.io/McGrillChemVisitingScholar/#grocery)：15 家超市・藥妝・酒類專賣的特色商品、適合買什麼、注意事項
+- 🎡 [遊玩](https://ashur5457.github.io/McGrillChemVisitingScholar/#fun)：2027 年 1–2 月週末活動、博物館／動物園票價、渥太華兩日遊、多倫多大學 Acceleration Consortium
 
 舊的 `food.html` 連結會自動轉到美食分頁。
 - 📍 **想放進自己的 Google 地圖**：下載 [`places.kml`](places.kml)（住宿）或 [`food.kml`](food.kml)（餐廳・超市），到 [Google 我的地圖](https://www.google.com/maps/d/) 建新地圖 →「匯入」即可
@@ -82,6 +83,12 @@
 
 👉 [`docs/guide.md`](docs/guide.md)
 
+## 🎡 遊玩
+
+Igloofest、LUMINO、渥太華 Winterlude、魁北克冬季嘉年華的 2027 日期；每個 1 月週末可以排什麼；11 間博物館／動物園票價；渥太華兩日遊；多倫多交通與 U of T Acceleration Consortium 參訪資訊。
+
+👉 [`docs/fun.md`](docs/fun.md)
+
 ## 🛂 入境小抄
 
 短期到加拿大大學做研究的通用重點 👉 [`docs/immigration.md`](docs/immigration.md)
@@ -99,7 +106,8 @@ McGrillChemVisitingScholar/
 │   ├── guide.json       # 生存攻略內容＋來源
 │   ├── lodging.json     # 住宿資料
 │   ├── food.json        # 餐廳資料
-│   └── grocery.json     # 超市資料
+│   ├── grocery.json     # 超市資料
+│   └── fun.json         # 遊玩：祭典、週末、博物館、渥太華、多倫多
 ├── tools/
 │   └── build_docs.py    # 從 data/ 重新產生 docs/*.md 和 food.kml
 └── docs/
@@ -107,6 +115,7 @@ McGrillChemVisitingScholar/
     ├── accommodation.md # 住宿詳細比較與小紅書筆記摘要
     ├── food.md          # 餐廳表格
     ├── grocery.md       # 超市特色整理
+    ├── fun.md           # 遊玩
     └── immigration.md   # eTA／120 天研究豁免通用說明
 ```
 

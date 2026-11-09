@@ -535,138 +535,30 @@
    "glyph": "遊",
    "icon": "❄️",
    "title": "冬天去哪玩",
-   "lead": "冬天也有很多活動，週末可以排一兩個。",
+   "lead": "週末活動、博物館票價、渥太華和多倫多都移到「🎡 遊玩」分頁。",
    "stats": [
     [
      "1/14–2/6",
      "Igloofest"
     ],
     [
-     "2/5–2/14",
-     "魁北克冬季嘉年華"
+     "1/21–3/7",
+     "LUMINO（免費）"
     ],
     [
-     "CA$43.50",
-     "AURA 套票起"
+     "1/29–2/15",
+     "渥太華 Winterlude"
     ]
    ],
    "items": [
     {
-     "h": "Igloofest",
-     "t": "老港戶外電音派對，2027 年 1 月 14 日–2 月 6 日，地鐵 Champ-de-Mars 站。",
-     "src": [
-      "igloofest"
-     ],
-     "places": [
-      [
-       "Igloofest（老港）",
-       "Igloofest Quai Jacques-Cartier Montreal"
-      ]
-     ]
-    },
-    {
-     "h": "魁北克冬季嘉年華",
-     "t": "2027 年 2 月 5–14 日。Orléans Express 巴士約 2 小時 50 分（CA$35–50），VIA 火車從中央車站出發約 3.5 小時（CA$40 起）。",
-     "src": [
-      "carnaval",
-      "rome2rio"
-     ],
-     "places": [
-      [
-       "Carnaval de Québec",
-       "Carnaval de Québec"
-      ],
-      [
-       "VIA 中央車站",
-       "Gare Centrale Montreal"
-      ],
-      [
-       "Orléans Express",
-       "Orléans Express Montreal"
-      ]
-     ]
-    },
-    {
-     "h": "Montréal en Lumière",
-     "t": "燈光美食節，2027 年 2 月 18–28 日，2 月底還在的話可以去。",
-     "src": [
-      "mel"
-     ],
-     "places": [
-      [
-       "Quartier des Spectacles",
-       "Quartier des Spectacles Montreal"
-      ]
-     ]
-    },
-    {
-     "h": "聖母大教堂 AURA 燈光秀",
-     "t": "秀約 25 分鐘、全程 40–45 分鐘；參觀＋AURA 套票 CA$43.50 起，場次依季節變動，到官網或 Fever 訂票。小紅書建議提早排隊、坐中間偏後。",
-     "src": [
-      "aura",
-      "rn-aura"
-     ],
-     "places": [
-      [
-       "聖母大教堂",
-       "Notre-Dame Basilica Montreal"
-      ]
-     ]
-    },
-    {
-     "h": "蒙特婁美術館 MMFA",
-     "t": "週一休，週三開到 21 點；26 歲以上 CA$32，週三晚上 CA$16（只開部分展區），25 歲以下免費。「每月第一個週日免費」只限魁北克居民。",
-     "src": [
-      "mmfa"
-     ],
-     "places": [
-      [
-       "蒙特婁美術館",
-       "Montreal Museum of Fine Arts"
-      ]
-     ]
-    },
-    {
-     "h": "皇家山觀景台",
-     "t": "Kondiaronk 觀景台從停車場走約 10 分鐘，看市區全景和夜景；冬天可以玩雪地滑胎。小紅書景點排名：皇家山 ＞ 聖母大教堂 ＞ 奧林匹克體育場／美術館／老港 ＞ 植物園、地下城。",
-     "src": [
-      "rn-3day",
-      "rn-rank"
-     ],
-     "places": [
-      [
-       "Kondiaronk 觀景台",
-       "Kondiaronk Belvedere Montreal"
-      ],
-      [
-       "奧林匹克體育場",
-       "Olympic Stadium Montreal"
-      ],
-      [
-       "老港",
-       "Old Port of Montreal"
-      ]
-     ]
-    },
-    {
-     "h": "室內活動",
-     "t": "週二便宜的 VIP 電影院（約 CA$18）、貓咪咖啡廳、Time Out Market 烹飪課（CA$50–100）、看蒙特婁加拿大人隊冰球賽（CA$200–300）、Biodôme 看企鵝。",
-     "src": [
-      "rn-indoor"
-     ],
-     "places": [
-      [
-       "貓咖 Café Chat l'heureux",
-       "Café Chat l'heureux Montreal"
-      ],
-      [
-       "Bell Centre（冰球）",
-       "Bell Centre Montreal"
-      ],
-      [
-       "Biodôme",
-       "Biodôme de Montréal"
-      ]
+     "h": "完整內容在遊玩分頁",
+     "t": "1–2 月每個週末的活動、11 間博物館／動物園票價、渥太華兩日遊、多倫多大學交通與參訪資訊。",
+     "src": [],
+     "places": [],
+     "link": [
+      "#fun",
+      "打開 🎡 遊玩分頁 →"
      ]
     }
    ]

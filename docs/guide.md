@@ -86,17 +86,11 @@
 
 ## ❄️ 冬天去哪玩
 
-> 冬天也有很多活動，週末可以排一兩個。
+> 週末活動、博物館票價、渥太華和多倫多都移到「🎡 遊玩」分頁。
 
-**1/14–2/6** Igloofest ・ **2/5–2/14** 魁北克冬季嘉年華 ・ **CA$43.50** AURA 套票起
+**1/14–2/6** Igloofest ・ **1/21–3/7** LUMINO（免費） ・ **1/29–2/15** 渥太華 Winterlude
 
-- **Igloofest**：老港戶外電音派對，2027 年 1 月 14 日–2 月 6 日，地鐵 Champ-de-Mars 站。[^30]<br>📍 [Igloofest（老港）](https://www.google.com/maps/search/?api=1&query=Igloofest+Quai+Jacques-Cartier+Montreal)
-- **魁北克冬季嘉年華**：2027 年 2 月 5–14 日。Orléans Express 巴士約 2 小時 50 分（CA$35–50），VIA 火車從中央車站出發約 3.5 小時（CA$40 起）。[^31][^32]<br>📍 [Carnaval de Québec](https://www.google.com/maps/search/?api=1&query=Carnaval+de+Qu%C3%A9bec)<br>📍 [VIA 中央車站](https://www.google.com/maps/search/?api=1&query=Gare+Centrale+Montreal)<br>📍 [Orléans Express](https://www.google.com/maps/search/?api=1&query=Orl%C3%A9ans+Express+Montreal)
-- **Montréal en Lumière**：燈光美食節，2027 年 2 月 18–28 日，2 月底還在的話可以去。[^33]<br>📍 [Quartier des Spectacles](https://www.google.com/maps/search/?api=1&query=Quartier+des+Spectacles+Montreal)
-- **聖母大教堂 AURA 燈光秀**：秀約 25 分鐘、全程 40–45 分鐘；參觀＋AURA 套票 CA$43.50 起，場次依季節變動，到官網或 Fever 訂票。小紅書建議提早排隊、坐中間偏後。[^34][^35]<br>📍 [聖母大教堂](https://www.google.com/maps/search/?api=1&query=Notre-Dame+Basilica+Montreal)
-- **蒙特婁美術館 MMFA**：週一休，週三開到 21 點；26 歲以上 CA$32，週三晚上 CA$16（只開部分展區），25 歲以下免費。「每月第一個週日免費」只限魁北克居民。[^36]<br>📍 [蒙特婁美術館](https://www.google.com/maps/search/?api=1&query=Montreal+Museum+of+Fine+Arts)
-- **皇家山觀景台**：Kondiaronk 觀景台從停車場走約 10 分鐘，看市區全景和夜景；冬天可以玩雪地滑胎。小紅書景點排名：皇家山 ＞ 聖母大教堂 ＞ 奧林匹克體育場／美術館／老港 ＞ 植物園、地下城。[^37][^38]<br>📍 [Kondiaronk 觀景台](https://www.google.com/maps/search/?api=1&query=Kondiaronk+Belvedere+Montreal)<br>📍 [奧林匹克體育場](https://www.google.com/maps/search/?api=1&query=Olympic+Stadium+Montreal)<br>📍 [老港](https://www.google.com/maps/search/?api=1&query=Old+Port+of+Montreal)
-- **室內活動**：週二便宜的 VIP 電影院（約 CA$18）、貓咪咖啡廳、Time Out Market 烹飪課（CA$50–100）、看蒙特婁加拿大人隊冰球賽（CA$200–300）、Biodôme 看企鵝。[^19]<br>📍 [貓咖 Café Chat l'heureux](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Chat+l%27heureux+Montreal)<br>📍 [Bell Centre（冰球）](https://www.google.com/maps/search/?api=1&query=Bell+Centre+Montreal)<br>📍 [Biodôme](https://www.google.com/maps/search/?api=1&query=Biod%C3%B4me+de+Montr%C3%A9al)
+- **完整內容在遊玩分頁**：1–2 月每個週末的活動、11 間博物館／動物園票價、渥太華兩日遊、多倫多大學交通與參訪資訊。
 
 ## 📚 資料來源
 
@@ -131,12 +125,3 @@
 [^27]: [Narcity：FoodHero 在 Metro 上線](https://www.narcity.com/aubaines/ca/qc/lapplication-foodhero-au-qubec-est-disponible-dans-prs-dune-centaine-de-metro)
 [^28]: [小紅書：蒙特婁窮鬼套餐（2026-07）](https://www.rednote.com/discovery/item/6a67df3c000000001303ec7e)
 [^29]: [Google Maps 營業時間（2026-11-09 查詢）](https://www.google.com/maps)
-[^30]: [Bonjour Québec：Igloofest 2027](https://www.bonjourquebec.com/en-ca/listing/events/igloofest-montreal/0nyj)
-[^31]: [Carnaval de Québec 官網](https://carnaval.qc.ca/en/)
-[^32]: [Rome2rio：蒙特婁 → 魁北克市](https://www.rome2rio.com/s/Montreal/Quebec)
-[^33]: [Bonjour Québec：Montréal en Lumière 2027](https://www.bonjourquebec.com/en-ca/listing/events/montreal-en-lumiere/0ooy)
-[^34]: [聖母大教堂 AURA](https://www.basiliquenotredame.ca/evenements/experience-aura)
-[^35]: [小紅書：聖母聖殿 AURA 攻略（2026-05）](https://www.rednote.com/discovery/item/69f8239c000000001a03691f)
-[^36]: [蒙特婁美術館 開放時間與票價](https://mbam.qc.ca/en/information/hours-and-admission)
-[^37]: [小紅書：冬日長週末三日遊 Day3（2026-01）](https://www.rednote.com/discovery/item/696ecafb000000001a03082f)
-[^38]: [小紅書：我心裡的 MTL 景點排名（2026-02）](https://www.rednote.com/discovery/item/69891dc3000000001b0171fb)

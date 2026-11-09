@@ -132,7 +132,7 @@
     .glyph .kicker { margin-left: auto; }
     .body { padding: 18px 18px 20px; }
     .stats { grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); }
-    .stat b { font-size: 1.15rem; }
+    .stat b { font-size: 1.02rem; white-space: normal; overflow-wrap: anywhere; }
   }
   .srcbox { margin-top: 40px; }
   .srcbox h2 { font: 900 1.4rem/1.3 var(--serif); }
@@ -196,6 +196,35 @@
   .shop dl { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; margin: 0 0 10px; font-size: .86rem; }
   .shop dt { color: var(--muted); white-space: nowrap; } .shop dd { margin: 0; }
   @media (max-width: 720px) { .shops { grid-template-columns: 1fr; } }
+
+  /* fun */
+  h3.sub { font: 900 1.25rem/1.4 var(--serif); margin: 30px 0 10px; }
+  .pin.go { background: var(--night); color: #fff; border-color: var(--night); }
+  .fest { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 12px; }
+  .fcard { background: var(--night); color: #dfe6f1; border-radius: 16px; padding: 16px 18px; position: relative; overflow: hidden; }
+  .fcard::after { content: ""; position: absolute; right: -40px; top: -40px; width: 110px; height: 110px; border-radius: 50%;
+    background: color-mix(in srgb, var(--red) 45%, transparent); }
+  .fcard b { display: block; font: 900 1.5rem/1.2 var(--serif); color: #ff8a9b; position: relative; }
+  .fcard h4 { margin: 4px 0; font-size: 1.05rem; color: #fff; position: relative; }
+  .fcard .price { font-size: .78rem; color: var(--ice); letter-spacing: .05em; }
+  .fcard p { font-size: .88rem; margin: 6px 0 10px; }
+  .fcard sup a { color: var(--ice); }
+  .wk { display: grid; gap: 12px; }
+  .wcard { display: grid; grid-template-columns: 150px minmax(0, 1fr); background: var(--card); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+  .wdate { background: color-mix(in srgb, var(--night) 8%, var(--card)); padding: 16px; border-right: 1px solid var(--line); }
+  .wdate b { display: block; font: 900 1.5rem/1.1 var(--serif); color: var(--red); white-space: nowrap; }
+  .wdate span { font-size: .7rem; letter-spacing: .18em; color: var(--muted); }
+  .wbody { padding: 14px 18px; } .wbody h4 { margin: 0 0 6px; font-size: 1.05rem; }
+  .wbody ul { margin: 0; padding-left: 18px; } .wbody li { margin: 6px 0; }
+  .wbody .pins { margin-top: 4px; }
+  .mus .price { font: 900 1.4rem/1.2 var(--serif); color: var(--red); margin: 6px 0 2px; }
+  .trip { margin-top: 36px; } .trip .days { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
+  .trip .day { border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+  .trip .day h4 { margin: 0 0 6px; } .trip .day small { color: var(--red); font-weight: 700; letter-spacing: .12em; }
+  @media (max-width: 720px) {
+    .wcard { grid-template-columns: 1fr; } .wdate { border-right: 0; border-bottom: 1px solid var(--line); display: flex; align-items: baseline; gap: 10px; padding: 10px 16px; }
+    nav.tabs a { font-size: .68rem; } nav.tabs a i { font-size: 1.2rem; }
+  }
   footer { text-align: center; color: var(--muted); font-size: .78rem; padding: 24px 16px 32px; }
 </style>
 </head>
@@ -224,6 +253,7 @@
   <a href="#lodging"><i>🏨</i>住宿</a>
   <a href="#food"><i>🍜</i>美食</a>
   <a href="#grocery"><i>🛒</i>超市</a>
+  <a href="#fun"><i>🎡</i>遊玩</a>
 </div></nav>
 
 <main class="wrap">
@@ -281,6 +311,19 @@
     <div class="shops" id="g-far"></div>
     <div class="srcbox"><div class="kicker" style="color:var(--red)">Sources</div><h2>資料來源</h2><ol class="src" id="g-src"></ol></div>
   </section>
+  <section id="v-fun" hidden>
+    <div class="sechead"><div class="kicker">Weekends &amp; Trips</div><h2>遊玩：週末、博物館、渥太華、多倫多</h2>
+      <p>2027 年 1–2 月的週末活動、門票價格和兩個城市的短程旅行。價格未含稅，出發前再查官網。</p></div>
+    <h3 class="sub">🎉 冬季祭典</h3>
+    <div class="fest" id="f-fest"></div>
+    <h3 class="sub">📅 週末行事曆</h3>
+    <div class="wk" id="f-weekends"></div>
+    <h3 class="sub">🏛️ 博物館・美術館・動物園（成人票）</h3>
+    <div class="shops" id="f-museums"></div>
+    <article class="chap trip" id="f-ottawa"></article>
+    <article class="chap trip" id="f-toronto"></article>
+    <div class="srcbox"><div class="kicker" style="color:var(--red)">Sources</div><h2>資料來源</h2><ol class="src" id="f-src"></ol></div>
+  </section>
 </main>
 <footer>Last updated 2026-11-09 · 地圖 © OpenStreetMap contributors · <a href="https://github.com/Ashur5457/McGrillChemVisitingScholar">GitHub</a></footer>
 
@@ -302,7 +345,7 @@ const load = n => DATA[n] ? Promise.resolve(DATA[n]) : fetch(`data/${n}.json`).t
   e.style.animationDelay = -Math.random() * 18 + "s"; e.style.opacity = .3 + Math.random() * .6; s.appendChild(e); } })();
 
 /* tabs */
-const VIEWS = ["guide", "lodging", "food", "grocery"], MAPS = {}, inited = {}, INIT = {};
+const VIEWS = ["guide", "lodging", "food", "grocery", "fun"], MAPS = {}, inited = {}, INIT = {};
 function show() {
   const v = VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : "guide";
   VIEWS.forEach(x => { $("#v-" + x).hidden = x !== v;
@@ -348,7 +391,7 @@ INIT.guide = async () => {
         ${s.stats.length ? `<div class="stats">${s.stats.map(([b, l]) => `<div class="stat"><b>${esc(b)}</b><span>${esc(l)}</span></div>`).join("")}</div>` : ""}
         <ul class="items">${s.items.map(it => `<li><h3>${esc(it.h)}</h3><p>${esc(it.t)}${it.src.map(id =>
           `<sup><a href="#s-${id}" data-src="${id}">[${ref(id)}]</a></sup>`).join("")}</p>
-          ${it.places.length ? `<div class="pins">${it.places.map(([l, q]) => pin(l, q)).join("")}</div>` : ""}</li>`).join("")}</ul>
+          ${it.places.length || it.link ? `<div class="pins">${it.places.map(([l, q]) => pin(l, q)).join("")}${it.link ? `<a class="pin go" href="${it.link[0]}">${esc(it.link[1])}</a>` : ""}</div>` : ""}</li>`).join("")}</ul>
       </div></article>`).join("");
   $("#srclist").innerHTML = order.map(id => { const [t, u] = g.sources[id];
     return `<li id="s-${id}"><a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a></li>`; }).join("");
@@ -481,6 +524,35 @@ INIT.grocery = async () => {
   clickToFocus($("#g-shops"), ".shop", n => focusOn(map, markers, n, "#map-grocery"));
   document.addEventListener("click", e => { const a = e.target.closest("[data-gsrc]"); if (!a) return;
     e.preventDefault(); $("#gs-" + a.dataset.gsrc).scrollIntoView({ behavior: "smooth" }); });
+};
+
+/* fun */
+INIT.fun = async () => {
+  const f = await load("fun"), order = [];
+  const ref = id => (order.includes(id) || order.push(id), order.indexOf(id) + 1);
+  const sups = ids => ids.map(id => `<sup><a href="#fs-${id}" data-fsrc="${id}">[${ref(id)}]</a></sup>`).join("");
+  const pins = ps => ps.length ? `<div class="pins">${ps.map(([l, q]) => pin(l, q)).join("")}</div>` : "";
+  $("#f-fest").innerHTML = f.festivals.map(x => `<article class="fcard"><b>${esc(x.dates)}</b><h4>${esc(x.name)}</h4>
+    <div class="price">${esc(x.price)}</div><p>${esc(x.t)}${sups(x.src)}</p>${pins([x.place])}</article>`).join("");
+  $("#f-weekends").innerHTML = f.weekends.map(w => `<article class="wcard"><div class="wdate"><b>${esc(w.d)}</b><span>${esc(w.dow)}</span></div>
+    <div class="wbody"><h4>${esc(w.title)}</h4><ul>${w.items.map(([t, p]) => `<li>${esc(t)}${pins([p])}</li>`).join("")}</ul></div></article>`).join("");
+  $("#f-museums").innerHTML = f.museums.map(m => `<article class="shop mus" style="--c:var(--city)"><h3>${esc(m.name)}</h3>
+    <div class="price">${esc(m.price)}</div><dl><dt>優惠</dt><dd>${esc(m.deal)}</dd><dt>時間</dt><dd>${esc(m.hours)}${sups(m.src)}</dd></dl>
+    ${pins([["在 Google Maps 查看", m.q]])}</article>`).join("");
+  const trip = (el, glyph, num, en, title, o, body) => { el.innerHTML = `
+    <div class="glyph"><div class="num">${num}</div><div class="big">${glyph}</div><div class="kicker">${en}</div></div>
+    <div class="body"><h2>${title}</h2><p class="lead">${esc(o.lead)}</p>
+    <div class="stats">${o.stats.map(([b, l]) => `<div class="stat"><b>${esc(b)}</b><span>${esc(l)}</span></div>`).join("")}</div>${body}</div>`; };
+  const o = f.ottawa;
+  trip($("#f-ottawa"), "渥", "01", "OTTAWA", "🍁 渥太華週末", o, `<div class="days">${o.days.map(d => `<div class="day"><small>${esc(d.d)}</small><h4>${esc(d.title)}</h4>
+    <ul class="items">${d.items.map(([t, p]) => `<li><p>${esc(t)}</p>${pins([p])}</li>`).join("")}</ul></div>`).join("")}</div><p class="note">來源${sups(o.src)}</p>`);
+  const t = f.toronto;
+  trip($("#f-toronto"), "多", "02", "TORONTO", "🏙️ 多倫多：U of T Acceleration Consortium", t,
+    `<ul class="items">${t.items.map(([x, ps, src]) => `<li><p>${esc(x)}${sups(src)}</p>${pins(ps)}</li>`).join("")}</ul>`);
+  $("#f-src").innerHTML = order.map(id => { const [n, u] = f.sources[id];
+    return `<li id="fs-${id}"><a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a></li>`; }).join("");
+  document.addEventListener("click", e => { const a = e.target.closest("[data-fsrc]"); if (!a) return;
+    e.preventDefault(); $("#fs-" + a.dataset.fsrc).scrollIntoView({ behavior: "smooth" }); });
 };
 
 show();
