@@ -1,52 +1,360 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>McGill 化學館附近餐廳與超市</name>
-<Style id="r"><IconStyle><color>ff2f6fe6</color></IconStyle></Style><Style id="s"><IconStyle><color>ffd28a1e</color></IconStyle></Style>
-<Folder><name>餐廳・咖啡・甜點</name>
-    <Placemark><name>Nouilles Zhonghua</name><description>餐廳・中式拉麵／肉夾饃｜908 Sherbrooke O｜化學館步行約 3 分｜手拉麵現做，小碗就很飽；午餐排隊</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5749407,45.5032847,0</coordinates></Point></Placemark>
-    <Placemark><name>Le MajesThé Bistro</name><description>餐廳・台式｜575 De Maisonneuve O｜化學館步行約 4 分｜炸雞排、蛋包飯、滷肉飯</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5710303,45.5051751,0</coordinates></Point></Placemark>
-    <Placemark><name>Pizzeria Bros</name><description>餐廳・薄脆披薩｜2075 Robert-Bourassa｜化學館步行約 2 分｜自選配料、出餐快</description><styleUrl>#r</styleUrl><Point><coordinates>-73.572713,45.5047601,0</coordinates></Point></Placemark>
-    <Placemark><name>Opiano</name><description>餐廳・韓式｜1115 Sherbrooke O（地下室）｜化學館步行約 6 分｜商學院御用食堂；豬骨湯、刨冰；週末休</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5769326,45.5018168,0</coordinates></Point></Placemark>
-    <Placemark><name>Japote</name><description>餐廳・日式簡餐｜1000 Sherbrooke O（美食街）｜化學館步行約 4 分｜咖哩飯、便當；只收現金；只開午餐</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5751724,45.5027351,0</coordinates></Point></Placemark>
-    <Placemark><name>Café Humble Lion</name><description>咖啡・咖啡｜904 Sherbrooke O｜化學館步行約 3 分｜小咖啡廳，可讀書</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5749035,45.5032628,0</coordinates></Point></Placemark>
-    <Placemark><name>Alto Restaurant</name><description>餐廳・速食／希臘｜3469 Av. du Parc｜化學館步行約 8 分｜McGill 學生回憶，營業到凌晨；推薦 poutine</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5727452,45.5092624,0</coordinates></Point></Placemark>
-    <Placemark><name>Lola Rosa Milton</name><description>餐廳・素食｜545 Milton｜化學館步行約 5 分｜Ghetto 素食餐廳</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5757826,45.5073078,0</coordinates></Point></Placemark>
-    <Placemark><name>McGill Pizzeria</name><description>餐廳・披薩／希臘小館｜625 Milton｜化學館步行約 5 分｜便宜大份</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5761783,45.5070854,0</coordinates></Point></Placemark>
-    <Placemark><name>Le Taj</name><description>餐廳・印度菜｜2077 Stanley｜化學館步行約 8 分｜步行 10 分內的老牌印度菜</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5766481,45.5009164,0</coordinates></Point></Placemark>
-    <Placemark><name>Deville Dinerbar</name><description>餐廳・創意美式｜1425 Stanley｜化學館步行約 9 分｜份量大、氣氛熱鬧</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5741417,45.4997056,0</coordinates></Point></Placemark>
-    <Placemark><name>Presotea 鮮茶道</name><description>飲料・手搖飲｜977 Ste-Catherine O（地下通道）｜化學館步行約 7 分｜芒果系列</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5722427,45.50111,0</coordinates></Point></Placemark>
-    <Placemark><name>LEAVES HOUSE</name><description>咖啡・咖啡｜1800 McGill College｜化學館步行約 4 分｜ins 風讀書好去處</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5727885,45.5025388,0</coordinates></Point></Placemark>
-    <Placemark><name>Frostbite Ice Cream</name><description>甜點・冰淇淋｜3480 University（工學院內）｜化學館步行約 3 分｜校內便宜冰淇淋；平日午後營業</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5763171,45.5059839,0</coordinates></Point></Placemark>
-    <Placemark><name>Cafétéria La Mosaïque 墨客軒</name><description>餐廳・中式家常｜660 Milton｜化學館步行約 4 分｜幾葷幾素套餐 CAD 13–15；週末休</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5758612,45.5066628,0</coordinates></Point></Placemark>
-    <Placemark><name>Lee N Kim</name><description>餐廳・韓式拌飯｜McGill 地鐵站內｜化學館步行約 4 分｜拌飯、飯糰；只開到 17 點、週末休</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5714695,45.5041081,0</coordinates></Point></Placemark>
-    <Placemark><name>Time Out Market</name><description>美食廣場・多國｜705 Ste-Catherine O（Eaton）｜化學館步行約 5 分｜各家名店攤位，略貴</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5714715,45.5027544,0</coordinates></Point></Placemark>
-    <Placemark><name>Ganadara (Mackay)</name><description>餐廳・韓式｜1417 Mackay｜化學館步行約 16 分｜小紅書：味道普通</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5774425,45.496201,0</coordinates></Point></Placemark>
-    <Placemark><name>SoLIT Café</name><description>咖啡・咖啡／Brunch｜2030 Mansfield｜化學館步行約 4 分｜天花板掛滿橘子的咖啡廳</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5739094,45.5023284,0</coordinates></Point></Placemark>
-    <Placemark><name>Café Olimpico 市中心店</name><description>咖啡・義式咖啡｜1333 Robert-Bourassa｜化學館步行約 5 分｜很多人心中第一名的義式咖啡</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5707385,45.5038213,0</coordinates></Point></Placemark>
-    <Placemark><name>OSMO x MARUSAN</name><description>咖啡・日式咖啡｜51 Sherbrooke O｜化學館步行約 14 分｜溏心蛋三明治、咖哩飯；音樂偏大聲</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5700358,45.5119132,0</coordinates></Point></Placemark>
-    <Placemark><name>YEN</name><description>餐廳・日本料理｜2157 Mackay｜化學館步行約 15 分｜鰻魚飯</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5803331,45.4975592,0</coordinates></Point></Placemark>
-    <Placemark><name>Gerts Bar</name><description>酒吧・學生酒吧｜3480 McTavish（SSMU）｜化學館步行約 5 分｜組員 bonding 的平價酒吧</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5781314,45.5036082,0</coordinates></Point></Placemark>
-    <Placemark><name>Peel Pub</name><description>酒吧・運動酒吧｜1196 Peel｜化學館步行約 10 分｜便宜啤酒桶</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5719425,45.4994033,0</coordinates></Point></Placemark>
-    <Placemark><name>Campo Poulet Portugais</name><description>餐廳・葡式烤雞｜1108 De Maisonneuve O｜化學館步行約 8 分｜半雞套餐約 CAD 20 吃不完</description><styleUrl>#r</styleUrl><Point><coordinates>-73.574846,45.5005293,0</coordinates></Point></Placemark>
-    <Placemark><name>Ferreira Café</name><description>餐廳・葡式海鮮｜1446 Peel｜化學館步行約 8 分｜高價位海鮮餐廳</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5740523,45.5004339,0</coordinates></Point></Placemark>
-    <Placemark><name>Café Vasco da Gama</name><description>咖啡・葡式簡餐｜1472 Peel｜化學館步行約 7 分｜油封鴨三明治、葡式蛋撻</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5745293,45.5006345,0</coordinates></Point></Placemark>
-    <Placemark><name>Café Pastèque</name><description>餐廳・日式便當｜Eaton 地下通道｜化學館步行約 7 分｜CAD 10 左右便當</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5697789,45.5022718,0</coordinates></Point></Placemark>
-    <Placemark><name>Sushiyo</name><description>餐廳・壽司／韓式｜666 Sherbrooke O｜化學館步行約 2 分｜壽司、Poke Bowl CAD 15+；只開平日</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5729926,45.5049396,0</coordinates></Point></Placemark>
-    <Placemark><name>Soufflé</name><description>甜點・日式芝士蛋糕｜895 De la Gauchetière O｜化學館步行約 13 分｜輕乳酪蛋糕</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5665973,45.4995836,0</coordinates></Point></Placemark>
-    <Placemark><name>Uncle Tetsu</name><description>甜點・日式芝士蛋糕｜705 Ste-Catherine O（Eaton）｜化學館步行約 5 分｜</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5715345,45.5028488,0</coordinates></Point></Placemark>
-    <Placemark><name>Pigeon Café &amp; Bar</name><description>餐廳・Brunch｜2000 McGill College｜化學館步行約 4 分｜大理石桌好拍；咖啡普通</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5735644,45.5026725,0</coordinates></Point></Placemark>
-    <Placemark><name>Restaurant Chillax</name><description>餐廳・日式定食｜3460A Av. du Parc｜化學館步行約 8 分｜失火後重開；定食、便當</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5729072,45.5089613,0</coordinates></Point></Placemark>
-    <Placemark><name>Atti</name><description>餐廳・韓式｜505 De Maisonneuve O｜化學館步行約 5 分｜拌飯、烤肉；只開晚餐</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5707355,45.5055026,0</coordinates></Point></Placemark>
-    <Placemark><name>Dunn's Famous</name><description>餐廳・煙燻肉｜1249 Metcalfe｜化學館步行約 8 分｜蒙特婁煙燻肉三明治，營業到凌晨</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5715942,45.5005715,0</coordinates></Point></Placemark>
-    <Placemark><name>TSUJIRI</name><description>甜點・抹茶甜點｜1418 Crescent｜化學館步行約 14 分｜抹茶霜淇淋、聖代</description><styleUrl>#r</styleUrl><Point><coordinates>-73.5765406,45.4973714,0</coordinates></Point></Placemark>
-</Folder><Folder><name>超市・日用品</name>
-    <Placemark><name>Metro Avenue du Parc</name><description>超市・西式超市｜3575 Av. du Parc（Galeries du Parc 地下）｜化學館步行約 10 分｜離 McGill 最近的大型超市；小紅書：價格偏高，結帳要對價格</description><styleUrl>#s</styleUrl><Point><coordinates>-73.5750221,45.5103472,0</coordinates></Point></Placemark>
-    <Placemark><name>Provigo（Canadiens-de-Montréal）</name><description>超市・西式超市｜1275 Av. des Canadiens-de-Montréal｜化學館步行約 16 分｜熟食、沙拉便宜；價格偏高</description><styleUrl>#s</styleUrl><Point><coordinates>-73.570662,45.496439,0</coordinates></Point></Placemark>
-    <Placemark><name>Supermarché PA du Fort</name><description>超市・平價超市｜1420 rue du Fort｜化學館步行約 25 分｜小紅書：比 Metro／IGA／Provigo 便宜</description><styleUrl>#s</styleUrl><Point><coordinates>-73.5822384,45.4921202,0</coordinates></Point></Placemark>
-    <Placemark><name>Adonis Downtown</name><description>超市・中東平價超市｜2173 Ste-Catherine O｜化學館步行約 28 分｜小紅書：比 Metro／IGA 便宜；烤肉、香料</description><styleUrl>#s</styleUrl><Point><coordinates>-73.5834647,45.490521,0</coordinates></Point></Placemark>
-    <Placemark><name>Marché Newon 興旺</name><description>亞洲超市・中式｜1616 Ste-Catherine O（302）｜化學館步行約 20 分｜市中心華人主要採購點；調料、蔬菜</description><styleUrl>#s</styleUrl><Point><coordinates>-73.5783546,45.4942305,0</coordinates></Point></Placemark>
-    <Placemark><name>Bonjour Supermarché 你好</name><description>亞洲超市・中日韓｜2070 De Maisonneuve O｜化學館步行約 25 分｜涼拌菜、手工包子</description><styleUrl>#s</styleUrl><Point><coordinates>-73.5829754,45.4922312,0</coordinates></Point></Placemark>
-    <Placemark><name>Marché Sheng Tang 盛唐</name><description>亞洲超市・中式｜1425 rue du Fort｜化學館步行約 25 分｜在 PA du Fort 對面，可一起買</description><styleUrl>#s</styleUrl><Point><coordinates>-73.581975,45.492314,0</coordinates></Point></Placemark>
-    <Placemark><name>IGA Place Desjardins</name><description>超市・西式超市｜5 Place Desjardins｜化學館步行約 15 分｜較遠但很大</description><styleUrl>#s</styleUrl><Point><coordinates>-73.5632642,45.5076595,0</coordinates></Point></Placemark>
-    <Placemark><name>Segal's Market</name><description>超市・平價超市｜4001 Boul. Saint-Laurent｜化學館步行約 23 分｜老牌平價市場，週日休；較遠</description><styleUrl>#s</styleUrl><Point><coordinates>-73.5788495,45.5168692,0</coordinates></Point></Placemark>
-    <Placemark><name>Pharmaprix</name><description>藥妝・藥妝／日用｜1120 Ste-Catherine O｜化學館步行約 10 分｜PC Optimum 積分；週二 8 折日</description><styleUrl>#s</styleUrl><Point><coordinates>-73.573083,45.4995078,0</coordinates></Point></Placemark>
-</Folder></Document></kml>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>McGill 化學館附近美食與超市</name>
+  <Folder>
+    <name>化學館附近：餐廳・咖啡・甜點</name>
+    <Placemark>
+      <name>Pizzeria Bros</name>
+      <description>2075 Robert-Bourassa｜Margherita 披薩 CA$11、起司披薩 CA$11｜自選配料、出餐快</description>
+      <Point><coordinates>-73.572713,45.5047601,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sushiyo</name>
+      <description>666 Sherbrooke O｜壽司、Poke Bowl CA$15 起、韓式雜菜｜壽司、Poke Bowl CAD 15+；只開平日</description>
+      <Point><coordinates>-73.5729926,45.5049396,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Nouilles Zhonghua</name>
+      <description>908 Sherbrooke O｜蘭州牛肉拉麵、肉夾饃、麻辣牛腱｜手拉麵現做，小碗就很飽；午餐排隊；小紅書 2026 中餐排名「夯」</description>
+      <Point><coordinates>-73.5749407,45.5032847,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Café Humble Lion</name>
+      <description>904 Sherbrooke O｜咖啡｜小咖啡廳，可讀書</description>
+      <Point><coordinates>-73.5749035,45.5032628,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Frostbite Ice Cream</name>
+      <description>3480 University（工學院內）｜冰淇淋（黑櫻桃等）｜校內便宜冰淇淋；平日午後營業；冷知識：期中考被當可以免費吃一球</description>
+      <Point><coordinates>-73.5763171,45.5059839,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Le MajesThé Bistro</name>
+      <description>575 De Maisonneuve O｜炸雞排、咖哩豬排蛋包飯、四季春奶茶｜炸雞排、蛋包飯、滷肉飯</description>
+      <Point><coordinates>-73.5710303,45.5051751,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Japote</name>
+      <description>1000 Sherbrooke O（美食街）｜咖哩飯、豬排丼、雞肉丼｜咖哩飯、便當；只收現金；只開午餐；只收現金；集點卡滿 5 送 1；medium 份量約七八分飽</description>
+      <Point><coordinates>-73.5751724,45.5027351,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>LEAVES HOUSE</name>
+      <description>1800 McGill College｜抹茶拿鐵、Dirty Chai｜ins 風讀書好去處</description>
+      <Point><coordinates>-73.5727885,45.5025388,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Cafétéria La Mosaïque 墨客軒</name>
+      <description>660 Milton｜幾葷幾素套餐 CA$13.49–15.49｜幾葷幾素套餐 CAD 13–15；週末休</description>
+      <Point><coordinates>-73.5758612,45.5066628,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Lee N Kim</name>
+      <description>McGill 地鐵站內｜拌飯、泡菜飯糰、辣鮪魚飯糰｜拌飯、飯糰；只開到 17 點、週末休</description>
+      <Point><coordinates>-73.5714695,45.5041081,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>SoLIT Café</name>
+      <description>2030 Mansfield｜Brunch、西式簡餐｜天花板掛滿橘子的咖啡廳</description>
+      <Point><coordinates>-73.5739094,45.5023284,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pigeon Café &amp; Bar</name>
+      <description>2000 McGill College｜煙燻肉班尼迪克蛋、三明治｜大理石桌好拍；咖啡普通</description>
+      <Point><coordinates>-73.5735644,45.5026725,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Lola Rosa Milton</name>
+      <description>545 Milton｜Nachos、地瓜角｜Ghetto 素食餐廳</description>
+      <Point><coordinates>-73.5757826,45.5073078,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>McGill Pizzeria</name>
+      <description>625 Milton｜早餐拼盤、披薩｜便宜大份</description>
+      <Point><coordinates>-73.5761783,45.5070854,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Time Out Market</name>
+      <description>705 Ste-Catherine O（Eaton）｜各家名店攤位｜各家名店攤位，略貴</description>
+      <Point><coordinates>-73.5714715,45.5027544,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Café Olimpico 市中心店</name>
+      <description>1333 Robert-Bourassa｜Cortado、咖啡＋糕點｜很多人心中第一名的義式咖啡</description>
+      <Point><coordinates>-73.5707385,45.5038213,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Gerts Bar</name>
+      <description>3480 McTavish（SSMU）｜啤酒、Sangria｜組員 bonding 的平價酒吧；17 點後開</description>
+      <Point><coordinates>-73.5781314,45.5036082,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Uncle Tetsu</name>
+      <description>705 Ste-Catherine O（Eaton）｜日式起司蛋糕、柚子起司塔｜</description>
+      <Point><coordinates>-73.5715345,45.5028488,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Atti</name>
+      <description>505 De Maisonneuve O｜牛肉拌飯、韓式炸豬排｜拌飯、烤肉；只開晚餐</description>
+      <Point><coordinates>-73.5707355,45.5055026,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Olly Fresco's</name>
+      <description>625 Ste-Catherine O #1620｜秤重熱食 約 CA$30／公斤｜Cineplex 樓下美食街的秤重自助餐；平日 7–17，週末休</description>
+      <Point><coordinates>-73.5706144,45.5035803,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Opiano</name>
+      <description>1115 Sherbrooke O（地下室）｜脊骨湯（豬骨湯）配飯、石鍋拌飯、雜菜拌飯、刨冰｜商學院御用食堂；豬骨湯、刨冰；週末休；自助點餐機、不用給小費、有免費飲水</description>
+      <Point><coordinates>-73.5769326,45.5018168,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Masakali Indian Cuisine</name>
+      <description>1015 Sherbrooke O｜Malabar 椰奶炸魚咖哩、香草蒜香烤餅、蒜香烤餅｜小紅書：好吃到想申請 McGill；每天 11:30–23</description>
+      <Point><coordinates>-73.5766778,45.5021754,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Presotea 鮮茶道</name>
+      <description>977 Ste-Catherine O（地下通道）｜芒果蘆薈、百香綠茶｜芒果系列</description>
+      <Point><coordinates>-73.5722427,45.50111,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Café Vasco da Gama</name>
+      <description>1472 Peel｜葡式蛋撻、油封鴨三明治、煙燻鮭魚貝果｜油封鴨三明治、葡式蛋撻</description>
+      <Point><coordinates>-73.5745293,45.5006345,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Café Pastèque</name>
+      <description>Eaton 地下通道｜超大豬腳飯 CA$9.99、辣牛肉飯、炸雞飯｜CAD 10 左右便當；只收現金、不加稅不收小費（小紅書 2026-10）；11–23 點，週日休</description>
+      <Point><coordinates>-73.5697789,45.5022718,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>SushiUma</name>
+      <description>537 Ste-Catherine O｜壽司吃到飽（週日晚） 約 CA$42.99｜平板點餐、機器人送餐；週一休</description>
+      <Point><coordinates>-73.5687256,45.5045242,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Alto Restaurant</name>
+      <description>3469 Av. du Parc｜Poutine（推臘腸 poutine）、總匯三明治｜McGill 學生回憶，營業到凌晨；推薦 poutine；營業到凌晨 2 點</description>
+      <Point><coordinates>-73.5727452,45.5092624,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Taj</name>
+      <description>2077 Stanley｜Taj 綜合拼盤、Gulab Jamun（甜點）｜步行 10 分內的老牌印度菜</description>
+      <Point><coordinates>-73.5766481,45.5009164,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Campo Poulet Portugais</name>
+      <description>1108 De Maisonneuve O｜半雞套餐 約 CA$20、烤雞 poutine｜半雞套餐約 CAD 20 吃不完</description>
+      <Point><coordinates>-73.574846,45.5005293,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ferreira Café</name>
+      <description>1446 Peel｜馬賽海鮮湯、黑鱈魚｜高價位海鮮餐廳；小紅書：人均約 CA$90，要先訂位</description>
+      <Point><coordinates>-73.5740523,45.5004339,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant Chillax</name>
+      <description>3460A Av. du Parc｜照燒鮭魚丼、章魚燒、定食｜失火後重開；定食、便當</description>
+      <Point><coordinates>-73.5729072,45.5089613,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Dunn's Famous</name>
+      <description>1249 Metcalfe｜煙燻肉三明治套餐、草莓起司蛋糕｜蒙特婁煙燻肉三明治，營業到凌晨；營業到清晨 5 點</description>
+      <Point><coordinates>-73.5715942,45.5005715,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Onigiri Shop（Downtown）</name>
+      <description>1102 De Maisonneuve O｜辣鮪魚飯糰、鮭魚鮪魚飯糰｜現捏三角飯糰，有飲料套餐；每天 11–20</description>
+      <Point><coordinates>-73.5747312,45.5006033,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Deville Dinerbar</name>
+      <description>1425 Stanley｜Neptune 鮪魚、Big Easy 甜甜圈｜份量大、氣氛熱鬧</description>
+      <Point><coordinates>-73.5741417,45.4997056,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Peel Pub</name>
+      <description>1196 Peel｜雞肉 poutine、雞翅｜便宜啤酒桶</description>
+      <Point><coordinates>-73.5719425,45.4994033,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Maison Boulud</name>
+      <description>1228 Sherbrooke O（Ritz-Carlton）｜Brunch 自助 約 CA$58／人（未稅小費）、現烤可頌｜Le Cantlie 隔壁的高級法餐；早餐可吃現烤可頌</description>
+      <Point><coordinates>-73.578042,45.5000232,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Soufflé</name>
+      <description>895 De la Gauchetière O｜日式輕乳酪蛋糕（小） 約 CA$8｜輕乳酪蛋糕</description>
+      <Point><coordinates>-73.5665973,45.4995836,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>OSMO x MARUSAN</name>
+      <description>51 Sherbrooke O｜玉子三明治、豬排三明治、咖哩飯｜溏心蛋三明治、咖哩飯；音樂偏大聲</description>
+      <Point><coordinates>-73.5700358,45.5119132,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>TSUJIRI</name>
+      <description>1418 Crescent｜抹茶霜淇淋、豆皮蕎麥麵｜抹茶霜淇淋、聖代</description>
+      <Point><coordinates>-73.5765406,45.4973714,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>YEN</name>
+      <description>2157 Mackay｜鰻魚飯、鵝肝茶碗蒸、照燒雞丼｜鰻魚飯</description>
+      <Point><coordinates>-73.5803331,45.4975592,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ganadara (Mackay)</name>
+      <description>1417 Mackay｜炸雞球、辣炒雞排｜小紅書：味道普通</description>
+      <Point><coordinates>-73.5774425,45.496201,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sang-Ji Bao Frit</name>
+      <description>1211 Bishop｜招牌生煎包 CA$6.99 起、咖哩牛肉生煎、餛飩湯｜小紅書：生煎包目前村裡最佳；週一休，常排隊建議訂位</description>
+      <Point><coordinates>-73.5748026,45.4960752,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Patty Slaps</name>
+      <description>1449 Ste-Catherine O｜Bacon Blaze 漢堡、Frenzy Fries｜肉排厚、薯條好吃；牛肉和培根是清真</description>
+      <Point><coordinates>-73.5769582,45.4961261,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>3 Amigos（Centre-ville）</name>
+      <description>1657 Ste-Catherine O｜Fajitas（週三有優惠）、Baja Tacos｜本地人推薦的平價墨西哥菜；玉米片和莎莎醬免費續</description>
+      <Point><coordinates>-73.5789844,45.4944244,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pho Anh Vu</name>
+      <description>2198 Ste-Catherine O｜烤雞春捲乾拌米線、炸春捲、順化牛肉粉｜湯底清甜；推烤雞＋春捲乾拌</description>
+      <Point><coordinates>-73.5831554,45.4903069,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>蒙特婁市區必吃</name>
+    <Placemark>
+      <name>Pâtisserie Bon Bon</name>
+      <description>150 Ste-Catherine O｜蛋塔、蔥花起司麵包｜Too Good To Go 盲盒約 CA$6.99 有 6 個麵包</description>
+      <Point><coordinates>-73.5651904,45.5080048,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>強記 Keung Kee</name>
+      <description>70 De la Gauchetière O 2F｜鹽焗雞、套餐（2 人份夠 4 人吃）｜適合多人點套餐；付現金要先跟服務生說</description>
+      <Point><coordinates>-73.560407,45.507253,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Monarque</name>
+      <description>406 St-Jacques｜烤羊肩、鵝肝慕斯、蘋果派｜小紅書多篇首推；Brasserie 區較輕鬆，要訂位</description>
+      <Point><coordinates>-73.5598177,45.5016969,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Amigo 老友記</name>
+      <description>1027 St-Laurent 2F｜椒鹽豬排飯、午餐特餐（附餛飩湯）｜實惠大份；週一休</description>
+      <Point><coordinates>-73.5596082,45.5082343,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Schwartz's Deli</name>
+      <description>3895 St-Laurent｜煙燻肉三明治 CA$16.95、酸黃瓜 CA$2.85｜百年老店，點 medium（中等肥瘦）；常排隊但翻桌快</description>
+      <Point><coordinates>-73.5776401,45.5163503,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Gibbys</name>
+      <description>298 Pl. d'Youville｜午餐三道菜 約 CA$50／人、牛排｜老城石屋牛排館；午餐套餐較划算</description>
+      <Point><coordinates>-73.5548442,45.5013645,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Modavie</name>
+      <description>1 St-Paul O｜油封鴨、洋蔥湯｜晚上 7 點後有現場爵士</description>
+      <Point><coordinates>-73.553962,45.5054645,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>BeaverTails（老港）</name>
+      <description>123 de la Commune E｜香蕉巧克力 CA$8.25｜店已搬到 123 號（小紅書寫的 280 號是舊址）；週一休</description>
+      <Point><coordinates>-73.5524642,45.5068318,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ibéricos</name>
+      <description>4475 St-Denis｜西班牙海鮮飯（午餐單人份）｜午餐有單人份海鮮飯</description>
+      <Point><coordinates>-73.5823857,45.5239186,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>La Banquise</name>
+      <description>994 Rachel E｜經典 Poutine（Regular） CA$9.99、經典 Poutine（Large） CA$17.25｜24 小時營業；Large 兩人分剛好，別點 Extra-Large</description>
+      <Point><coordinates>-73.5748058,45.5253231,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ma Poule Mouillée</name>
+      <description>969 Rachel E｜烤雞＋chorizo poutine 十幾元、半雞｜La Banquise 斜對面；週一休</description>
+      <Point><coordinates>-73.5752559,45.5251666,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Drogheria Fine</name>
+      <description>68 Fairmount O｜番茄麵疙瘩 約 CA$5–7｜外帶窗口；只收現金或 debit 卡；每天 11–18</description>
+      <Point><coordinates>-73.595104,45.5229987,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>St-Viateur Bagel</name>
+      <description>263 St-Viateur O｜芝麻貝果（單個） 約 CA$1.5、奶油乳酪貝果套餐 約 CA$7–9｜木烤貝果，趁熱吃；每天 6–24</description>
+      <Point><coordinates>-73.6019581,45.5226914,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>超市・日用品</name>
+    <Placemark>
+      <name>Pharmaprix</name>
+      <description>1120 Ste-Catherine O｜｜PC Optimum 積分（優惠日常變動，看 App）</description>
+      <Point><coordinates>-73.573083,45.4995078,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Provigo（Canadiens-de-Montréal）</name>
+      <description>1275 Av. des Canadiens-de-Montréal｜｜熟食、沙拉便宜；價格偏高</description>
+      <Point><coordinates>-73.570662,45.496439,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Marché Newon 興旺</name>
+      <description>1616 Ste-Catherine O（302）｜｜市中心華人主要採購點；出口有平價壽司櫃，可當便當</description>
+      <Point><coordinates>-73.5783546,45.4942305,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Marché Korea（Downtown）</name>
+      <description>1829 Ste-Catherine O｜｜有自製熟食：炸雞、飯糰、豬腳、冷凍飯捲 CA$5.99；白飯一盒 CA$1；10–21（週日 11–19）</description>
+      <Point><coordinates>-73.5799222,45.4934134,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Metro Avenue du Parc</name>
+      <description>3575 Av. du Parc（Galeries du Parc 地下）｜｜離 McGill 最近的大型超市；小紅書：價格偏高，結帳要對價格</description>
+      <Point><coordinates>-73.5750221,45.5103472,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Supermarché PA du Fort</name>
+      <description>1420 rue du Fort｜｜小紅書：比 Metro／IGA／Provigo 便宜</description>
+      <Point><coordinates>-73.5822384,45.4921202,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bonjour Supermarché 你好</name>
+      <description>2070 De Maisonneuve O｜｜涼拌菜、手工包子</description>
+      <Point><coordinates>-73.5829754,45.4922312,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Marché Sheng Tang 盛唐</name>
+      <description>1425 rue du Fort｜｜在 PA du Fort 對面，可一起買</description>
+      <Point><coordinates>-73.581975,45.492314,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>IGA Place Desjardins</name>
+      <description>5 Place Desjardins｜｜較遠但很大</description>
+      <Point><coordinates>-73.5632642,45.5076595,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Adonis Downtown</name>
+      <description>2173 Ste-Catherine O｜｜小紅書：比 Metro／IGA 便宜；烤肉、香料</description>
+      <Point><coordinates>-73.5834647,45.490521,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Segal's Market</name>
+      <description>4001 Boul. Saint-Laurent｜｜老牌平價市場，週日休；較遠</description>
+      <Point><coordinates>-73.5788495,45.5168692,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>

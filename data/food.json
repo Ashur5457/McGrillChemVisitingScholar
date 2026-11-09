@@ -1,34 +1,6 @@
 {
  "restaurants": [
   {
-   "name": "Nouilles Zhonghua",
-   "cat": "餐廳",
-   "cuisine": "中式拉麵／肉夾饃",
-   "addr": "908 Sherbrooke O",
-   "lat": 45.5032847,
-   "lng": -73.5749407,
-   "walk": 3,
-   "note": "手拉麵現做，小碗就很飽；午餐排隊",
-   "src": [
-    "McGill周边美食合集①（2021）"
-   ],
-   "walk_hotel": 4
-  },
-  {
-   "name": "Le MajesThé Bistro",
-   "cat": "餐廳",
-   "cuisine": "台式",
-   "addr": "575 De Maisonneuve O",
-   "lat": 45.5051751,
-   "lng": -73.5710303,
-   "walk": 4,
-   "note": "炸雞排、蛋包飯、滷肉飯",
-   "src": [
-    "McGill周边美食合集①（2021）"
-   ],
-   "walk_hotel": 10
-  },
-  {
    "name": "Pizzeria Bros",
    "cat": "餐廳",
    "cuisine": "薄脆披薩",
@@ -40,37 +12,85 @@
    "src": [
     "McGill周边美食合集①（2021）"
    ],
-   "walk_hotel": 8
+   "walk_hotel": 8,
+   "dishes": [
+    [
+     "Margherita 披薩",
+     "CA$11"
+    ],
+    [
+     "起司披薩",
+     "CA$11"
+    ]
+   ],
+   "price": "CA$10–20",
+   "rating": "4.4 (510)",
+   "area": "near",
+   "tags": []
   },
   {
-   "name": "Opiano",
+   "name": "Sushiyo",
    "cat": "餐廳",
-   "cuisine": "韓式",
-   "addr": "1115 Sherbrooke O（地下室）",
-   "lat": 45.5018168,
-   "lng": -73.5769326,
-   "walk": 6,
-   "note": "商學院御用食堂；豬骨湯、刨冰；週末休",
+   "cuisine": "壽司／韓式",
+   "addr": "666 Sherbrooke O",
+   "lat": 45.5049396,
+   "lng": -73.5729926,
+   "walk": 2,
+   "note": "壽司、Poke Bowl CAD 15+；只開平日",
    "src": [
-    "McGill周边美食合集①（2021）",
     "McGill周边美食合集③（2024）"
    ],
-   "walk_hotel": 1
+   "walk_hotel": 8,
+   "dishes": [
+    [
+     "壽司",
+     ""
+    ],
+    [
+     "Poke Bowl",
+     "CA$15 起"
+    ],
+    [
+     "韓式雜菜",
+     ""
+    ]
+   ],
+   "price": "CA$20–30",
+   "rating": "4.8 (389)",
+   "area": "near",
+   "tags": []
   },
   {
-   "name": "Japote",
+   "name": "Nouilles Zhonghua",
    "cat": "餐廳",
-   "cuisine": "日式簡餐",
-   "addr": "1000 Sherbrooke O（美食街）",
-   "lat": 45.5027351,
-   "lng": -73.5751724,
-   "walk": 4,
-   "note": "咖哩飯、便當；只收現金；只開午餐",
+   "cuisine": "中式拉麵／肉夾饃",
+   "addr": "908 Sherbrooke O",
+   "lat": 45.5032847,
+   "lng": -73.5749407,
+   "walk": 3,
+   "note": "手拉麵現做，小碗就很飽；午餐排隊；小紅書 2026 中餐排名「夯」",
    "src": [
-    "McGill周边美食合集①（2021）",
-    "McGill周边美食合集③（2024）"
+    "McGill周边美食合集①（2021）"
    ],
-   "walk_hotel": 3
+   "walk_hotel": 4,
+   "dishes": [
+    [
+     "蘭州牛肉拉麵",
+     ""
+    ],
+    [
+     "肉夾饃",
+     ""
+    ],
+    [
+     "麻辣牛腱",
+     ""
+    ]
+   ],
+   "price": "CA$10–20",
+   "rating": "4.6 (990)",
+   "area": "near",
+   "tags": []
   },
   {
    "name": "Café Humble Lion",
@@ -84,21 +104,246 @@
    "src": [
     "McGill周边美食合集①（2021）"
    ],
-   "walk_hotel": 4
+   "walk_hotel": 4,
+   "dishes": [
+    [
+     "咖啡",
+     ""
+    ]
+   ],
+   "price": "CA$1–10",
+   "rating": "4.3 (772)",
+   "area": "near",
+   "tags": []
   },
   {
-   "name": "Alto Restaurant",
+   "name": "Frostbite Ice Cream",
+   "cat": "甜點",
+   "cuisine": "冰淇淋",
+   "addr": "3480 University（工學院內）",
+   "lat": 45.5059839,
+   "lng": -73.5763171,
+   "walk": 3,
+   "note": "校內便宜冰淇淋；平日午後營業；冷知識：期中考被當可以免費吃一球",
+   "src": [
+    "McGill周边美食合集②（2023）"
+   ],
+   "walk_hotel": 8,
+   "dishes": [
+    [
+     "冰淇淋（黑櫻桃等）",
+     ""
+    ]
+   ],
+   "price": "—",
+   "rating": "4.8 (55)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "Le MajesThé Bistro",
    "cat": "餐廳",
-   "cuisine": "速食／希臘",
-   "addr": "3469 Av. du Parc",
-   "lat": 45.5092624,
-   "lng": -73.5727452,
-   "walk": 8,
-   "note": "McGill 學生回憶，營業到凌晨；推薦 poutine",
+   "cuisine": "台式",
+   "addr": "575 De Maisonneuve O",
+   "lat": 45.5051751,
+   "lng": -73.5710303,
+   "walk": 4,
+   "note": "炸雞排、蛋包飯、滷肉飯",
    "src": [
     "McGill周边美食合集①（2021）"
    ],
-   "walk_hotel": 15
+   "walk_hotel": 10,
+   "dishes": [
+    [
+     "炸雞排",
+     ""
+    ],
+    [
+     "咖哩豬排蛋包飯",
+     ""
+    ],
+    [
+     "四季春奶茶",
+     ""
+    ]
+   ],
+   "price": "CA$20–30",
+   "rating": "4.4 (961)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "Japote",
+   "cat": "餐廳",
+   "cuisine": "日式簡餐",
+   "addr": "1000 Sherbrooke O（美食街）",
+   "lat": 45.5027351,
+   "lng": -73.5751724,
+   "walk": 4,
+   "note": "咖哩飯、便當；只收現金；只開午餐；只收現金；集點卡滿 5 送 1；medium 份量約七八分飽",
+   "src": [
+    "McGill周边美食合集①（2021）",
+    "McGill周边美食合集③（2024）"
+   ],
+   "walk_hotel": 3,
+   "dishes": [
+    [
+     "咖哩飯",
+     ""
+    ],
+    [
+     "豬排丼",
+     ""
+    ],
+    [
+     "雞肉丼",
+     ""
+    ]
+   ],
+   "price": "稅後約 CA$10 以內",
+   "rating": "4.7 (512)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "LEAVES HOUSE",
+   "cat": "咖啡",
+   "cuisine": "咖啡",
+   "addr": "1800 McGill College",
+   "lat": 45.5025388,
+   "lng": -73.5727885,
+   "walk": 4,
+   "note": "ins 風讀書好去處",
+   "src": [
+    "McGill周边美食合集①（2021）"
+   ],
+   "walk_hotel": 5,
+   "dishes": [
+    [
+     "抹茶拿鐵",
+     ""
+    ],
+    [
+     "Dirty Chai",
+     ""
+    ]
+   ],
+   "price": "CA$1–10",
+   "rating": "4.4 (454)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "Cafétéria La Mosaïque 墨客軒",
+   "cat": "餐廳",
+   "cuisine": "中式家常",
+   "addr": "660 Milton",
+   "lat": 45.5066628,
+   "lng": -73.5758612,
+   "walk": 4,
+   "note": "幾葷幾素套餐 CAD 13–15；週末休",
+   "src": [
+    "McGill周边美食合集②（2023）"
+   ],
+   "walk_hotel": 9,
+   "dishes": [
+    [
+     "幾葷幾素套餐",
+     "CA$13.49–15.49"
+    ]
+   ],
+   "price": "CA$10–20",
+   "rating": "4.5 (74)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "Lee N Kim",
+   "cat": "餐廳",
+   "cuisine": "韓式拌飯",
+   "addr": "McGill 地鐵站內",
+   "lat": 45.5041081,
+   "lng": -73.5714695,
+   "walk": 4,
+   "note": "拌飯、飯糰；只開到 17 點、週末休",
+   "src": [
+    "McGill周边美食合集②（2023）"
+   ],
+   "walk_hotel": 8,
+   "dishes": [
+    [
+     "拌飯",
+     ""
+    ],
+    [
+     "泡菜飯糰",
+     ""
+    ],
+    [
+     "辣鮪魚飯糰",
+     ""
+    ]
+   ],
+   "price": "CA$10–20",
+   "rating": "4.8 (433)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "SoLIT Café",
+   "cat": "咖啡",
+   "cuisine": "咖啡／Brunch",
+   "addr": "2030 Mansfield",
+   "lat": 45.5023284,
+   "lng": -73.5739094,
+   "walk": 4,
+   "note": "天花板掛滿橘子的咖啡廳",
+   "src": [
+    "McGill周边美食合集②（2023）"
+   ],
+   "walk_hotel": 4,
+   "dishes": [
+    [
+     "Brunch",
+     ""
+    ],
+    [
+     "西式簡餐",
+     ""
+    ]
+   ],
+   "price": "CA$10–20",
+   "rating": "4.3 (801)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "Pigeon Café & Bar",
+   "cat": "餐廳",
+   "cuisine": "Brunch",
+   "addr": "2000 McGill College",
+   "lat": 45.5026725,
+   "lng": -73.5735644,
+   "walk": 4,
+   "note": "大理石桌好拍；咖啡普通",
+   "src": [
+    "McGill周边美食合集③（2024）"
+   ],
+   "walk_hotel": 4,
+   "dishes": [
+    [
+     "煙燻肉班尼迪克蛋",
+     ""
+    ],
+    [
+     "三明治",
+     ""
+    ]
+   ],
+   "price": "CA$20–30",
+   "rating": "4.2 (1,940)",
+   "area": "near",
+   "tags": []
   },
   {
    "name": "Lola Rosa Milton",
@@ -112,7 +357,21 @@
    "src": [
     "McGill周边美食合集①（2021）"
    ],
-   "walk_hotel": 11
+   "walk_hotel": 11,
+   "dishes": [
+    [
+     "Nachos",
+     ""
+    ],
+    [
+     "地瓜角",
+     ""
+    ]
+   ],
+   "price": "CA$20–30",
+   "rating": "4.6 (2,106)",
+   "area": "near",
+   "tags": []
   },
   {
    "name": "McGill Pizzeria",
@@ -126,35 +385,252 @@
    "src": [
     "McGill周边美食合集①（2021）"
    ],
-   "walk_hotel": 10
+   "walk_hotel": 10,
+   "dishes": [
+    [
+     "早餐拼盤",
+     ""
+    ],
+    [
+     "披薩",
+     ""
+    ]
+   ],
+   "price": "CA$10–20",
+   "rating": "4.4 (400)",
+   "area": "near",
+   "tags": []
   },
   {
-   "name": "Le Taj",
+   "name": "Time Out Market",
+   "cat": "美食廣場",
+   "cuisine": "多國",
+   "addr": "705 Ste-Catherine O（Eaton）",
+   "lat": 45.5027544,
+   "lng": -73.5714715,
+   "walk": 5,
+   "note": "各家名店攤位，略貴",
+   "src": [
+    "McGill周边美食合集②（2023）"
+   ],
+   "walk_hotel": 7,
+   "dishes": [
+    [
+     "各家名店攤位",
+     ""
+    ]
+   ],
+   "price": "CA$20–30",
+   "rating": "4.3 (5,170)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "Café Olimpico 市中心店",
+   "cat": "咖啡",
+   "cuisine": "義式咖啡",
+   "addr": "1333 Robert-Bourassa",
+   "lat": 45.5038213,
+   "lng": -73.5707385,
+   "walk": 5,
+   "note": "很多人心中第一名的義式咖啡",
+   "src": [
+    "McGill周边美食合集②（2023）"
+   ],
+   "walk_hotel": 9,
+   "dishes": [
+    [
+     "Cortado",
+     ""
+    ],
+    [
+     "咖啡＋糕點",
+     ""
+    ]
+   ],
+   "price": "CA$1–10",
+   "rating": "4.7 (1,662)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "Gerts Bar",
+   "cat": "酒吧",
+   "cuisine": "學生酒吧",
+   "addr": "3480 McTavish（SSMU）",
+   "lat": 45.5036082,
+   "lng": -73.5781314,
+   "walk": 5,
+   "note": "組員 bonding 的平價酒吧；17 點後開",
+   "src": [
+    "McGill周边美食合集②（2023）"
+   ],
+   "walk_hotel": 4,
+   "dishes": [
+    [
+     "啤酒",
+     ""
+    ],
+    [
+     "Sangria",
+     ""
+    ]
+   ],
+   "price": "CA$1–10",
+   "rating": "4.2 (101)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "Uncle Tetsu",
+   "cat": "甜點",
+   "cuisine": "日式芝士蛋糕",
+   "addr": "705 Ste-Catherine O（Eaton）",
+   "lat": 45.5028488,
+   "lng": -73.5715345,
+   "walk": 5,
+   "note": "",
+   "src": [
+    "蒙特利尔美食（1）（2）"
+   ],
+   "walk_hotel": 7,
+   "dishes": [
+    [
+     "日式起司蛋糕",
+     ""
+    ],
+    [
+     "柚子起司塔",
+     ""
+    ]
+   ],
+   "price": "—",
+   "rating": "4.6 (33)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "Atti",
+   "cat": "餐廳",
+   "cuisine": "韓式",
+   "addr": "505 De Maisonneuve O",
+   "lat": 45.5055026,
+   "lng": -73.5707355,
+   "walk": 5,
+   "note": "拌飯、烤肉；只開晚餐",
+   "src": [
+    "McGill周边美食合集③（2024）"
+   ],
+   "walk_hotel": 10,
+   "dishes": [
+    [
+     "牛肉拌飯",
+     ""
+    ],
+    [
+     "韓式炸豬排",
+     ""
+    ]
+   ],
+   "price": "CA$30–40",
+   "rating": "4.6 (307)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "Olly Fresco's",
+   "cat": "美食廣場",
+   "cuisine": "秤重自助餐",
+   "addr": "625 Ste-Catherine O #1620",
+   "lat": 45.5035803,
+   "lng": -73.5706144,
+   "note": "Cineplex 樓下美食街的秤重自助餐；平日 7–17，週末休",
+   "src": [
+    "小紅書"
+   ],
+   "dishes": [
+    [
+     "秤重熱食",
+     "約 CA$30／公斤"
+    ]
+   ],
+   "price": "$",
+   "rating": "4.1 (515)",
+   "area": "near",
+   "tags": [
+    "bento"
+   ],
+   "walk": 5,
+   "walk_hotel": 9
+  },
+  {
+   "name": "Opiano",
+   "cat": "餐廳",
+   "cuisine": "韓式",
+   "addr": "1115 Sherbrooke O（地下室）",
+   "lat": 45.5018168,
+   "lng": -73.5769326,
+   "walk": 6,
+   "note": "商學院御用食堂；豬骨湯、刨冰；週末休；自助點餐機、不用給小費、有免費飲水",
+   "src": [
+    "McGill周边美食合集①（2021）",
+    "McGill周边美食合集③（2024）"
+   ],
+   "walk_hotel": 1,
+   "dishes": [
+    [
+     "脊骨湯（豬骨湯）配飯",
+     ""
+    ],
+    [
+     "石鍋拌飯",
+     ""
+    ],
+    [
+     "雜菜拌飯",
+     ""
+    ],
+    [
+     "刨冰",
+     ""
+    ]
+   ],
+   "price": "人均十幾元（CA$10–20）",
+   "rating": "4.6 (706)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "Masakali Indian Cuisine",
    "cat": "餐廳",
    "cuisine": "印度菜",
-   "addr": "2077 Stanley",
-   "lat": 45.5009164,
-   "lng": -73.5766481,
-   "walk": 8,
-   "note": "步行 10 分內的老牌印度菜",
+   "addr": "1015 Sherbrooke O",
+   "lat": 45.5021754,
+   "lng": -73.5766778,
+   "note": "小紅書：好吃到想申請 McGill；每天 11:30–23",
    "src": [
-    "McGill周边美食合集①（2021）"
+    "小紅書 2026-10"
    ],
+   "dishes": [
+    [
+     "Malabar 椰奶炸魚咖哩",
+     ""
+    ],
+    [
+     "香草蒜香烤餅",
+     ""
+    ],
+    [
+     "蒜香烤餅",
+     ""
+    ]
+   ],
+   "price": "CA$20–40",
+   "rating": "4.8 (6,697)",
+   "area": "near",
+   "tags": [],
+   "walk": 6,
    "walk_hotel": 1
-  },
-  {
-   "name": "Deville Dinerbar",
-   "cat": "餐廳",
-   "cuisine": "創意美式",
-   "addr": "1425 Stanley",
-   "lat": 45.4997056,
-   "lng": -73.5741417,
-   "walk": 9,
-   "note": "份量大、氣氛熱鬧",
-   "src": [
-    "McGill周边美食合集①（2021）"
-   ],
-   "walk_hotel": 4
   },
   {
    "name": "Presotea 鮮茶道",
@@ -169,203 +645,21 @@
     "McGill周边美食合集①（2021）",
     "McGill周边美食合集②（2023）"
    ],
-   "walk_hotel": 6
-  },
-  {
-   "name": "LEAVES HOUSE",
-   "cat": "咖啡",
-   "cuisine": "咖啡",
-   "addr": "1800 McGill College",
-   "lat": 45.5025388,
-   "lng": -73.5727885,
-   "walk": 4,
-   "note": "ins 風讀書好去處",
-   "src": [
-    "McGill周边美食合集①（2021）"
+   "walk_hotel": 6,
+   "dishes": [
+    [
+     "芒果蘆薈",
+     ""
+    ],
+    [
+     "百香綠茶",
+     ""
+    ]
    ],
-   "walk_hotel": 5
-  },
-  {
-   "name": "Frostbite Ice Cream",
-   "cat": "甜點",
-   "cuisine": "冰淇淋",
-   "addr": "3480 University（工學院內）",
-   "lat": 45.5059839,
-   "lng": -73.5763171,
-   "walk": 3,
-   "note": "校內便宜冰淇淋；平日午後營業",
-   "src": [
-    "McGill周边美食合集②（2023）"
-   ],
-   "walk_hotel": 8
-  },
-  {
-   "name": "Cafétéria La Mosaïque 墨客軒",
-   "cat": "餐廳",
-   "cuisine": "中式家常",
-   "addr": "660 Milton",
-   "lat": 45.5066628,
-   "lng": -73.5758612,
-   "walk": 4,
-   "note": "幾葷幾素套餐 CAD 13–15；週末休",
-   "src": [
-    "McGill周边美食合集②（2023）"
-   ],
-   "walk_hotel": 9
-  },
-  {
-   "name": "Lee N Kim",
-   "cat": "餐廳",
-   "cuisine": "韓式拌飯",
-   "addr": "McGill 地鐵站內",
-   "lat": 45.5041081,
-   "lng": -73.5714695,
-   "walk": 4,
-   "note": "拌飯、飯糰；只開到 17 點、週末休",
-   "src": [
-    "McGill周边美食合集②（2023）"
-   ],
-   "walk_hotel": 8
-  },
-  {
-   "name": "Time Out Market",
-   "cat": "美食廣場",
-   "cuisine": "多國",
-   "addr": "705 Ste-Catherine O（Eaton）",
-   "lat": 45.5027544,
-   "lng": -73.5714715,
-   "walk": 5,
-   "note": "各家名店攤位，略貴",
-   "src": [
-    "McGill周边美食合集②（2023）"
-   ],
-   "walk_hotel": 7
-  },
-  {
-   "name": "Ganadara (Mackay)",
-   "cat": "餐廳",
-   "cuisine": "韓式",
-   "addr": "1417 Mackay",
-   "lat": 45.496201,
-   "lng": -73.5774425,
-   "walk": 16,
-   "note": "小紅書：味道普通",
-   "src": [
-    "McGill周边美食合集②（2023）"
-   ],
-   "walk_hotel": 10
-  },
-  {
-   "name": "SoLIT Café",
-   "cat": "咖啡",
-   "cuisine": "咖啡／Brunch",
-   "addr": "2030 Mansfield",
-   "lat": 45.5023284,
-   "lng": -73.5739094,
-   "walk": 4,
-   "note": "天花板掛滿橘子的咖啡廳",
-   "src": [
-    "McGill周边美食合集②（2023）"
-   ],
-   "walk_hotel": 4
-  },
-  {
-   "name": "Café Olimpico 市中心店",
-   "cat": "咖啡",
-   "cuisine": "義式咖啡",
-   "addr": "1333 Robert-Bourassa",
-   "lat": 45.5038213,
-   "lng": -73.5707385,
-   "walk": 5,
-   "note": "很多人心中第一名的義式咖啡",
-   "src": [
-    "McGill周边美食合集②（2023）"
-   ],
-   "walk_hotel": 9
-  },
-  {
-   "name": "OSMO x MARUSAN",
-   "cat": "咖啡",
-   "cuisine": "日式咖啡",
-   "addr": "51 Sherbrooke O",
-   "lat": 45.5119132,
-   "lng": -73.5700358,
-   "walk": 14,
-   "note": "溏心蛋三明治、咖哩飯；音樂偏大聲",
-   "src": [
-    "McGill周边美食合集②（2023）"
-   ],
-   "walk_hotel": 21
-  },
-  {
-   "name": "YEN",
-   "cat": "餐廳",
-   "cuisine": "日本料理",
-   "addr": "2157 Mackay",
-   "lat": 45.4975592,
-   "lng": -73.5803331,
-   "walk": 15,
-   "note": "鰻魚飯",
-   "src": [
-    "McGill周边美食合集②（2023）"
-   ],
-   "walk_hotel": 8
-  },
-  {
-   "name": "Gerts Bar",
-   "cat": "酒吧",
-   "cuisine": "學生酒吧",
-   "addr": "3480 McTavish（SSMU）",
-   "lat": 45.5036082,
-   "lng": -73.5781314,
-   "walk": 5,
-   "note": "組員 bonding 的平價酒吧",
-   "src": [
-    "McGill周边美食合集②（2023）"
-   ],
-   "walk_hotel": 4
-  },
-  {
-   "name": "Peel Pub",
-   "cat": "酒吧",
-   "cuisine": "運動酒吧",
-   "addr": "1196 Peel",
-   "lat": 45.4994033,
-   "lng": -73.5719425,
-   "walk": 10,
-   "note": "便宜啤酒桶",
-   "src": [
-    "McGill周边美食合集②（2023）"
-   ],
-   "walk_hotel": 7
-  },
-  {
-   "name": "Campo Poulet Portugais",
-   "cat": "餐廳",
-   "cuisine": "葡式烤雞",
-   "addr": "1108 De Maisonneuve O",
-   "lat": 45.5005293,
-   "lng": -73.574846,
-   "walk": 8,
-   "note": "半雞套餐約 CAD 20 吃不完",
-   "src": [
-    "McGill周边美食合集③（2024）"
-   ],
-   "walk_hotel": 3
-  },
-  {
-   "name": "Ferreira Café",
-   "cat": "餐廳",
-   "cuisine": "葡式海鮮",
-   "addr": "1446 Peel",
-   "lat": 45.5004339,
-   "lng": -73.5740523,
-   "walk": 8,
-   "note": "高價位海鮮餐廳",
-   "src": [
-    "McGill周边美食合集③（2024）"
-   ],
-   "walk_hotel": 4
+   "price": "—",
+   "rating": "3.8 (224)",
+   "area": "near",
+   "tags": []
   },
   {
    "name": "Café Vasco da Gama",
@@ -379,7 +673,25 @@
    "src": [
     "McGill周边美食合集③（2024）"
    ],
-   "walk_hotel": 3
+   "walk_hotel": 3,
+   "dishes": [
+    [
+     "葡式蛋撻",
+     ""
+    ],
+    [
+     "油封鴨三明治",
+     ""
+    ],
+    [
+     "煙燻鮭魚貝果",
+     ""
+    ]
+   ],
+   "price": "CA$20–30",
+   "rating": "4.4 (1,050)",
+   "area": "near",
+   "tags": []
   },
   {
    "name": "Café Pastèque",
@@ -389,67 +701,165 @@
    "lat": 45.5022718,
    "lng": -73.5697789,
    "walk": 7,
-   "note": "CAD 10 左右便當",
+   "note": "CAD 10 左右便當；只收現金、不加稅不收小費（小紅書 2026-10）；11–23 點，週日休",
    "src": [
     "McGill周边美食合集③（2024）"
    ],
-   "walk_hotel": 9
+   "walk_hotel": 9,
+   "dishes": [
+    [
+     "超大豬腳飯",
+     "CA$9.99"
+    ],
+    [
+     "辣牛肉飯",
+     ""
+    ],
+    [
+     "炸雞飯",
+     ""
+    ]
+   ],
+   "price": "CA$10–20",
+   "rating": "4.4 (161)",
+   "area": "near",
+   "tags": []
   },
   {
-   "name": "Sushiyo",
+   "name": "SushiUma",
    "cat": "餐廳",
-   "cuisine": "壽司／韓式",
-   "addr": "666 Sherbrooke O",
-   "lat": 45.5049396,
-   "lng": -73.5729926,
-   "walk": 2,
-   "note": "壽司、Poke Bowl CAD 15+；只開平日",
+   "cuisine": "壽司吃到飽",
+   "addr": "537 Ste-Catherine O",
+   "lat": 45.5045242,
+   "lng": -73.5687256,
+   "note": "平板點餐、機器人送餐；週一休",
    "src": [
-    "McGill周边美食合集③（2024）"
+    "Google 評論"
    ],
-   "walk_hotel": 8
+   "dishes": [
+    [
+     "壽司吃到飽（週日晚）",
+     "約 CA$42.99"
+    ]
+   ],
+   "price": "$$",
+   "rating": "4.0 (4,246)",
+   "area": "near",
+   "tags": [],
+   "walk": 7,
+   "walk_hotel": 11
   },
   {
-   "name": "Soufflé",
-   "cat": "甜點",
-   "cuisine": "日式芝士蛋糕",
-   "addr": "895 De la Gauchetière O",
-   "lat": 45.4995836,
-   "lng": -73.5665973,
-   "walk": 13,
-   "note": "輕乳酪蛋糕",
-   "src": [
-    "McGill周边美食合集③（2024）"
-   ],
-   "walk_hotel": 13
-  },
-  {
-   "name": "Uncle Tetsu",
-   "cat": "甜點",
-   "cuisine": "日式芝士蛋糕",
-   "addr": "705 Ste-Catherine O（Eaton）",
-   "lat": 45.5028488,
-   "lng": -73.5715345,
-   "walk": 5,
-   "note": "",
-   "src": [
-    "蒙特利尔美食（1）（2）"
-   ],
-   "walk_hotel": 7
-  },
-  {
-   "name": "Pigeon Café & Bar",
+   "name": "Alto Restaurant",
    "cat": "餐廳",
-   "cuisine": "Brunch",
-   "addr": "2000 McGill College",
-   "lat": 45.5026725,
-   "lng": -73.5735644,
-   "walk": 4,
-   "note": "大理石桌好拍；咖啡普通",
+   "cuisine": "速食／希臘",
+   "addr": "3469 Av. du Parc",
+   "lat": 45.5092624,
+   "lng": -73.5727452,
+   "walk": 8,
+   "note": "McGill 學生回憶，營業到凌晨；推薦 poutine；營業到凌晨 2 點",
+   "src": [
+    "McGill周边美食合集①（2021）"
+   ],
+   "walk_hotel": 15,
+   "dishes": [
+    [
+     "Poutine（推臘腸 poutine）",
+     ""
+    ],
+    [
+     "總匯三明治",
+     ""
+    ]
+   ],
+   "price": "CA$20–30",
+   "rating": "4.4 (1,425)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "Le Taj",
+   "cat": "餐廳",
+   "cuisine": "印度菜",
+   "addr": "2077 Stanley",
+   "lat": 45.5009164,
+   "lng": -73.5766481,
+   "walk": 8,
+   "note": "步行 10 分內的老牌印度菜",
+   "src": [
+    "McGill周边美食合集①（2021）"
+   ],
+   "walk_hotel": 1,
+   "dishes": [
+    [
+     "Taj 綜合拼盤",
+     ""
+    ],
+    [
+     "Gulab Jamun（甜點）",
+     ""
+    ]
+   ],
+   "price": "CA$30–70",
+   "rating": "4.2 (2,896)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "Campo Poulet Portugais",
+   "cat": "餐廳",
+   "cuisine": "葡式烤雞",
+   "addr": "1108 De Maisonneuve O",
+   "lat": 45.5005293,
+   "lng": -73.574846,
+   "walk": 8,
+   "note": "半雞套餐約 CAD 20 吃不完",
    "src": [
     "McGill周边美食合集③（2024）"
    ],
-   "walk_hotel": 4
+   "walk_hotel": 3,
+   "dishes": [
+    [
+     "半雞套餐",
+     "約 CA$20"
+    ],
+    [
+     "烤雞 poutine",
+     ""
+    ]
+   ],
+   "price": "CA$20–30",
+   "rating": "4.2 (1,358)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "Ferreira Café",
+   "cat": "餐廳",
+   "cuisine": "葡式海鮮",
+   "addr": "1446 Peel",
+   "lat": 45.5004339,
+   "lng": -73.5740523,
+   "walk": 8,
+   "note": "高價位海鮮餐廳；小紅書：人均約 CA$90，要先訂位",
+   "src": [
+    "McGill周边美食合集③（2024）"
+   ],
+   "walk_hotel": 4,
+   "dishes": [
+    [
+     "馬賽海鮮湯",
+     ""
+    ],
+    [
+     "黑鱈魚",
+     ""
+    ]
+   ],
+   "price": "CA$100 以上",
+   "rating": "4.6 (2,342)",
+   "area": "near",
+   "tags": []
   },
   {
    "name": "Restaurant Chillax",
@@ -463,21 +873,25 @@
    "src": [
     "McGill周边美食合集③（2024）"
    ],
-   "walk_hotel": 14
-  },
-  {
-   "name": "Atti",
-   "cat": "餐廳",
-   "cuisine": "韓式",
-   "addr": "505 De Maisonneuve O",
-   "lat": 45.5055026,
-   "lng": -73.5707355,
-   "walk": 5,
-   "note": "拌飯、烤肉；只開晚餐",
-   "src": [
-    "McGill周边美食合集③（2024）"
+   "walk_hotel": 14,
+   "dishes": [
+    [
+     "照燒鮭魚丼",
+     ""
+    ],
+    [
+     "章魚燒",
+     ""
+    ],
+    [
+     "定食",
+     ""
+    ]
    ],
-   "walk_hotel": 10
+   "price": "CA$20–30",
+   "rating": "4.7 (375)",
+   "area": "near",
+   "tags": []
   },
   {
    "name": "Dunn's Famous",
@@ -487,11 +901,195 @@
    "lat": 45.5005715,
    "lng": -73.5715942,
    "walk": 8,
-   "note": "蒙特婁煙燻肉三明治，營業到凌晨",
+   "note": "蒙特婁煙燻肉三明治，營業到凌晨；營業到清晨 5 點",
    "src": [
     "蒙特利尔美食（1）（2）"
    ],
-   "walk_hotel": 7
+   "walk_hotel": 7,
+   "dishes": [
+    [
+     "煙燻肉三明治套餐",
+     ""
+    ],
+    [
+     "草莓起司蛋糕",
+     ""
+    ]
+   ],
+   "price": "CA$20–30",
+   "rating": "4.3 (6,279)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "Onigiri Shop（Downtown）",
+   "cat": "餐廳",
+   "cuisine": "日式飯糰",
+   "addr": "1102 De Maisonneuve O",
+   "lat": 45.5006033,
+   "lng": -73.5747312,
+   "note": "現捏三角飯糰，有飲料套餐；每天 11–20",
+   "src": [
+    "小紅書 2025-11"
+   ],
+   "dishes": [
+    [
+     "辣鮪魚飯糰",
+     ""
+    ],
+    [
+     "鮭魚鮪魚飯糰",
+     ""
+    ]
+   ],
+   "price": "$（平價）",
+   "rating": "4.6 (170)",
+   "area": "near",
+   "tags": [
+    "bento"
+   ],
+   "walk": 8,
+   "walk_hotel": 3
+  },
+  {
+   "name": "Deville Dinerbar",
+   "cat": "餐廳",
+   "cuisine": "創意美式",
+   "addr": "1425 Stanley",
+   "lat": 45.4997056,
+   "lng": -73.5741417,
+   "walk": 9,
+   "note": "份量大、氣氛熱鬧",
+   "src": [
+    "McGill周边美食合集①（2021）"
+   ],
+   "walk_hotel": 4,
+   "dishes": [
+    [
+     "Neptune 鮪魚",
+     ""
+    ],
+    [
+     "Big Easy 甜甜圈",
+     ""
+    ]
+   ],
+   "price": "—",
+   "rating": "4.5 (4,790)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "Peel Pub",
+   "cat": "酒吧",
+   "cuisine": "運動酒吧",
+   "addr": "1196 Peel",
+   "lat": 45.4994033,
+   "lng": -73.5719425,
+   "walk": 10,
+   "note": "便宜啤酒桶",
+   "src": [
+    "McGill周边美食合集②（2023）"
+   ],
+   "walk_hotel": 7,
+   "dishes": [
+    [
+     "雞肉 poutine",
+     ""
+    ],
+    [
+     "雞翅",
+     ""
+    ]
+   ],
+   "price": "CA$10–40",
+   "rating": "3.8 (2,284)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "Maison Boulud",
+   "cat": "餐廳",
+   "cuisine": "法式",
+   "addr": "1228 Sherbrooke O（Ritz-Carlton）",
+   "lat": 45.5000232,
+   "lng": -73.578042,
+   "note": "Le Cantlie 隔壁的高級法餐；早餐可吃現烤可頌",
+   "src": [
+    "小紅書 2026-06"
+   ],
+   "dishes": [
+    [
+     "Brunch 自助",
+     "約 CA$58／人（未稅小費）"
+    ],
+    [
+     "現烤可頌",
+     ""
+    ]
+   ],
+   "price": "$$$$",
+   "rating": "4.5 (1,439)",
+   "area": "near",
+   "tags": [],
+   "walk": 10,
+   "walk_hotel": 3
+  },
+  {
+   "name": "Soufflé",
+   "cat": "甜點",
+   "cuisine": "日式芝士蛋糕",
+   "addr": "895 De la Gauchetière O",
+   "lat": 45.4995836,
+   "lng": -73.5665973,
+   "walk": 13,
+   "note": "輕乳酪蛋糕",
+   "src": [
+    "McGill周边美食合集③（2024）"
+   ],
+   "walk_hotel": 13,
+   "dishes": [
+    [
+     "日式輕乳酪蛋糕（小）",
+     "約 CA$8"
+    ]
+   ],
+   "price": "—",
+   "rating": "4.5 (229)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "OSMO x MARUSAN",
+   "cat": "咖啡",
+   "cuisine": "日式咖啡",
+   "addr": "51 Sherbrooke O",
+   "lat": 45.5119132,
+   "lng": -73.5700358,
+   "walk": 14,
+   "note": "溏心蛋三明治、咖哩飯；音樂偏大聲",
+   "src": [
+    "McGill周边美食合集②（2023）"
+   ],
+   "walk_hotel": 21,
+   "dishes": [
+    [
+     "玉子三明治",
+     ""
+    ],
+    [
+     "豬排三明治",
+     ""
+    ],
+    [
+     "咖哩飯",
+     ""
+    ]
+   ],
+   "price": "CA$10–20",
+   "rating": "4.5 (2,695)",
+   "area": "near",
+   "tags": []
   },
   {
    "name": "TSUJIRI",
@@ -505,20 +1103,573 @@
    "src": [
     "蒙特利尔美食（1）（2）"
    ],
-   "walk_hotel": 7
+   "walk_hotel": 7,
+   "dishes": [
+    [
+     "抹茶霜淇淋",
+     ""
+    ],
+    [
+     "豆皮蕎麥麵",
+     ""
+    ]
+   ],
+   "price": "CA$10–20",
+   "rating": "4.5 (854)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "YEN",
+   "cat": "餐廳",
+   "cuisine": "日本料理",
+   "addr": "2157 Mackay",
+   "lat": 45.4975592,
+   "lng": -73.5803331,
+   "walk": 15,
+   "note": "鰻魚飯",
+   "src": [
+    "McGill周边美食合集②（2023）"
+   ],
+   "walk_hotel": 8,
+   "dishes": [
+    [
+     "鰻魚飯",
+     ""
+    ],
+    [
+     "鵝肝茶碗蒸",
+     ""
+    ],
+    [
+     "照燒雞丼",
+     ""
+    ]
+   ],
+   "price": "CA$20–70",
+   "rating": "4.3 (1,251)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "Ganadara (Mackay)",
+   "cat": "餐廳",
+   "cuisine": "韓式",
+   "addr": "1417 Mackay",
+   "lat": 45.496201,
+   "lng": -73.5774425,
+   "walk": 16,
+   "note": "小紅書：味道普通",
+   "src": [
+    "McGill周边美食合集②（2023）"
+   ],
+   "walk_hotel": 10,
+   "dishes": [
+    [
+     "炸雞球",
+     ""
+    ],
+    [
+     "辣炒雞排",
+     ""
+    ]
+   ],
+   "price": "CA$10–20",
+   "rating": "4.5 (2,424)",
+   "area": "near",
+   "tags": []
+  },
+  {
+   "name": "Sang-Ji Bao Frit",
+   "cat": "餐廳",
+   "cuisine": "上海生煎",
+   "addr": "1211 Bishop",
+   "lat": 45.4960752,
+   "lng": -73.5748026,
+   "note": "小紅書：生煎包目前村裡最佳；週一休，常排隊建議訂位",
+   "src": [
+    "小紅書 2026-09"
+   ],
+   "dishes": [
+    [
+     "招牌生煎包",
+     "CA$6.99 起"
+    ],
+    [
+     "咖哩牛肉生煎",
+     ""
+    ],
+    [
+     "餛飩湯",
+     ""
+    ]
+   ],
+   "price": "$$",
+   "rating": "4.7 (102)",
+   "area": "near",
+   "tags": [],
+   "walk": 16,
+   "walk_hotel": 10
+  },
+  {
+   "name": "Patty Slaps",
+   "cat": "餐廳",
+   "cuisine": "漢堡",
+   "addr": "1449 Ste-Catherine O",
+   "lat": 45.4961261,
+   "lng": -73.5769582,
+   "note": "肉排厚、薯條好吃；牛肉和培根是清真",
+   "src": [
+    "小紅書 2025-11"
+   ],
+   "dishes": [
+    [
+     "Bacon Blaze 漢堡",
+     ""
+    ],
+    [
+     "Frenzy Fries",
+     ""
+    ]
+   ],
+   "price": "CA$20–30",
+   "rating": "4.4 (2,194)",
+   "area": "near",
+   "tags": [],
+   "walk": 16,
+   "walk_hotel": 10
+  },
+  {
+   "name": "3 Amigos（Centre-ville）",
+   "cat": "餐廳",
+   "cuisine": "墨西哥菜",
+   "addr": "1657 Ste-Catherine O",
+   "lat": 45.4944244,
+   "lng": -73.5789844,
+   "note": "本地人推薦的平價墨西哥菜；玉米片和莎莎醬免費續",
+   "src": [
+    "小紅書 2025-11"
+   ],
+   "dishes": [
+    [
+     "Fajitas（週三有優惠）",
+     ""
+    ],
+    [
+     "Baja Tacos",
+     ""
+    ]
+   ],
+   "price": "CA$20–30",
+   "rating": "3.9 (6,899)",
+   "area": "near",
+   "tags": [],
+   "walk": 20,
+   "walk_hotel": 13
+  },
+  {
+   "name": "Pho Anh Vu",
+   "cat": "餐廳",
+   "cuisine": "越南粉",
+   "addr": "2198 Ste-Catherine O",
+   "lat": 45.4903069,
+   "lng": -73.5831554,
+   "note": "湯底清甜；推烤雞＋春捲乾拌",
+   "src": [
+    "小紅書 2025-11"
+   ],
+   "dishes": [
+    [
+     "烤雞春捲乾拌米線",
+     ""
+    ],
+    [
+     "炸春捲",
+     ""
+    ],
+    [
+     "順化牛肉粉",
+     ""
+    ]
+   ],
+   "price": "CA$20–30",
+   "rating": "4.3 (708)",
+   "area": "near",
+   "tags": [],
+   "walk": 28,
+   "walk_hotel": 22
+  },
+  {
+   "name": "Pâtisserie Bon Bon",
+   "cat": "麵包",
+   "cuisine": "中式／港式麵包",
+   "addr": "150 Ste-Catherine O",
+   "lat": 45.5080048,
+   "lng": -73.5651904,
+   "note": "Too Good To Go 盲盒約 CA$6.99 有 6 個麵包",
+   "src": [
+    "小紅書 2025-04"
+   ],
+   "dishes": [
+    [
+     "蛋塔",
+     ""
+    ],
+    [
+     "蔥花起司麵包",
+     ""
+    ]
+   ],
+   "price": "$",
+   "rating": "4.5 (59)",
+   "area": "city",
+   "tags": [
+    "bento"
+   ],
+   "walk": 13,
+   "walk_hotel": 19
+  },
+  {
+   "name": "強記 Keung Kee",
+   "cat": "餐廳",
+   "cuisine": "粵菜海鮮（唐人街）",
+   "addr": "70 De la Gauchetière O 2F",
+   "lat": 45.507253,
+   "lng": -73.560407,
+   "note": "適合多人點套餐；付現金要先跟服務生說",
+   "src": [
+    "小紅書 2025-03、2026-09"
+   ],
+   "dishes": [
+    [
+     "鹽焗雞",
+     ""
+    ],
+    [
+     "套餐（2 人份夠 4 人吃）",
+     ""
+    ]
+   ],
+   "price": "$$",
+   "rating": "3.9 (1,852)",
+   "area": "city",
+   "tags": [],
+   "walk": 18,
+   "walk_hotel": 23
+  },
+  {
+   "name": "Monarque",
+   "cat": "餐廳",
+   "cuisine": "法餐",
+   "addr": "406 St-Jacques",
+   "lat": 45.5016969,
+   "lng": -73.5598177,
+   "note": "小紅書多篇首推；Brasserie 區較輕鬆，要訂位",
+   "src": [
+    "小紅書 2026-01、2026-04、2026-09"
+   ],
+   "dishes": [
+    [
+     "烤羊肩",
+     ""
+    ],
+    [
+     "鵝肝慕斯",
+     ""
+    ],
+    [
+     "蘋果派",
+     ""
+    ]
+   ],
+   "price": "$$$$",
+   "rating": "4.6 (2,521)",
+   "area": "city",
+   "tags": [],
+   "walk": 19,
+   "walk_hotel": 21
+  },
+  {
+   "name": "Amigo 老友記",
+   "cat": "餐廳",
+   "cuisine": "中式（唐人街）",
+   "addr": "1027 St-Laurent 2F",
+   "lat": 45.5082343,
+   "lng": -73.5596082,
+   "note": "實惠大份；週一休",
+   "src": [
+    "小紅書 2026-09"
+   ],
+   "dishes": [
+    [
+     "椒鹽豬排飯",
+     ""
+    ],
+    [
+     "午餐特餐（附餛飩湯）",
+     ""
+    ]
+   ],
+   "price": "$",
+   "rating": "4.3 (738)",
+   "area": "city",
+   "tags": [],
+   "walk": 20,
+   "walk_hotel": 25
+  },
+  {
+   "name": "Schwartz's Deli",
+   "cat": "餐廳",
+   "cuisine": "蒙特婁煙燻肉",
+   "addr": "3895 St-Laurent",
+   "lat": 45.5163503,
+   "lng": -73.5776401,
+   "note": "百年老店，點 medium（中等肥瘦）；常排隊但翻桌快",
+   "src": [
+    "小紅書 2026-09"
+   ],
+   "dishes": [
+    [
+     "煙燻肉三明治",
+     "CA$16.95"
+    ],
+    [
+     "酸黃瓜",
+     "CA$2.85"
+    ]
+   ],
+   "price": "$$",
+   "rating": "4.4 (27,504)",
+   "area": "city",
+   "tags": [],
+   "walk": 21,
+   "walk_hotel": 27
+  },
+  {
+   "name": "Gibbys",
+   "cat": "餐廳",
+   "cuisine": "牛排",
+   "addr": "298 Pl. d'Youville",
+   "lat": 45.5013645,
+   "lng": -73.5548442,
+   "note": "老城石屋牛排館；午餐套餐較划算",
+   "src": [
+    "小紅書 2026-06、2026-09"
+   ],
+   "dishes": [
+    [
+     "午餐三道菜",
+     "約 CA$50／人"
+    ],
+    [
+     "牛排",
+     ""
+    ]
+   ],
+   "price": "$$$$",
+   "rating": "4.6 (5,547)",
+   "area": "city",
+   "tags": [],
+   "walk": 25,
+   "walk_hotel": 28
+  },
+  {
+   "name": "Modavie",
+   "cat": "餐廳",
+   "cuisine": "法餐＋爵士",
+   "addr": "1 St-Paul O",
+   "lat": 45.5054645,
+   "lng": -73.553962,
+   "note": "晚上 7 點後有現場爵士",
+   "src": [
+    "小紅書 2026-06、2026-09"
+   ],
+   "dishes": [
+    [
+     "油封鴨",
+     ""
+    ],
+    [
+     "洋蔥湯",
+     ""
+    ]
+   ],
+   "price": "約 CA$75／人",
+   "rating": "4.5 (8,433)",
+   "area": "city",
+   "tags": [],
+   "walk": 26,
+   "walk_hotel": 30
+  },
+  {
+   "name": "BeaverTails（老港）",
+   "cat": "甜點",
+   "cuisine": "海狸尾炸麵團",
+   "addr": "123 de la Commune E",
+   "lat": 45.5068318,
+   "lng": -73.5524642,
+   "note": "店已搬到 123 號（小紅書寫的 280 號是舊址）；週一休",
+   "src": [
+    "小紅書 2026-09"
+   ],
+   "dishes": [
+    [
+     "香蕉巧克力",
+     "CA$8.25"
+    ]
+   ],
+   "price": "$",
+   "rating": "4.2 (1,409)",
+   "area": "city",
+   "tags": [],
+   "walk": 28,
+   "walk_hotel": 32
+  },
+  {
+   "name": "Ibéricos",
+   "cat": "餐廳",
+   "cuisine": "西班牙菜",
+   "addr": "4475 St-Denis",
+   "lat": 45.5239186,
+   "lng": -73.5823857,
+   "note": "午餐有單人份海鮮飯",
+   "src": [
+    "小紅書 2026-08、2026-09"
+   ],
+   "dishes": [
+    [
+     "西班牙海鮮飯（午餐單人份）",
+     ""
+    ]
+   ],
+   "price": "$$",
+   "rating": "4.5 (1,613)",
+   "area": "city",
+   "tags": [],
+   "walk": 36,
+   "walk_hotel": 41
+  },
+  {
+   "name": "La Banquise",
+   "cat": "餐廳",
+   "cuisine": "Poutine",
+   "addr": "994 Rachel E",
+   "lat": 45.5253231,
+   "lng": -73.5748058,
+   "note": "24 小時營業；Large 兩人分剛好，別點 Extra-Large",
+   "src": [
+    "小紅書 2026-09、2026-10"
+   ],
+   "dishes": [
+    [
+     "經典 Poutine（Regular）",
+     "CA$9.99"
+    ],
+    [
+     "經典 Poutine（Large）",
+     "CA$17.25"
+    ]
+   ],
+   "price": "$",
+   "rating": "4.4 (21,157)",
+   "area": "city",
+   "tags": [],
+   "walk": 37,
+   "walk_hotel": 43
+  },
+  {
+   "name": "Ma Poule Mouillée",
+   "cat": "餐廳",
+   "cuisine": "葡式烤雞",
+   "addr": "969 Rachel E",
+   "lat": 45.5251666,
+   "lng": -73.5752559,
+   "note": "La Banquise 斜對面；週一休",
+   "src": [
+    "小紅書 2026-10"
+   ],
+   "dishes": [
+    [
+     "烤雞＋chorizo poutine",
+     "十幾元"
+    ],
+    [
+     "半雞",
+     ""
+    ]
+   ],
+   "price": "$",
+   "rating": "4.6 (11,622)",
+   "area": "city",
+   "tags": [],
+   "walk": 37,
+   "walk_hotel": 43
+  },
+  {
+   "name": "Drogheria Fine",
+   "cat": "餐廳",
+   "cuisine": "義式麵疙瘩",
+   "addr": "68 Fairmount O",
+   "lat": 45.5229987,
+   "lng": -73.595104,
+   "note": "外帶窗口；只收現金或 debit 卡；每天 11–18",
+   "src": [
+    "小紅書 2026-08"
+   ],
+   "dishes": [
+    [
+     "番茄麵疙瘩",
+     "約 CA$5–7"
+    ]
+   ],
+   "price": "$",
+   "rating": "4.4 (2,428)",
+   "area": "city",
+   "tags": [],
+   "walk": 42,
+   "walk_hotel": 45
+  },
+  {
+   "name": "St-Viateur Bagel",
+   "cat": "麵包",
+   "cuisine": "蒙特婁貝果",
+   "addr": "263 St-Viateur O",
+   "lat": 45.5226914,
+   "lng": -73.6019581,
+   "note": "木烤貝果，趁熱吃；每天 6–24",
+   "src": [
+    "小紅書 2026-09"
+   ],
+   "dishes": [
+    [
+     "芝麻貝果（單個）",
+     "約 CA$1.5"
+    ],
+    [
+     "奶油乳酪貝果套餐",
+     "約 CA$7–9"
+    ]
+   ],
+   "price": "$",
+   "rating": "4.6 (9,463)",
+   "area": "city",
+   "tags": [],
+   "walk": 48,
+   "walk_hotel": 50
   }
  ],
  "supermarkets": [
   {
-   "name": "Metro Avenue du Parc",
-   "cat": "超市",
-   "cuisine": "西式超市",
-   "addr": "3575 Av. du Parc（Galeries du Parc 地下）",
-   "lat": 45.5103472,
-   "lng": -73.5750221,
+   "name": "Pharmaprix",
+   "cat": "藥妝",
+   "cuisine": "藥妝／日用",
+   "addr": "1120 Ste-Catherine O",
+   "lat": 45.4995078,
+   "lng": -73.573083,
    "walk": 10,
-   "note": "離 McGill 最近的大型超市；小紅書：價格偏高，結帳要對價格",
-   "walk_hotel": 16
+   "note": "PC Optimum 積分（優惠日常變動，看 App）",
+   "walk_hotel": 6,
+   "tags": []
   },
   {
    "name": "Provigo（Canadiens-de-Montréal）",
@@ -529,7 +1680,48 @@
    "lng": -73.570662,
    "walk": 16,
    "note": "熟食、沙拉便宜；價格偏高",
-   "walk_hotel": 12
+   "walk_hotel": 12,
+   "tags": []
+  },
+  {
+   "name": "Marché Newon 興旺",
+   "cat": "亞洲超市",
+   "cuisine": "中式",
+   "addr": "1616 Ste-Catherine O（302）",
+   "lat": 45.4942305,
+   "lng": -73.5783546,
+   "walk": 20,
+   "note": "市中心華人主要採購點；出口有平價壽司櫃，可當便當",
+   "walk_hotel": 13,
+   "tags": [
+    "bento"
+   ]
+  },
+  {
+   "name": "Marché Korea（Downtown）",
+   "cat": "超市",
+   "cuisine": "韓國超市",
+   "addr": "1829 Ste-Catherine O",
+   "lat": 45.4934134,
+   "lng": -73.5799222,
+   "note": "有自製熟食：炸雞、飯糰、豬腳、冷凍飯捲 CA$5.99；白飯一盒 CA$1；10–21（週日 11–19）",
+   "tags": [
+    "bento"
+   ],
+   "walk": 22,
+   "walk_hotel": 15
+  },
+  {
+   "name": "Metro Avenue du Parc",
+   "cat": "超市",
+   "cuisine": "西式超市",
+   "addr": "3575 Av. du Parc（Galeries du Parc 地下）",
+   "lat": 45.5103472,
+   "lng": -73.5750221,
+   "walk": 10,
+   "note": "離 McGill 最近的大型超市；小紅書：價格偏高，結帳要對價格",
+   "walk_hotel": 16,
+   "tags": []
   },
   {
    "name": "Supermarché PA du Fort",
@@ -540,29 +1732,8 @@
    "lng": -73.5822384,
    "walk": 25,
    "note": "小紅書：比 Metro／IGA／Provigo 便宜",
-   "walk_hotel": 18
-  },
-  {
-   "name": "Adonis Downtown",
-   "cat": "超市",
-   "cuisine": "中東平價超市",
-   "addr": "2173 Ste-Catherine O",
-   "lat": 45.490521,
-   "lng": -73.5834647,
-   "walk": 28,
-   "note": "小紅書：比 Metro／IGA 便宜；烤肉、香料",
-   "walk_hotel": 22
-  },
-  {
-   "name": "Marché Newon 興旺",
-   "cat": "亞洲超市",
-   "cuisine": "中式",
-   "addr": "1616 Ste-Catherine O（302）",
-   "lat": 45.4942305,
-   "lng": -73.5783546,
-   "walk": 20,
-   "note": "市中心華人主要採購點；調料、蔬菜",
-   "walk_hotel": 13
+   "walk_hotel": 18,
+   "tags": []
   },
   {
    "name": "Bonjour Supermarché 你好",
@@ -573,7 +1744,8 @@
    "lng": -73.5829754,
    "walk": 25,
    "note": "涼拌菜、手工包子",
-   "walk_hotel": 18
+   "walk_hotel": 18,
+   "tags": []
   },
   {
    "name": "Marché Sheng Tang 盛唐",
@@ -584,7 +1756,8 @@
    "lng": -73.581975,
    "walk": 25,
    "note": "在 PA du Fort 對面，可一起買",
-   "walk_hotel": 18
+   "walk_hotel": 18,
+   "tags": []
   },
   {
    "name": "IGA Place Desjardins",
@@ -595,7 +1768,20 @@
    "lng": -73.5632642,
    "walk": 15,
    "note": "較遠但很大",
-   "walk_hotel": 20
+   "walk_hotel": 20,
+   "tags": []
+  },
+  {
+   "name": "Adonis Downtown",
+   "cat": "超市",
+   "cuisine": "中東平價超市",
+   "addr": "2173 Ste-Catherine O",
+   "lat": 45.490521,
+   "lng": -73.5834647,
+   "walk": 28,
+   "note": "小紅書：比 Metro／IGA 便宜；烤肉、香料",
+   "walk_hotel": 22,
+   "tags": []
   },
   {
    "name": "Segal's Market",
@@ -606,18 +1792,9 @@
    "lng": -73.5788495,
    "walk": 23,
    "note": "老牌平價市場，週日休；較遠",
-   "walk_hotel": 28
-  },
-  {
-   "name": "Pharmaprix",
-   "cat": "藥妝",
-   "cuisine": "藥妝／日用",
-   "addr": "1120 Ste-Catherine O",
-   "lat": 45.4995078,
-   "lng": -73.573083,
-   "walk": 10,
-   "note": "PC Optimum 積分；週二 8 折日",
-   "walk_hotel": 6
+   "walk_hotel": 28,
+   "tags": []
   }
- ]
+ ],
+ "checked": "2026-11-09"
 }

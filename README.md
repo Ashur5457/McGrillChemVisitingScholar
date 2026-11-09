@@ -1,15 +1,20 @@
-# McGill Chem Visiting Scholar 🧪🍁
+# McGill 交換生存攻略 🧪🍁
 
-到 McGill 大學化學系（Otto Maass Chemistry Building）短期訪問研究的住宿與生活整理：**走路通勤、可以自己下廚、有健身房**，冬季住約 5 週；附近餐廳與超市也一起整理。
+到 McGill 大學化學系（Otto Maass Chemistry Building）短期訪問研究的生存攻略：**住宿、美食、超市、交通、天氣、省錢、冬季活動**一次整理。冬季住約 5 週、走路通勤。資料來自小紅書筆記和網路，2026-11-09 查核。
 
-*Lodging notes for a short visiting-research stay near McGill Chemistry · Montréal, QC*
+*Survival guide for a short visiting-research stay near McGill Chemistry · Montréal, QC*
 
 ---
 
-## 🗺️ 地圖
+## 🌐 網站
 
-- 🏨 **住宿地圖**：[GitHub Pages](https://ashur5457.github.io/McGrillChemVisitingScholar/)（互動地圖＋可排序比較表）
-- 🍜 **餐廳・超市地圖**：[food.html](https://ashur5457.github.io/McGrillChemVisitingScholar/food.html)（可依類別篩選）
+👉 **[ashur5457.github.io/McGrillChemVisitingScholar](https://ashur5457.github.io/McGrillChemVisitingScholar/)**，三個分頁：
+
+- 🧭 [生存攻略](https://ashur5457.github.io/McGrillChemVisitingScholar/#guide)：交通、天氣、付錢與小費、手機、校園、買菜、晚上買便當、看病、冬天去哪玩
+- 🏨 [住宿](https://ashur5457.github.io/McGrillChemVisitingScholar/#lodging)：互動地圖＋可排序比較表
+- 🍜 [美食・超市](https://ashur5457.github.io/McGrillChemVisitingScholar/#food)：推薦餐點與價格、可依類別篩選（含「便當・熟食」「市區必吃」）
+
+舊的 `food.html` 連結會自動轉到美食分頁。
 - 📍 **想放進自己的 Google 地圖**：下載 [`places.kml`](places.kml)（住宿）或 [`food.kml`](food.kml)（餐廳・超市），到 [Google 我的地圖](https://www.google.com/maps/d/) 建新地圖 →「匯入」即可
 
 ## 🗓️ 條件
@@ -56,12 +61,20 @@
 
 ## 🍜 餐廳與超市
 
-整理自小紅書的 McGill 周邊美食合集與省錢筆記，**2026-11-09 逐家用 Google Maps 確認還在營業**（已停業、暫停營業、找不到的店都剔除）。
+整理自小紅書的 McGill 周邊美食合集、蒙特婁必吃清單與省錢筆記，**2026-11-09 逐家用 Google Maps 確認還在營業**（已停業、暫停營業、找不到的店都剔除）。每家都附推薦餐點、價格（筆記或菜單上的標價，或 Google Maps 人均）和 Google 評分。
 
-- 🍽️ 餐廳・咖啡・甜點 36 家，依離化學館步行時間排序
-- 🛒 超市・日用品 10 家，依離 Le Cantlie 步行時間排序（自己煮飯用）
+- 🍽️ 化學館附近 45 家，依步行時間排序
+- 🚇 蒙特婁市區必吃 13 家（Schwartz's、La Banquise、St-Viateur Bagel、Monarque…）
+- 🛒 超市・日用品 11 家，依離 Le Cantlie 步行時間排序
+- 🍱 晚上買便當：蒙特婁沒有日本那種固定時間貼半價的超市，改用 Too Good To Go、Flashfood、FoodHero 等 App，或平價便當店
 
-完整表格 👉 [`docs/food.md`](docs/food.md)｜地圖 👉 [food.html](https://ashur5457.github.io/McGrillChemVisitingScholar/food.html)
+完整表格 👉 [`docs/food.md`](docs/food.md)
+
+## 🧭 生存攻略
+
+交通（747、STM 票價、OPUS）、1–2 月天氣與穿著、稅金與小費、手機方案、McGill 健身房與圖書館、買菜省錢、晚上買便當、看病、冬季活動（Igloofest、魁北克冬季嘉年華、AURA 燈光秀）。每條都附來源。
+
+👉 [`docs/guide.md`](docs/guide.md)
 
 ## 🛂 入境小抄
 
@@ -72,13 +85,18 @@
 ```
 McGrillChemVisitingScholar/
 ├── README.md            # 本頁：總覽
-├── index.html           # 互動地圖＋住宿比較表（GitHub Pages）
-├── food.html            # 餐廳・超市互動地圖
+├── index.html           # 網站：生存攻略／住宿／美食三分頁（GitHub Pages）
+├── food.html            # 舊連結，自動轉到 index.html#food
 ├── places.kml           # 住宿座標（可匯入 Google 我的地圖）
-├── food.kml             # 餐廳・超市座標（可匯入 Google 我的地圖）
-├── data/
-│   └── food.json        # 餐廳・超市原始資料
+├── food.kml             # 餐廳・超市座標（由 tools/build_docs.py 產生）
+├── data/                # 唯一資料來源，網站直接讀取
+│   ├── guide.json       # 生存攻略內容＋來源
+│   ├── lodging.json     # 住宿資料
+│   └── food.json        # 餐廳・超市資料
+├── tools/
+│   └── build_docs.py    # 從 data/ 重新產生 docs/food.md、docs/guide.md、food.kml
 └── docs/
+    ├── guide.md         # 生存攻略（Markdown 版）
     ├── accommodation.md # 住宿詳細比較與小紅書筆記摘要
     ├── food.md          # 餐廳・超市表格
     └── immigration.md   # eTA／120 天研究豁免通用說明
