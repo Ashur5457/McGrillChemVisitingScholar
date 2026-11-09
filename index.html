@@ -207,8 +207,24 @@
   .fcard b { display: block; font: 900 1.5rem/1.2 var(--serif); color: #ff8a9b; position: relative; }
   .fcard h4 { margin: 4px 0; font-size: 1.05rem; color: #fff; position: relative; }
   .fcard .price { font-size: .78rem; color: var(--ice); letter-spacing: .05em; }
-  #v-lodging details { margin: 6px 0; } #v-lodging summary { cursor: pointer; font-weight: 700; }
-  #v-lodging details ul { margin: 4px 0 0; padding-left: 1.1em; } #v-lodging details li { margin: 2px 0; }
+  #v-lodging .nowrap { white-space: nowrap; }
+  #v-lodging .more { margin-top: 4px; color: var(--red); font-weight: 700; }
+  #v-lodging tr.open .more { visibility: hidden; }
+  #v-lodging tr.ldrow, #v-lodging tr.ldrow:hover { background: color-mix(in srgb, var(--red) 3%, transparent); cursor: default; }
+  #v-lodging .ldetail { display: grid; grid-template-columns: 1.2fr 1fr 1.3fr; gap: 18px; margin-bottom: 10px; }
+  #v-lodging .ldetail h4, #v-lodging summary { margin: 0 0 6px; font-size: .9rem; font-weight: 700; }
+  #v-lodging .ldetail p, #v-lodging .pcard details p { margin: 0 0 8px; font-size: .86rem; }
+  #v-lodging ul { margin: 0; padding-left: 1.1em; font-size: .86rem; } #v-lodging li { margin: 3px 0; }
+  #v-lodging .stays { display: grid; grid-template-columns: auto 1fr; gap: 3px 14px; font-size: .88rem; margin-bottom: 6px; }
+  #v-lodging .stays b { color: var(--red); }
+  #v-lodging .lprice { font: 900 1.25rem/1.3 var(--serif); color: var(--red); margin: 4px 0; }
+  #v-lodging .chips-l { display: flex; flex-wrap: wrap; gap: 6px; font-size: .78rem; margin: 6px 0; }
+  #v-lodging .chips-l span { border: 1px solid var(--line); border-radius: 999px; padding: 2px 9px; }
+  #v-lodging .pcard details { border-top: 1px solid var(--line); padding: 8px 0; }
+  #v-lodging .pcard details:first-of-type { margin-top: 10px; }
+  #v-lodging summary { cursor: pointer; margin: 0; }
+  #v-lodging details[open] summary { margin-bottom: 8px; }
+  #v-lodging .mapbtn { cursor: pointer; font: inherit; }
   .fcard p { font-size: .88rem; margin: 6px 0 10px; }
   .fcard sup a { color: var(--ice); }
   .wk { display: grid; gap: 12px; }
@@ -284,7 +300,7 @@
     <p class="note">紅圈＝化學館約 10 分鐘步行範圍；步行時間＝直線距離 × 1.3 ÷ 80 m/分。點表格或卡片可在地圖上定位。照片請點連結看原圖（版權因素不轉存）。</p>
     <div class="tablewrap"><table id="t-lodging">
       <thead><tr><th data-k="rank">推薦 ↕</th><th data-k="name">住宿</th><th data-k="walk">步行 ↕</th>
-        <th>廚房</th><th>健身房</th><th>早餐</th><th>禁菸</th><th>暖氣</th><th data-k="price">CAD／晚（含稅）↕</th><th>重點</th></tr></thead><tbody></tbody>
+        <th>廚房</th><th>健身房</th><th>早餐</th><th>禁菸</th><th>暖氣</th><th>長住優惠</th><th data-k="price">含稅價 ↕</th><th>重點</th></tr></thead><tbody></tbody>
     </table></div>
     <div class="cards" id="c-lodging"></div>
   </section>
@@ -423,28 +439,45 @@ INIT.lodging = async () => {
   const links = p => [`<a href="${p.gmap}" target="_blank" rel="noopener">📍 Google Maps ↗</a>`,
     p.official && `<a href="${p.official}" target="_blank" rel="noopener">🏨 官網 ↗</a>`,
     p.rednote && `<a href="${p.rednote}" target="_blank" rel="noopener">📕 小紅書 ↗</a>`].filter(Boolean).join(" · ");
-  const more = p => (p.stays ? `<div class="small"><b>📅 不同天數總價（1/5 入住）：</b>${esc(p.stays)}</div>` : "") + (p.longstay ? `<div class="small"><b>🏷️ 長住優惠：</b>${esc(p.longstay)}</div>` : "") +
-    (p.facilities?.length ? `<details class="small"><summary>完整設施與服務</summary><ul>${p.facilities.map(f => `<li>${esc(f)}</li>`).join("")}</ul></details>` : "");
+  const S = p => p.short || {};
+  const price = p => p.price ? `CA$${p.price}／晚` : "待查";
+  const mapBtn = p => `<button type="button" class="pin mapbtn" data-map="${esc(p.name)}">🗺️ 地圖</button>`;
+  /* three detail blocks, shared by the table's expand row and the phone cards */
+  const DETAIL = [
+    ["💰 價格明細", p => `<p>${esc(p.memo)}</p><div class="stays">${(p.stays || []).map(([n, v]) => `<span>${esc(n)}</span><b>${esc(v)}</b>`).join("")}</div>
+      <p class="small">${esc(p.stays_note || "")}</p>`],
+    ["🏷️ 長住優惠", p => `<p>${esc(p.longstay || "—")}</p>`],
+    ["🛎️ 完整設施", p => `<ul>${(p.facilities || []).map(f => `<li>${esc(f)}</li>`).join("")}</ul>`]];
   const markers = new Map();
   PLACES.forEach(p => markers.set(p.name, L.circleMarker([p.lat, p.lng], { radius: p.rank <= 2 ? 10 : 8, color: "#fff", weight: 2, fillColor: COLOR[p.rank], fillOpacity: .95 })
-    .addTo(map).bindPopup(`<b>${esc(p.name)}</b><br>${esc(p.addr)}<br>🚶 約 ${p.walk} 分｜🍳 ${esc(p.kitchen)}｜🏋️ ${esc(p.gym)}<br>${esc(p.memo)}<br>${links(p)}`)));
+    .addTo(map).bindPopup(`<b>${esc(p.name)}</b><br>${esc(p.addr)}<br>🚶 約 ${p.walk} 分｜${esc(price(p))}｜🍳 ${esc(S(p).kitchen || p.kitchen)}<br>${esc(p.note || p.memo)}<br>${links(p)}`)));
   const render = list => {
-    $("#t-lodging tbody").innerHTML = list.map(p => `<tr data-name="${esc(p.name)}">
+    $("#t-lodging tbody").innerHTML = list.map(p => { const s = S(p); return `<tr class="lmain" data-name="${esc(p.name)}">
       <td><span class="tag ${TAG[p.rank][1]}">${TAG[p.rank][0]}</span></td>
       <td><div class="name">${esc(p.name)}</div><div class="small">${esc(p.addr)}</div></td>
-      <td>~${p.walk} 分</td><td>${esc(p.kitchen)}</td><td>${esc(p.gym)}</td><td>${esc(p.breakfast)}</td>
-      <td>${esc(p.smoke || "—")}</td><td>${esc(p.heat || "—")}</td>
-      <td>${p.price ? "~" + p.price : "待查"}<div class="small">${esc(p.total || "")}</div></td><td class="small">${esc(p.memo)}${more(p)}${links(p)}</td></tr>`).join("");
-    $("#c-lodging").innerHTML = list.map(p => `<article class="pcard" data-name="${esc(p.name)}">
+      <td class="nowrap">~${p.walk} 分</td><td class="nowrap">${esc(s.kitchen || "—")}</td><td class="nowrap">${esc(s.gym || "—")}</td><td class="nowrap">${esc(s.breakfast || "—")}</td>
+      <td class="nowrap">${esc(s.smoke || "—")}</td><td class="nowrap">${esc(s.heat || "—")}</td><td>${esc(s.longstay || "—")}</td>
+      <td><b class="nowrap">${esc(price(p))}</b><div class="small">${esc(p.total || "")}</div></td>
+      <td class="small lnote">${esc(p.note || "")}<div class="more">▾ 細節</div></td></tr>
+      <tr class="ldrow" hidden><td colspan="11"><div class="ldetail">${DETAIL.map(([h, f]) => `<section><h4>${h}</h4>${f(p)}</section>`).join("")}</div>
+      <div class="pins">${links(p).split(" · ").map(a => a.replace("<a ", '<a class="pin" ')).join("")}${mapBtn(p)}</div></td></tr>`; }).join("");
+    $("#c-lodging").innerHTML = list.map(p => { const s = S(p); return `<article class="pcard" data-name="${esc(p.name)}">
       <span class="tag ${TAG[p.rank][1]}">${TAG[p.rank][0]}</span>
-      <h3>${esc(p.name)}</h3><div class="row"><span>${esc(p.addr)}</span><span>🚶 ~${p.walk} 分</span><span>💴 ${p.price ? "~CA$" + p.price + "／晚" : "待查"}</span></div>
-      <div class="row"><span>🍳 ${esc(p.kitchen)}</span><span>🏋️ ${esc(p.gym)}</span><span>🥐 ${esc(p.breakfast)}</span></div>
-      <div class="row"><span>🚭 ${esc(p.smoke || "—")}</span><span>🌡️ ${esc(p.heat || "—")}</span>${p.total ? `<span>🧾 ${esc(p.total)}</span>` : ""}</div>
-      <p>${esc(p.memo)}</p>${more(p)}<div class="pins">${links(p).split(" · ").map(a => a.replace("<a ", '<a class="pin" ')).join("")}</div></article>`).join("");
+      <h3>${esc(p.name)}</h3><div class="lprice">${esc(price(p))}</div><div class="small">${esc(p.total || "")}</div>
+      <div class="chips-l"><span>🚶 ${p.walk} 分</span><span>🍳 ${esc(s.kitchen || "—")}</span><span>🏋️ ${esc(s.gym || "—")}</span>
+        <span>🥐 ${esc(s.breakfast || "—")}</span><span>🚭 ${esc(s.smoke || "—")}</span><span>🏷️ ${esc(s.longstay || "—")}</span></div>
+      <p>${esc(p.note || "")}</p>
+      ${DETAIL.map(([h, f]) => `<details><summary>${h}</summary>${f(p)}</details>`).join("")}
+      <div class="pins">${links(p).split(" · ").map(a => a.replace("<a ", '<a class="pin" ')).join("")}${mapBtn(p)}</div></article>`; }).join("");
   };
   sortable($("#t-lodging"), () => PLACES, render, "rank")();
   const f = n => focusOn(map, markers, n, "#map-lodging");
-  clickToFocus($("#t-lodging tbody"), "tr", f); clickToFocus($("#c-lodging"), ".pcard", f);
+  /* table: click a row to expand its details; map focus only via the 🗺️ button */
+  const onClick = e => { const b = e.target.closest("[data-map]"); if (b) return f(b.dataset.map);
+    if (e.target.closest("a")) return;
+    const r = e.target.closest("tr.lmain"); if (!r) return;
+    const d = r.nextElementSibling; d.hidden = !d.hidden; r.classList.toggle("open", !d.hidden); };
+  $("#t-lodging tbody").addEventListener("click", onClick); $("#c-lodging").addEventListener("click", onClick);
 };
 
 /* food */
