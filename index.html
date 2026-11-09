@@ -207,6 +207,8 @@
   .fcard b { display: block; font: 900 1.5rem/1.2 var(--serif); color: #ff8a9b; position: relative; }
   .fcard h4 { margin: 4px 0; font-size: 1.05rem; color: #fff; position: relative; }
   .fcard .price { font-size: .78rem; color: var(--ice); letter-spacing: .05em; }
+  #v-lodging details { margin: 6px 0; } #v-lodging summary { cursor: pointer; font-weight: 700; }
+  #v-lodging details ul { margin: 4px 0 0; padding-left: 1.1em; } #v-lodging details li { margin: 2px 0; }
   .fcard p { font-size: .88rem; margin: 6px 0 10px; }
   .fcard sup a { color: var(--ice); }
   .wk { display: grid; gap: 12px; }
@@ -421,6 +423,8 @@ INIT.lodging = async () => {
   const links = p => [`<a href="${p.gmap}" target="_blank" rel="noopener">📍 Google Maps ↗</a>`,
     p.official && `<a href="${p.official}" target="_blank" rel="noopener">🏨 官網 ↗</a>`,
     p.rednote && `<a href="${p.rednote}" target="_blank" rel="noopener">📕 小紅書 ↗</a>`].filter(Boolean).join(" · ");
+  const more = p => (p.longstay ? `<div class="small"><b>🏷️ 長住優惠：</b>${esc(p.longstay)}</div>` : "") +
+    (p.facilities?.length ? `<details class="small"><summary>完整設施與服務</summary><ul>${p.facilities.map(f => `<li>${esc(f)}</li>`).join("")}</ul></details>` : "");
   const markers = new Map();
   PLACES.forEach(p => markers.set(p.name, L.circleMarker([p.lat, p.lng], { radius: p.rank <= 2 ? 10 : 8, color: "#fff", weight: 2, fillColor: COLOR[p.rank], fillOpacity: .95 })
     .addTo(map).bindPopup(`<b>${esc(p.name)}</b><br>${esc(p.addr)}<br>🚶 約 ${p.walk} 分｜🍳 ${esc(p.kitchen)}｜🏋️ ${esc(p.gym)}<br>${esc(p.memo)}<br>${links(p)}`)));
@@ -430,13 +434,13 @@ INIT.lodging = async () => {
       <td><div class="name">${esc(p.name)}</div><div class="small">${esc(p.addr)}</div></td>
       <td>~${p.walk} 分</td><td>${esc(p.kitchen)}</td><td>${esc(p.gym)}</td><td>${esc(p.breakfast)}</td>
       <td>${esc(p.smoke || "—")}</td><td>${esc(p.heat || "—")}</td>
-      <td>${p.price ? "~" + p.price : "待查"}<div class="small">${esc(p.total || "")}</div></td><td class="small">${esc(p.memo)}<br>${links(p)}</td></tr>`).join("");
+      <td>${p.price ? "~" + p.price : "待查"}<div class="small">${esc(p.total || "")}</div></td><td class="small">${esc(p.memo)}${more(p)}${links(p)}</td></tr>`).join("");
     $("#c-lodging").innerHTML = list.map(p => `<article class="pcard" data-name="${esc(p.name)}">
       <span class="tag ${TAG[p.rank][1]}">${TAG[p.rank][0]}</span>
       <h3>${esc(p.name)}</h3><div class="row"><span>${esc(p.addr)}</span><span>🚶 ~${p.walk} 分</span><span>💴 ${p.price ? "~CA$" + p.price + "／晚" : "待查"}</span></div>
       <div class="row"><span>🍳 ${esc(p.kitchen)}</span><span>🏋️ ${esc(p.gym)}</span><span>🥐 ${esc(p.breakfast)}</span></div>
       <div class="row"><span>🚭 ${esc(p.smoke || "—")}</span><span>🌡️ ${esc(p.heat || "—")}</span>${p.total ? `<span>🧾 ${esc(p.total)}</span>` : ""}</div>
-      <p>${esc(p.memo)}</p><div class="pins">${links(p).split(" · ").map(a => a.replace("<a ", '<a class="pin" ')).join("")}</div></article>`).join("");
+      <p>${esc(p.memo)}</p>${more(p)}<div class="pins">${links(p).split(" · ").map(a => a.replace("<a ", '<a class="pin" ')).join("")}</div></article>`).join("");
   };
   sortable($("#t-lodging"), () => PLACES, render, "rank")();
   const f = n => focusOn(map, markers, n, "#map-lodging");
