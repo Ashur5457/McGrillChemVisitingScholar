@@ -8,11 +8,12 @@
 
 ## 🌐 網站
 
-👉 **[ashur5457.github.io/McGrillChemVisitingScholar](https://ashur5457.github.io/McGrillChemVisitingScholar/)**，三個分頁：
+👉 **[ashur5457.github.io/McGrillChemVisitingScholar](https://ashur5457.github.io/McGrillChemVisitingScholar/)**，四個分頁：
 
 - 🧭 [生存攻略](https://ashur5457.github.io/McGrillChemVisitingScholar/#guide)：交通、天氣、付錢與小費、手機、校園、買菜、晚上買便當、看病、冬天去哪玩
 - 🏨 [住宿](https://ashur5457.github.io/McGrillChemVisitingScholar/#lodging)：互動地圖＋可排序比較表
-- 🍜 [美食・超市](https://ashur5457.github.io/McGrillChemVisitingScholar/#food)：推薦餐點與價格、可依類別篩選（含「便當・熟食」「市區必吃」）
+- 🍜 [美食](https://ashur5457.github.io/McGrillChemVisitingScholar/#food)：推薦餐點與價格、可依類別篩選（含「便當・熟食」「市區必吃」）
+- 🛒 [超市](https://ashur5457.github.io/McGrillChemVisitingScholar/#grocery)：15 家超市・藥妝・酒類專賣的特色商品、適合買什麼、注意事項
 
 舊的 `food.html` 連結會自動轉到美食分頁。
 - 📍 **想放進自己的 Google 地圖**：下載 [`places.kml`](places.kml)（住宿）或 [`food.kml`](food.kml)（餐廳・超市），到 [Google 我的地圖](https://www.google.com/maps/d/) 建新地圖 →「匯入」即可
@@ -65,10 +66,15 @@
 
 - 🍽️ 化學館附近 45 家，依步行時間排序
 - 🚇 蒙特婁市區必吃 13 家（Schwartz's、La Banquise、St-Viateur Bagel、Monarque…）
-- 🛒 超市・日用品 11 家，依離 Le Cantlie 步行時間排序
 - 🍱 晚上買便當：蒙特婁沒有日本那種固定時間貼半價的超市，改用 Too Good To Go、Flashfood、FoodHero 等 App，或平價便當店
 
 完整表格 👉 [`docs/food.md`](docs/food.md)
+
+## 🛒 超市
+
+市中心 15 家（PA、Adonis、Metro、IGA、Provigo、興旺、Marché Korea、你好超市、盛唐、G&D、Segal's、Dollarama、Pharmaprix、SAQ、Atwater 市場），每家整理了特色商品（小紅書＋網路＋Google 評論）、適合買什麼和注意事項；另列 3 家要搭車的大型華人超市（大統華、世紀、金發）。
+
+👉 [`docs/grocery.md`](docs/grocery.md)
 
 ## 🧭 生存攻略
 
@@ -92,13 +98,15 @@ McGrillChemVisitingScholar/
 ├── data/                # 唯一資料來源，網站直接讀取
 │   ├── guide.json       # 生存攻略內容＋來源
 │   ├── lodging.json     # 住宿資料
-│   └── food.json        # 餐廳・超市資料
+│   ├── food.json        # 餐廳資料
+│   └── grocery.json     # 超市資料
 ├── tools/
-│   └── build_docs.py    # 從 data/ 重新產生 docs/food.md、docs/guide.md、food.kml
+│   └── build_docs.py    # 從 data/ 重新產生 docs/*.md 和 food.kml
 └── docs/
     ├── guide.md         # 生存攻略（Markdown 版）
     ├── accommodation.md # 住宿詳細比較與小紅書筆記摘要
-    ├── food.md          # 餐廳・超市表格
+    ├── food.md          # 餐廳表格
+    ├── grocery.md       # 超市特色整理
     └── immigration.md   # eTA／120 天研究豁免通用說明
 ```
 

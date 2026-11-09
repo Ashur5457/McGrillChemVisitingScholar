@@ -57,7 +57,7 @@
 
 ## 🛒 買菜與省錢
 
-> 自己煮最省；PA、Adonis 比 Metro、IGA 便宜。
+> 自己煮最省；15 家超市的特色商品請看「🛒 超市」分頁。
 
 - **哪家超市便宜**：Super C、Maxi、Adonis、PA 通常比 Metro、IGA、Provigo 便宜。市中心最方便的是 PA du Fort、Adonis、Metro（Av. du Parc）。[^3][^4]<br>📍 [PA du Fort](https://www.google.com/maps/search/?api=1&query=Supermarch%C3%A9+PA+du+Fort+1420+rue+du+Fort+Montreal)<br>📍 [Adonis Downtown](https://www.google.com/maps/search/?api=1&query=Adonis+2173+Sainte-Catherine+O+Montreal)<br>📍 [Metro Av. du Parc](https://www.google.com/maps/search/?api=1&query=Metro+3575+Avenue+du+Parc+Montreal)
 - **亞洲食材**：Marché Newon 興旺最齊；Marché Korea 有熟食和飯糰；唐人街有 G&D 超市。[^18]<br>📍 [Marché Newon 興旺](https://www.google.com/maps/search/?api=1&query=March%C3%A9+Newon+1616+Sainte-Catherine+O+Montreal)<br>📍 [Marché Korea](https://www.google.com/maps/search/?api=1&query=March%C3%A9+Korea+1829+Sainte-Catherine+O+Montreal)<br>📍 [G&D 超市](https://www.google.com/maps/search/?api=1&query=G+%26+D+Supermarket+1006+Saint-Laurent+Montreal)

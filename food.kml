@@ -301,59 +301,79 @@
   <Folder>
     <name>超市・日用品</name>
     <Placemark>
-      <name>Pharmaprix</name>
-      <description>1120 Ste-Catherine O｜｜PC Optimum 積分（優惠日常變動，看 App）</description>
-      <Point><coordinates>-73.573083,45.4995078,0</coordinates></Point>
-    </Placemark>
-    <Placemark>
       <name>Provigo（Canadiens-de-Montréal）</name>
-      <description>1275 Av. des Canadiens-de-Montréal｜｜熟食、沙拉便宜；價格偏高</description>
+      <description>1275 Av. des Canadiens-de-Montréal #200｜｜Loblaw 集團超市，熟食區是重點，在中央車站和 Bell Centre 附近。</description>
       <Point><coordinates>-73.570662,45.496439,0</coordinates></Point>
     </Placemark>
     <Placemark>
-      <name>Marché Newon 興旺</name>
-      <description>1616 Ste-Catherine O（302）｜｜市中心華人主要採購點；出口有平價壽司櫃，可當便當</description>
+      <name>Marché Newon 興旺（Downtown）</name>
+      <description>1616 Ste-Catherine O #302｜｜市中心最齊全的亞洲超市，不開車也能大採購。</description>
       <Point><coordinates>-73.5783546,45.4942305,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>Marché Korea（Downtown）</name>
-      <description>1829 Ste-Catherine O｜｜有自製熟食：炸雞、飯糰、豬腳、冷凍飯捲 CA$5.99；白飯一盒 CA$1；10–21（週日 11–19）</description>
+      <description>1829 Ste-Catherine O｜｜小而乾淨的韓國超市，自製熟食很受歡迎。</description>
       <Point><coordinates>-73.5799222,45.4934134,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>Metro Avenue du Parc</name>
-      <description>3575 Av. du Parc（Galeries du Parc 地下）｜｜離 McGill 最近的大型超市；小紅書：價格偏高，結帳要對價格</description>
+      <description>3575 Av. du Parc（Galeries du Parc 地下）｜｜離 McGill 最近的大型超市，在地下商場裡。</description>
       <Point><coordinates>-73.5750221,45.5103472,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>Supermarché PA du Fort</name>
-      <description>1420 rue du Fort｜｜小紅書：比 Metro／IGA／Provigo 便宜</description>
+      <description>1420 rue du Fort｜｜小紅書公認比 Metro／IGA 便宜的獨立超市，蔬果最划算。</description>
       <Point><coordinates>-73.5822384,45.4921202,0</coordinates></Point>
     </Placemark>
     <Placemark>
-      <name>Bonjour Supermarché 你好</name>
-      <description>2070 De Maisonneuve O｜｜涼拌菜、手工包子</description>
-      <Point><coordinates>-73.5829754,45.4922312,0</coordinates></Point>
-    </Placemark>
-    <Placemark>
       <name>Marché Sheng Tang 盛唐</name>
-      <description>1425 rue du Fort｜｜在 PA du Fort 對面，可一起買</description>
+      <description>1425 rue du Fort｜｜就在 PA 對面，可以一次把西式和中式食材買齊。</description>
       <Point><coordinates>-73.581975,45.492314,0</coordinates></Point>
     </Placemark>
     <Placemark>
+      <name>Bonjour Supermarché 你好</name>
+      <description>2070 De Maisonneuve O｜｜小型中超，即食便當是招牌。</description>
+      <Point><coordinates>-73.5829754,45.4922312,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
       <name>IGA Place Desjardins</name>
-      <description>5 Place Desjardins｜｜較遠但很大</description>
+      <description>5 Place Desjardins｜｜唐人街旁的大型 IGA，營業到晚上 11 點。</description>
       <Point><coordinates>-73.5632642,45.5076595,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>Adonis Downtown</name>
-      <description>2173 Ste-Catherine O｜｜小紅書：比 Metro／IGA 便宜；烤肉、香料</description>
+      <description>2173 Ste-Catherine O｜｜以中東食材起家（Metro 集團旗下），小紅書說比 Metro／IGA 便宜。</description>
       <Point><coordinates>-73.5834647,45.490521,0</coordinates></Point>
     </Placemark>
     <Placemark>
+      <name>G&amp;D Supermarket</name>
+      <description>1006 Saint-Laurent｜｜唐人街的亞洲超市，小紅書稱「家樂福」，入口在蘭州拉麵店裡。</description>
+      <Point><coordinates>-73.5596307,45.5077382,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
       <name>Segal's Market</name>
-      <description>4001 Boul. Saint-Laurent｜｜老牌平價市場，週日休；較遠</description>
+      <description>4001 Saint-Laurent｜｜1927 年開到現在的平價老店，在 Schwartz's 隔壁。</description>
       <Point><coordinates>-73.5788495,45.5168692,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pharmaprix（Ste-Catherine）</name>
+      <description>1120 Ste-Catherine O｜｜加拿大連鎖藥妝（魁北克以外叫 Shoppers Drug Mart），化妝品、成藥、日用品都有。</description>
+      <Point><coordinates>-73.573083,45.4995078,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>SAQ Express（Ste-Catherine／Stanley）</name>
+      <description>1176 Ste-Catherine O｜｜魁北克的烈酒和葡萄酒由 SAQ 專賣；超市只賣啤酒和部分葡萄酒。</description>
+      <Point><coordinates>-73.573517,45.499011,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Dollarama（Promenades Cathédrale）</name>
+      <description>625 Ste-Catherine O｜｜加拿大版大創／一元店，從 McGill 地鐵站地下直通。</description>
+      <Point><coordinates>-73.569419,45.50336,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Marché Atwater 阿特沃特市場</name>
+      <description>138 Av. Atwater｜｜全年開放的室內市場，買在地特產和伴手禮。</description>
+      <Point><coordinates>-73.5769653,45.4795202,0</coordinates></Point>
     </Placemark>
   </Folder>
 </Document>

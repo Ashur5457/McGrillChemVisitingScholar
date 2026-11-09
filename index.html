@@ -179,6 +179,23 @@
   .pcard .dish { font-size: .9rem; }
   .pcard p { margin: 6px 0 0; font-size: .86rem; color: var(--muted); }
   @media (max-width: 720px) { .tablewrap { display: none; } .cards { display: grid; } }
+
+  /* grocery */
+  .tipbox { background: var(--night); color: #dfe6f1; border-radius: 16px; padding: 16px 20px; margin-bottom: 14px; }
+  .tipbox h3 { font: 900 1.05rem/1.4 var(--serif); color: #f6e7c8; margin: 0 0 6px; }
+  .tipbox ul { margin: 0; padding-left: 18px; } .tipbox li { margin: 4px 0; }
+  .tipbox sup a { color: var(--ice); }
+  .shops { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 14px; margin-top: 14px; }
+  .shop { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; min-width: 0;
+    border-top: 4px solid var(--c, var(--shop)); }
+  .shop h3 { margin: 4px 0 0; font: 900 1.12rem/1.35 var(--serif); }
+  .shop .zh { color: var(--muted); font-size: .82rem; }
+  .shop .row { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: .8rem; color: var(--muted); margin: 6px 0; }
+  .shop .lead { margin: 6px 0 8px; color: var(--ink); font-size: .92rem; }
+  .shop ul { margin: 0 0 8px; padding-left: 18px; font-size: .9rem; } .shop li { margin: 2px 0; }
+  .shop dl { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; margin: 0 0 10px; font-size: .86rem; }
+  .shop dt { color: var(--muted); white-space: nowrap; } .shop dd { margin: 0; }
+  @media (max-width: 720px) { .shops { grid-template-columns: 1fr; } }
   footer { text-align: center; color: var(--muted); font-size: .78rem; padding: 24px 16px 32px; }
 </style>
 </head>
@@ -205,7 +222,8 @@
 <nav class="tabs" aria-label="分頁"><div class="wrap">
   <a href="#guide"><i>🧭</i>生存攻略</a>
   <a href="#lodging"><i>🏨</i>住宿</a>
-  <a href="#food"><i>🍜</i>美食・超市</a>
+  <a href="#food"><i>🍜</i>美食</a>
+  <a href="#grocery"><i>🛒</i>超市</a>
 </div></nav>
 
 <main class="wrap">
@@ -233,8 +251,8 @@
   </section>
 
   <section id="v-food" hidden>
-    <div class="sechead"><div class="kicker">Eat &amp; Shop</div><h2>美食・超市</h2>
-      <p>化學館附近、市區必吃、超市和便當，2026-11-09 逐家用 Google Maps 確認仍在營業。</p></div>
+    <div class="sechead"><div class="kicker">Eat</div><h2>美食</h2>
+      <p>化學館附近、市區必吃和便當，2026-11-09 逐家用 Google Maps 確認仍在營業。超市熟食請看 <a href="#grocery">🛒 超市分頁</a>。</p></div>
     <div class="chips scroll" id="filters"></div>
     <div id="map-food" class="map" role="region" aria-label="美食地圖"></div>
     <div class="legend">
@@ -242,7 +260,6 @@
       <span><i class="dot sq" style="background:var(--ink)"></i>Le Cantlie</span>
       <span><i class="dot" style="background:var(--food)"></i>附近餐廳</span>
       <span><i class="dot" style="background:var(--city)"></i>市區必吃</span>
-      <span><i class="dot" style="background:var(--shop)"></i>超市</span>
       <span><i class="dot" style="background:var(--bento)"></i>便當・熟食</span>
     </div>
     <p class="note">推薦餐點來自小紅書筆記與 Google Maps「熱門餐點」；紅字是筆記或菜單上的價格，「人均」是 Google Maps 使用者回報的每人花費。價格未含稅和小費。</p>
@@ -251,6 +268,18 @@
         <th data-k="rating">Google ↕</th><th data-k="walk">化學館 ↕</th><th data-k="walk_hotel">Le Cantlie ↕</th><th>重點</th></tr></thead><tbody></tbody>
     </table></div>
     <div class="cards" id="c-food"></div>
+  </section>
+  <section id="v-grocery" hidden>
+    <div class="sechead"><div class="kicker">Groceries</div><h2>超市：買菜、熟食、日用品</h2>
+      <p>市中心 15 家，依離 Le Cantlie 步行時間排序；每家寫了特色商品、適合買什麼和注意事項。</p></div>
+    <div class="tipbox" id="g-tips"></div>
+    <div class="chips scroll" id="g-filters"></div>
+    <div id="map-grocery" class="map" role="region" aria-label="超市地圖"></div>
+    <div class="legend" id="g-legend"></div>
+    <div class="shops" id="g-shops"></div>
+    <div class="sechead"><div class="kicker">Worth the trip</div><h2>要搭車的大型華人超市</h2></div>
+    <div class="shops" id="g-far"></div>
+    <div class="srcbox"><div class="kicker" style="color:var(--red)">Sources</div><h2>資料來源</h2><ol class="src" id="g-src"></ol></div>
   </section>
 </main>
 <footer>Last updated 2026-11-09 · 地圖 © OpenStreetMap contributors · <a href="https://github.com/Ashur5457/McGrillChemVisitingScholar">GitHub</a></footer>
@@ -273,7 +302,7 @@ const load = n => DATA[n] ? Promise.resolve(DATA[n]) : fetch(`data/${n}.json`).t
   e.style.animationDelay = -Math.random() * 18 + "s"; e.style.opacity = .3 + Math.random() * .6; s.appendChild(e); } })();
 
 /* tabs */
-const VIEWS = ["guide", "lodging", "food"], MAPS = {}, inited = {}, INIT = {};
+const VIEWS = ["guide", "lodging", "food", "grocery"], MAPS = {}, inited = {}, INIT = {};
 function show() {
   const v = VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : "guide";
   VIEWS.forEach(x => { $("#v-" + x).hidden = x !== v;
@@ -365,18 +394,18 @@ INIT.lodging = async () => {
 /* food */
 INIT.food = async () => {
   const d = await load("food");
-  const all = [...d.restaurants.map(r => ({ ...r, kind: "r" })), ...d.supermarkets.map(r => ({ ...r, kind: "s" }))];
+  const all = d.restaurants;
   const isB = r => (r.tags || []).includes("bento");
-  const color = r => isB(r) ? css("--bento") : r.kind === "s" ? css("--shop") : r.area === "city" ? css("--city") : css("--food");
+  const color = r => isB(r) ? css("--bento") : r.area === "city" ? css("--city") : css("--food");
   const FILTERS = [["全部", () => true], ["🍽️ 餐廳", r => r.cat === "餐廳"], ["☕ 咖啡", r => r.cat === "咖啡"],
     ["🍰 甜點・麵包", r => ["甜點", "麵包"].includes(r.cat)], ["🧋 飲料", r => r.cat === "飲料"], ["🍺 酒吧", r => r.cat === "酒吧"],
-    ["🍱 便當・熟食", isB], ["🚇 市區必吃", r => r.area === "city"], ["🛒 超市", r => r.kind === "s"]];
+    ["🍱 便當・熟食", isB], ["🚇 市區必吃", r => r.area === "city"]];
   const q = r => r.name.replace(/（.*?）/g, " ") + " " + r.addr + " Montreal";
   const map = MAPS.food = baseMap("map-food", { lat: 45.5035, lng: -73.572 }, 14);
   square([CHEM.lat, CHEM.lng], css("--red"), "<b>🧪 化學館</b>", map);
   square([HOTEL.lat, HOTEL.lng], css("--ink"), "<b>🏨 Le Cantlie Suites</b>", map);
   const dishes = r => (r.dishes || []).map(([n, p]) => `<div class="dish">${esc(n)}${p ? ` <b>${esc(p)}</b>` : ""}</div>`).join("");
-  const tags = r => (r.kind === "s" ? '<span class="tag t-ok">超市</span> ' : r.area === "city" ? '<span class="tag t-city">市區必吃</span> ' : "")
+  const tags = r => (r.area === "city" ? '<span class="tag t-city">市區必吃</span> ' : "")
     + (isB(r) ? '<span class="tag t-bento">便當</span>' : "");
   const markers = new Map();
   all.forEach(r => markers.set(r.name, L.circleMarker([r.lat, r.lng], { radius: 7, color: "#fff", weight: 1.5, fillColor: color(r), fillOpacity: .95 }).addTo(map)
@@ -404,6 +433,54 @@ INIT.food = async () => {
   resort();
   const f = n => focusOn(map, markers, n, "#map-food");
   clickToFocus($("#t-food tbody"), "tr", f); clickToFocus($("#c-food"), ".pcard", f);
+};
+
+/* grocery */
+INIT.grocery = async () => {
+  const g = await load("grocery"), order = [];
+  const ref = id => (order.includes(id) || order.push(id), order.indexOf(id) + 1);
+  const sups = ids => ids.map(id => `<sup><a href="#gs-${id}" data-gsrc="${id}">[${ref(id)}]</a></sup>`).join("");
+  const KIND = [["華人", "#e03131"], ["韓國", "#e03131"], ["中東", "#f08c00"], ["平價", "#2b8a3e"], ["連鎖", "#1c7ed6"],
+    ["百貨", "#7048e8"], ["藥妝", "#7048e8"], ["酒", "#7048e8"], ["市場", "#a61e4d"]];
+  const kc = s => (KIND.find(([k]) => s.kind.includes(k)) || [, "#1c7ed6"])[1];
+  const GROUPS = [["全部", () => true], ["🥢 亞洲超市", s => /華人|韓國/.test(s.kind)], ["💰 平價", s => s.price === "$"],
+    ["🍱 有熟食・便當", s => s.tags.includes("bento")], ["🧴 日用・藥妝・酒", s => /百貨|藥妝|酒/.test(s.kind)]];
+  $("#g-tips").innerHTML = `<h3>🛒 買菜重點</h3><ul>${g.tips.map(([t, src]) => `<li>${esc(t)}${sups(src)}</li>`).join("")}</ul>`;
+  const map = MAPS.grocery = baseMap("map-grocery", { lat: 45.497, lng: -73.574 }, 14);
+  square([CHEM.lat, CHEM.lng], css("--red"), "<b>🧪 化學館</b>", map);
+  square([HOTEL.lat, HOTEL.lng], css("--ink"), "<b>🏨 Le Cantlie Suites</b>", map);
+  const q = s => s.name.replace(/（.*?）/g, " ") + " " + s.addr.replace(/（.*?）/g, "") + " Montreal";
+  const markers = new Map();
+  g.stores.forEach(s => markers.set(s.name, L.circleMarker([s.lat, s.lng], { radius: 8, color: "#fff", weight: 2, fillColor: kc(s), fillOpacity: .95 })
+    .addTo(map).bindPopup(`<b>${esc(s.name)}</b><br>${esc(s.kind)}｜${esc(s.hours)}<br>${esc(s.lead)}<br>${pin("Google Maps", q(s))}`)));
+  const seen = new Map(); g.stores.forEach(s => seen.set(s.kind, kc(s)));
+  $("#g-legend").innerHTML = `<span><i class="dot sq" style="background:var(--red)"></i>化學館</span><span><i class="dot sq" style="background:var(--ink)"></i>Le Cantlie</span>`
+    + [...seen].map(([k, c]) => `<span><i class="dot" style="background:${c}"></i>${esc(k)}</span>`).join("");
+  const card = s => `<article class="shop" style="--c:${kc(s)}" data-name="${esc(s.name)}">
+    <span class="tag" style="background:color-mix(in srgb, ${kc(s)} 16%, transparent);color:${kc(s)}">${esc(s.kind)}</span>
+    ${s.tags.includes("bento") ? '<span class="tag t-bento">熟食・便當</span>' : ""}
+    <h3>${esc(s.name)}</h3><div class="zh">${esc(s.addr)}</div>
+    <div class="row"><span>⭐ ${esc(s.rating)}</span><span>💰 ${esc(s.price)}</span><span>🕒 ${esc(s.hours)}</span></div>
+    <div class="row"><span>🏨 Le Cantlie ${walkTxt(s.walk_hotel)}</span><span>🧪 化學館 ${walkTxt(s.walk)}</span></div>
+    <p class="lead">${esc(s.lead)}${sups(s.src)}</p>
+    <ul>${s.highlights.map(h => `<li>${esc(h)}</li>`).join("")}</ul>
+    <dl><dt>適合買</dt><dd>${esc(s.best)}</dd><dt>注意</dt><dd>${esc(s.caution)}</dd></dl>
+    <div class="pins">${pin("在 Google Maps 查看", q(s))}</div></article>`;
+  let pred = GROUPS[0][1];
+  const render = () => { $("#g-shops").innerHTML = g.stores.filter(pred).map(card).join("");
+    markers.forEach((m, n) => pred(g.stores.find(x => x.name === n)) ? m.addTo(map) : m.remove()); };
+  $("#g-filters").innerHTML = GROUPS.map(([t], i) => `<button class="chip" aria-pressed="${i === 0}" data-i="${i}">${t}</button>`).join("");
+  $("#g-filters").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
+    document.querySelectorAll("#g-filters button").forEach(x => x.setAttribute("aria-pressed", x === b)); pred = GROUPS[b.dataset.i][1]; render(); });
+  render();
+  $("#g-far").innerHTML = g.far.map(f => `<article class="shop" style="--c:#e03131"><span class="tag t-city">要搭車</span><h3>${esc(f.name)}</h3>
+    <p class="lead">${esc(f.t)}${sups(f.src)}</p>
+    <div class="pins">${pin("在 Google Maps 查看", f.q)}</div></article>`).join("");
+  $("#g-src").innerHTML = order.map(id => { const [t, u] = g.sources[id];
+    return `<li id="gs-${id}"><a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a></li>`; }).join("");
+  clickToFocus($("#g-shops"), ".shop", n => focusOn(map, markers, n, "#map-grocery"));
+  document.addEventListener("click", e => { const a = e.target.closest("[data-gsrc]"); if (!a) return;
+    e.preventDefault(); $("#gs-" + a.dataset.gsrc).scrollIntoView({ behavior: "smooth" }); });
 };
 
 show();

@@ -1,4 +1,6 @@
-# 🍜🛒 McGill 化學館附近與蒙特婁：餐廳與超市
+# 🍜 McGill 化學館附近與蒙特婁：餐廳
+
+超市請看 [grocery.md](grocery.md)。
 
 **2026-11-09 逐家用 Google Maps 確認仍在營業。** 推薦餐點來自小紅書筆記與 Google Maps「熱門餐點」；有標價的是筆記或菜單上的價格，「人均」是 Google Maps 使用者回報的每人花費。價格未含稅和小費。步行時間＝直線距離 × 1.3 ÷ 80 m/分；超過 25 分標「搭車」。🍱＝可以當便當／熟食。
 
@@ -71,22 +73,6 @@
 | [**Ma Poule Mouillée**](https://www.google.com/maps/search/?api=1&query=Ma+Poule+Mouill%C3%A9e+969+Rachel+E+Montreal)<br>969 Rachel E | 餐廳・葡式烤雞 | 烤雞＋chorizo poutine **十幾元**<br>半雞 | $ | 4.6 (11,622) | 搭車 | 搭車 | La Banquise 斜對面；週一休 |
 | [**Drogheria Fine**](https://www.google.com/maps/search/?api=1&query=Drogheria+Fine+68+Fairmount+O+Montreal)<br>68 Fairmount O | 餐廳・義式麵疙瘩 | 番茄麵疙瘩 **約 CA$5–7** | $ | 4.4 (2,428) | 搭車 | 搭車 | 外帶窗口；只收現金或 debit 卡；每天 11–18 |
 | [**St-Viateur Bagel**](https://www.google.com/maps/search/?api=1&query=St-Viateur+Bagel+263+St-Viateur+O+Montreal)<br>263 St-Viateur O | 麵包・蒙特婁貝果 | 芝麻貝果（單個） **約 CA$1.5**<br>奶油乳酪貝果套餐 **約 CA$7–9** | $ | 4.6 (9,463) | 搭車 | 搭車 | 木烤貝果，趁熱吃；每天 6–24 |
-
-## 🛒 超市・日用品（依離 Le Cantlie 步行時間排序）
-
-| 店名 | 類型 | Le Cantlie | 重點 |
-|---|---|---|---|
-| [**Pharmaprix**](https://www.google.com/maps/search/?api=1&query=Pharmaprix+1120+Ste-Catherine+O+Montreal)<br>1120 Ste-Catherine O | 藥妝／日用 | ~6 分 | PC Optimum 積分（優惠日常變動，看 App） |
-| [**Provigo（Canadiens-de-Montréal）**](https://www.google.com/maps/search/?api=1&query=Provigo%EF%BC%88Canadiens-de-Montr%C3%A9al%EF%BC%89+1275+Av.+des+Canadiens-de-Montr%C3%A9al+Montreal)<br>1275 Av. des Canadiens-de-Montréal | 西式超市 | ~12 分 | 熟食、沙拉便宜；價格偏高 |
-| [**Marché Newon 興旺**](https://www.google.com/maps/search/?api=1&query=March%C3%A9+Newon+%E8%88%88%E6%97%BA+1616+Ste-Catherine+O%EF%BC%88302%EF%BC%89+Montreal)<br>1616 Ste-Catherine O（302） | 中式 | ~13 分 | 市中心華人主要採購點；出口有平價壽司櫃，可當便當 🍱 |
-| [**Marché Korea（Downtown）**](https://www.google.com/maps/search/?api=1&query=March%C3%A9+Korea%EF%BC%88Downtown%EF%BC%89+1829+Ste-Catherine+O+Montreal)<br>1829 Ste-Catherine O | 韓國超市 | ~15 分 | 有自製熟食：炸雞、飯糰、豬腳、冷凍飯捲 CA$5.99；白飯一盒 CA$1；10–21（週日 11–19） 🍱 |
-| [**Metro Avenue du Parc**](https://www.google.com/maps/search/?api=1&query=Metro+Avenue+du+Parc+3575+Av.+du+Parc%EF%BC%88Galeries+du+Parc+%E5%9C%B0%E4%B8%8B%EF%BC%89+Montreal)<br>3575 Av. du Parc（Galeries du Parc 地下） | 西式超市 | ~16 分 | 離 McGill 最近的大型超市；小紅書：價格偏高，結帳要對價格 |
-| [**Supermarché PA du Fort**](https://www.google.com/maps/search/?api=1&query=Supermarch%C3%A9+PA+du+Fort+1420+rue+du+Fort+Montreal)<br>1420 rue du Fort | 平價超市 | ~18 分 | 小紅書：比 Metro／IGA／Provigo 便宜 |
-| [**Bonjour Supermarché 你好**](https://www.google.com/maps/search/?api=1&query=Bonjour+Supermarch%C3%A9+%E4%BD%A0%E5%A5%BD+2070+De+Maisonneuve+O+Montreal)<br>2070 De Maisonneuve O | 中日韓 | ~18 分 | 涼拌菜、手工包子 |
-| [**Marché Sheng Tang 盛唐**](https://www.google.com/maps/search/?api=1&query=March%C3%A9+Sheng+Tang+%E7%9B%9B%E5%94%90+1425+rue+du+Fort+Montreal)<br>1425 rue du Fort | 中式 | ~18 分 | 在 PA du Fort 對面，可一起買 |
-| [**IGA Place Desjardins**](https://www.google.com/maps/search/?api=1&query=IGA+Place+Desjardins+5+Place+Desjardins+Montreal)<br>5 Place Desjardins | 西式超市 | ~20 分 | 較遠但很大 |
-| [**Adonis Downtown**](https://www.google.com/maps/search/?api=1&query=Adonis+Downtown+2173+Ste-Catherine+O+Montreal)<br>2173 Ste-Catherine O | 中東平價超市 | ~22 分 | 小紅書：比 Metro／IGA 便宜；烤肉、香料 |
-| [**Segal's Market**](https://www.google.com/maps/search/?api=1&query=Segal%27s+Market+4001+Boul.+Saint-Laurent+Montreal)<br>4001 Boul. Saint-Laurent | 平價超市 | 搭車 | 老牌平價市場，週日休；較遠 |
 
 ## ❌ 已剔除（2026-11 查核）
 

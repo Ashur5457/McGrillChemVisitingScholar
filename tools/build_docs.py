@@ -10,6 +10,7 @@ GM = "https://www.google.com/maps/search/?api=1&query="
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 food = json.loads((ROOT / "data/food.json").read_text())
 guide = json.loads((ROOT / "data/guide.json").read_text())
+grocery = json.loads((ROOT / "data/grocery.json").read_text())
 
 
 def gq(r):
@@ -30,16 +31,14 @@ def food_md():
     head = "| 店名 | 類型 | 推薦餐點・價格 | 人均 | Google | 化學館 | Le Cantlie | 重點 |\n|---|---|---|---|---|---|---|---|\n"
     row = lambda r: (f"| [**{r['name']}**]({gq(r)})<br>{r['addr']} | {r['cat']}・{r['cuisine']} | {dishes(r)} | {r.get('price') or '—'} "
                      f"| {r.get('rating') or '—'} | {walk(r['walk'])} | {walk(r['walk_hotel'])} | {r['note']}{' 🍱' if 'bento' in r.get('tags', []) else ''} |\n")
-    out = ["# 🍜🛒 McGill 化學館附近與蒙特婁：餐廳與超市\n\n",
+    out = ["# 🍜 McGill 化學館附近與蒙特婁：餐廳\n\n超市請看 [grocery.md](grocery.md)。\n\n",
            f"**{food['checked']} 逐家用 Google Maps 確認仍在營業。** 推薦餐點來自小紅書筆記與 Google Maps「熱門餐點」；",
            "有標價的是筆記或菜單上的價格，「人均」是 Google Maps 使用者回報的每人花費。價格未含稅和小費。",
            "步行時間＝直線距離 × 1.3 ÷ 80 m/分；超過 25 分標「搭車」。🍱＝可以當便當／熟食。\n\n",
            "互動地圖 👉 [生存攻略網站・美食分頁](https://ashur5457.github.io/McGrillChemVisitingScholar/#food)\n\n",
            "## 🍽️ 化學館附近（依步行時間排序）\n\n", head, *map(row, near),
            "\n## 🚇 蒙特婁市區必吃（要搭地鐵／公車）\n\n", head, *map(row, city),
-           "\n## 🛒 超市・日用品（依離 Le Cantlie 步行時間排序）\n\n| 店名 | 類型 | Le Cantlie | 重點 |\n|---|---|---|---|\n"]
-    out += [f"| [**{s['name']}**]({gq(s)})<br>{s['addr']} | {s['cuisine']} | {walk(s['walk_hotel'])} | {s['note']}{' 🍱' if 'bento' in s.get('tags', []) else ''} |\n"
-            for s in food["supermarkets"]]
+           ]
     out.append("\n## ❌ 已剔除（2026-11 查核）\n\n| 店名 | 原因 |\n|---|---|\n"
                "| Ewha Shiro 梨花月白 | Google Maps 顯示永久停業 |\n| Mae Sri | 暫停營業 |\n| King Bab | Google Maps 找不到 |\n"
                "| Shuyi 書亦燒仙草（McGill 附近）、Chatime（Av. du Parc）、楊國福 | 該分店已不在 |\n"
@@ -70,6 +69,33 @@ def guide_md():
     return "".join(out)
 
 
+def grocery_md():
+    order = []
+    def refs(ids):
+        out = ""
+        for i in ids:
+            if i not in order:
+                order.append(i)
+            out += f"[^{order.index(i) + 1}]"
+        return out
+    out = ["# 🛒 McGill 化學館附近超市\n\n",
+           f"{grocery['checked']} 查核（小紅書、網路、Google Maps 評論）。依離 Le Cantlie 步行時間排序。🍱＝有熟食／便當。\n\n",
+           "互動地圖 👉 [生存攻略網站・超市分頁](https://ashur5457.github.io/McGrillChemVisitingScholar/#grocery)\n\n## 💡 買菜重點\n\n"]
+    out += [f"- {t}{refs(src)}\n" for t, src in grocery["tips"]]
+    for s in grocery["stores"]:
+        q = GM + quote_plus(s["name"].split("（")[0] + " " + s["addr"].split("（")[0] + " Montreal")
+        out.append(f"\n## {s['name']}{' 🍱' if 'bento' in s['tags'] else ''}\n\n"
+                   f"{s['kind']} ・ ⭐ {s['rating']} ・ 💰 {s['price']} ・ 🕒 {s['hours']} ・ Le Cantlie {walk(s['walk_hotel'])} ・ 化學館 {walk(s['walk'])}\n\n"
+                   f"📍 [{s['addr']}]({q})\n\n{s['lead']}{refs(s['src'])}\n\n")
+        out += [f"- {h}\n" for h in s["highlights"]]
+        out.append(f"\n**適合買**：{s['best']}　**注意**：{s['caution']}\n")
+    out.append("\n## 🚇 要搭車的大型華人超市\n\n")
+    out += [f"- **[{f['name']}]({GM + quote_plus(f['q'])})**：{f['t']}{refs(f['src'])}\n" for f in grocery["far"]]
+    out.append("\n## 📚 資料來源\n\n")
+    out += [f"[^{n}]: [{grocery['sources'][i][0]}]({grocery['sources'][i][1]})\n" for n, i in enumerate(order, 1)]
+    return "".join(out)
+
+
 def kml():
     def folder(name, rows):
         pm = "".join(f"""    <Placemark>
@@ -84,11 +110,12 @@ def kml():
             "  <name>McGill 化學館附近美食與超市</name>\n"
             + folder("化學館附近：餐廳・咖啡・甜點", [r for r in R if r["area"] == "near"])
             + folder("蒙特婁市區必吃", [r for r in R if r["area"] == "city"])
-            + folder("超市・日用品", food["supermarkets"])
+            + folder("超市・日用品", [dict(s, dishes=[], note=s["lead"]) for s in grocery["stores"]])
             + "</Document>\n</kml>\n")
 
 
 (ROOT / "docs/food.md").write_text(food_md())
 (ROOT / "docs/guide.md").write_text(guide_md())
+(ROOT / "docs/grocery.md").write_text(grocery_md())
 (ROOT / "food.kml").write_text(kml())
 print("ok")
