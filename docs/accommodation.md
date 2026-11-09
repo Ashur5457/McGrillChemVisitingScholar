@@ -1,6 +1,6 @@
 # 🏨 住宿比較：McGill 化學館步行圈
 
-條件：**走路到 Otto Maass Chemistry Building（801 Sherbrooke St W）**、冬季住約 5 週、含稅每晚 ≤ **CAD 310**、能自己下廚、有健身房更好、要有正式收據。
+條件：**走路到 [Otto Maass Chemistry Building（801 Sherbrooke St W）](https://www.google.com/maps/search/?api=1&query=Otto+Maass+Chemistry+Building+McGill)**、冬季住約 5 週、含稅每晚 ≤ **CAD 310**、能自己下廚、有健身房更好、要有正式收據。
 
 ## 🥇 推薦順序（優先：小廚房＋健身房）
 
@@ -34,9 +34,9 @@
 
 | 住宿 | 步行 | 小紅書重點 |
 |---|---|---|
-| HONEYROSE Hotel（355 De Maisonneuve O） | ~8 分 | MaxMon（352 讚）：原本只住一晚，住後取消其他預約再續兩晚；房間舒適、早餐菜單部分免費、15 樓有健身房和泳池 |
-| Delta Hotels Montréal（Président-Kennedy） | ~7 分 | 出現在小紅書的蒙特婁飯店比價清單 |
-| Le Centre Sheraton（René-Lévesque） | ~11 分 | 有人建議作為 Residence Inn 的替代 |
+| [HONEYROSE Hotel（355 De Maisonneuve O）](https://www.google.com/maps/search/?api=1&query=HONEYROSE+Hotel+355+De+Maisonneuve+O+Montreal) | ~8 分 | MaxMon（352 讚）：原本只住一晚，住後取消其他預約再續兩晚；房間舒適、早餐菜單部分免費、15 樓有健身房和泳池 |
+| [Delta Hotels Montréal（Président-Kennedy）](https://www.google.com/maps/search/?api=1&query=Delta+Hotels+Montreal+475+President-Kennedy) | ~7 分 | 出現在小紅書的蒙特婁飯店比價清單 |
+| [Le Centre Sheraton（René-Lévesque）](https://www.google.com/maps/search/?api=1&query=Le+Centre+Sheraton+Montreal) | ~11 分 | 有人建議作為 Residence Inn 的替代 |
 
 這幾家適合短住；住 5 週沒有廚房，每天外食成本高（平價餐廳加稅加小費約 CAD 30）。
 
@@ -44,9 +44,9 @@
 
 | 住宿 | 原因 |
 |---|---|
-| Campus1 MTL | McGill 對面的學生宿舍，小紅書測評（7/10）是夏天入住；1 月是學生入住期 |
+| [Campus1 MTL](https://www.google.com/maps/search/?api=1&query=Campus1+MTL+420+Sherbrooke+O+Montreal) | McGill 對面的學生宿舍，小紅書測評（7/10）是夏天入住；1 月是學生入住期 |
 | 學期轉租 | 小紅書「麦吉尔 短租」的貼文大多租期 1–4 月，最短也要到 4 月底；轉租通常沒有符合報帳規定的收據 |
-| Hyatt Place Montréal Downtown | 小紅書避雷文：夏天每天音樂節吵到 11 點、周邊環境差；而且離化學館走路超過 20 分鐘 |
+| [Hyatt Place Montréal Downtown](https://www.google.com/maps/search/?api=1&query=Hyatt+Place+Montreal+Downtown) | 小紅書避雷文：夏天每天音樂節吵到 11 點、周邊環境差；而且離化學館走路超過 20 分鐘 |
 
 ## 📷 照片說明
 

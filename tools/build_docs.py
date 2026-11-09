@@ -6,6 +6,7 @@ import json, pathlib
 from urllib.parse import quote_plus
 from xml.sax.saxutils import escape
 
+GM = "https://www.google.com/maps/search/?api=1&query="
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 food = json.loads((ROOT / "data/food.json").read_text())
 guide = json.loads((ROOT / "data/guide.json").read_text())
@@ -56,10 +57,13 @@ def guide_md():
             order.append(i)
         return order.index(i) + 1
     for s in guide["sections"]:
-        out.append(f"## {s['icon']} {s['title']}\n\n")
+        out.append(f"## {s['icon']} {s['title']}\n\n> {s['lead']}\n\n")
+        if s["stats"]:
+            out.append(" ・ ".join(f"**{b}** {l}" for b, l in s["stats"]) + "\n\n")
         for it in s["items"]:
             refs = "".join(f"[^{ref(i)}]" for i in it["src"])
-            out.append(f"- {it['t']}{refs}\n")
+            pins = "".join(f"<br>📍 [{l}]({GM}{quote_plus(q)})" for l, q in it["places"])
+            out.append(f"- **{it['h']}**：{it['t']}{refs}{pins}\n")
         out.append("\n")
     out.append("## 📚 資料來源\n\n小紅書連結需登入 rednote 才能開啟。\n\n")
     out += [f"[^{n}]: [{guide['sources'][i][0]}]({guide['sources'][i][1]})\n" for n, i in enumerate(order, 1)]
