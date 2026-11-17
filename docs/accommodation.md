@@ -11,9 +11,9 @@
 | # | 住宿 | 地址 | 步行* | 35 晚 | 每晚 | 取消／退費 | 健身房 | 廚房 | 早餐 |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 ⭐ | [Hôtel Le Cantlie Suites](https://www.hotelcantlie.com/offers/the-20-20-offer)（飯店，20/20 優惠 8 折） | 1110 Sherbrooke St W | ~7 分 | ≈CA$6,560 | ≈CA$187 | ✅ 入住 48 小時前免費取消 | ✅ 小 | 小廚房 | 不含 |
-| 2 ⭐ | [Residence Inn Montréal Downtown](https://www.marriott.com/en-us/hotels/yulri-residence-inn-montreal-downtown/overview/)（飯店） | 2045 Rue Peel | ~6 分 | ≈CA$7,210 | CA$206 | ✅ 免費取消、到店付款（期限訂房時確認） | ✅ 24 小時 | 完整 | 含 |
-| 3 | [Le Square Phillips Hôtel & Suites](https://www.squarephillips.com/en/home.html)（飯店） | 1193 Place Phillips | ~8 分 | ≈CA$8,800 | ≈CA$251 | ✅ 免費取消（期限待確認） | ✅＋室內泳池 | 套房廚房 | 含 |
-| 4 | [L'Appartement Hôtel](https://www.appartementhotel.com/)（飯店） | 455 Sherbrooke St W | ~5 分 | CA$7,539 | ≈CA$215 | ⚠️ 35 晚取消規定待確認 | ✅＋室內泳池 | 小廚房 | 含 |
+| 2 ⭐ | [Residence Inn Montréal Downtown](https://www.marriott.com/en-us/hotels/yulri-residence-inn-montreal-downtown/overview/)（飯店） | 2045 Rue Peel | ~6 分 | ≈CA$7,210 | CA$206 | ✅ 1/2 前免費取消、到店付款（需住 30 晚以上） | ✅ 24 小時 | 完整 | 含 |
+| 3 | [Le Square Phillips Hôtel & Suites](https://www.squarephillips.com/en/home.html)（飯店） | 1193 Place Phillips | ~8 分 | CA$9,062 | ≈CA$259 | ✅ 入住前 1 天前免費取消 | ✅＋室內泳池 | 套房廚房 | 含 |
+| 4 | [L'Appartement Hôtel](https://www.appartementhotel.com/)（飯店） | 455 Sherbrooke St W | ~5 分 | CA$7,539 | ≈CA$215 | ✅ 入住 24 小時前免費取消 | ✅＋室內泳池 | 小廚房 | 含 |
 | 5 | [HAVN Suites Studio 1704](https://www.airbnb.ca/rooms/1192752630663661429)（Airbnb，最少 31 晚） | 355 Blvd De Maisonneuve O（與 HONEYROSE 同棟） | ~6–7 分 | ≈CA$2,555 | ≈CA$73 | ⚠️ 12/6 前免費取消；之後與提早離開都不退 | ✅＋泳池、三溫暖 | 完整 | 不含 |
 
 \* 步行時間＝直線距離 × 1.3 ÷ 80 m/分 的估算值。飯店通常只收實際住的晚數，但可能有提早退房費，訂房前要確認。HONEYROSE（每晚約 CA$480，太貴）和 Le Centre Sheraton（1/5 起無法連住 35 晚）已從候選移除。

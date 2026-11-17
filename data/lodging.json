@@ -52,7 +52,7 @@
     "smoke": "待確認",
     "heat": "—",
     "longstay": "✅ 20/20 八折",
-    "cancel": "✅ 入住 48 小時前免費取消"
+    "cancel": "✅ 入住 48 小時前（1/3 前）免費取消"
    },
    "note": "最便宜的飯店；取消規定最寬鬆；不含早餐",
    "stays_note": "Studio 1 King，20/20 優惠，房價 × 1.19 估算。每晚價格不太隨天數變動。Deluxe Studio（完整廚房）每晚約多 CA$14。"
@@ -70,7 +70,7 @@
    "gmap": "https://maps.google.com/?cid=16845641953501163360",
    "official": "https://www.marriott.com/en-us/hotels/yulri-residence-inn-montreal-downtown/photos/",
    "rednote": null,
-   "memo": "Marriott 官網 2026-11-17 查價：35 晚長住價含稅 CA$206／晚；可免費取消、到店付款（取消期限訂房時確認）。停車在館外 CA$29／天",
+   "memo": "Marriott 官網 2026-11-17 查價：35 晚長住價含稅 CA$206／晚；可免費取消（1/2 18:00 前）、到店付款；此價需住 30 晚以上。停車在館外 CA$29／天",
    "total": "35 晚 ≈CA$7,210（約 ¥809,000）",
    "smoke": "✅ 全館禁菸",
    "heat": "無特別抱怨",
@@ -105,7 +105,7 @@
     "smoke": "✅",
     "heat": "—",
     "longstay": "✅ 住越久越便宜",
-    "cancel": "✅ 免費取消、到店付款"
+    "cancel": "✅ 1/2 18:00 前免費取消，之後收 1 晚；30 晚以上才適用此價，提早走可能被改價"
    },
    "note": "健身房最好（24h）；完整廚房；每天打掃",
    "stays_note": "長住價依天數：2 週內約 CA$262、3–4 週約 CA$218、31 晚以上約 CA$206／晚。提早退房可能改按較短天數的價格計算，訂房前要問。"
@@ -118,13 +118,13 @@
    "rank": 3,
    "kitchen": "✅ 套房內有廚房",
    "breakfast": "含",
-   "price": 251,
+   "price": 259,
    "gym": "✅＋室內泳池",
    "gmap": "https://www.google.com/maps/search/?api=1&query=Le+Square+Phillips+Hotel+Suites+Montreal",
    "official": "https://www.squarephillips.com/en/home.html",
    "rednote": null,
-   "memo": "Booking.com 2026-11-17：35 晚房價 CA$7,615＋稅費 CA$1,181≈CA$8,796（約 CA$251／晚）；可免費取消（期限要確認）。官網每晚房價 CA$217.57 起（未稅）。地圖座標為約略位置",
-   "total": "35 晚 ≈CA$8,800（約 ¥987,000）",
+   "memo": "官網 2026-11-17：35 晚含稅 CA$9,061.79（約 CA$259／晚）；入住前 1 天前免費取消，之後收 1 晚，訂房需信用卡擔保。Booking.com 同期約 CA$8,796。地圖座標為約略位置",
+   "total": "35 晚 CA$9,062（約 ¥1,017,000）",
    "smoke": "✅ 禁菸客房",
    "heat": "—",
    "longstay": "❌ 沒有長住優惠，但住超過 31 晚免 3.5% 住宿稅，所以 35 晚每晚比 26 晚便宜一點。",
@@ -142,17 +142,17 @@
     ],
     [
      "35 晚（到 2/9）",
-     "≈CA$8,800"
+     "CA$9,062"
     ]
    ],
-   "stays_note": "Booking.com 顯示的含稅總價。",
+   "stays_note": "35 晚為官網含稅總價；其他天數為 Booking.com 含稅總價。",
    "short": {
     "kitchen": "✅ 套房廚房",
     "gym": "✅＋泳池",
     "breakfast": "含",
     "smoke": "✅",
     "heat": "—",
-    "cancel": "✅ 免費取消（期限待確認）"
+    "cancel": "✅ 入住前 1 天（1/4）前免費取消，之後收 1 晚"
    },
    "note": "設施多（室內泳池）但較貴；含早餐"
   },
@@ -203,7 +203,7 @@
     "smoke": "✅",
     "heat": "⚠️ 不足",
     "longstay": "❌",
-    "cancel": "⚠️ 35 晚取消規定待確認"
+    "cancel": "✅ 入住 24 小時前（1/4）免費取消，之後收 1 晚"
    },
    "note": "最近；有室內泳池；冬天暖氣評價差",
    "stays_note": "房價 CA$181＋稅 19%，住幾晚每晚都一樣。"
