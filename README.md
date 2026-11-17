@@ -31,18 +31,17 @@
 
 ## 🏨 住宿比較
 
-價格：2026-11-09 各家官網查，1/5 入住、2/9 退房（35 晚）、1 人，含稅。
+價格：2026-11-17 查，1 人，1/5 入住、2/9 退房（35 晚），含稅。依取消彈性排序。
 
-| 住宿 | 步行* | 廚房 | 健身房 | 早餐 | 禁菸 | CAD／晚 | 評語 | 照片 | 推薦 |
+| # | 住宿 | 地址 | 步行* | 35 晚 | 每晚 | 取消／退費 | 健身房 | 廚房 | 早餐 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Hôtel Le Cantlie Suites**（Deluxe Studio） | ~7 分 | ✅ 完整廚房（爐台、烤箱） | ✅ 小、較舊 | 另付費 | 待確認 | **184**（Studio）／**≈198**（Deluxe），20/20 優惠 | 公寓式、房間大、隔音好 | [Google Maps](https://maps.google.com/?cid=9907050724386320025) · [官網](http://www.hotelcantlie.com/) | ⭐ 首選 |
-| **Residence Inn Montréal Downtown**（Studio Suite） | ~6 分 | ✅ 完整廚房 | ✅ 24 小時 | 含 | ✅ | **206**（長住價） | 小紅書：位置方便但不便宜 | [Google Maps](https://maps.google.com/?cid=16845641953501163360) · [官網](https://www.marriott.com/en-us/hotels/yulri-residence-inn-montreal-downtown/photos/) | ✅ 備選 |
-| **L'Appartement Hôtel** | ~5 分 | ✅ 完整廚房 | ✅ | 含 | ✅ | **215** | 房間大；**有評論抱怨冬天暖氣不足** | [Google Maps](https://maps.google.com/?cid=454884633131937210) · [官網](http://www.appartementhotel.com/) | ⚠️ 先問暖氣 |
-| HONEYROSE Hotel | ~8 分 | ❌ | ✅ ＋三溫暖 | 不含 | ✅ | **480** | 小紅書 352 讚「性價比爆棚」 | [Google Maps](https://maps.google.com/?cid=3061317539415499440) · [官網](https://www.marriott.com/en-us/hotels/yultx-honeyrose-hotel-montreal-a-tribute-portfolio-hotel/photos/) · [小紅書](https://www.rednote.com/discovery/item/698297d60000000028023e16) | 🔸 沒廚房 |
-| Le Centre Sheraton | ~11 分 | ❌ | ✅ 24 小時 | 不含 | ✅ | **287**（1/5–1/20）＋**285**（1/20–2/9） | 連續最多訂到 1/20，要分兩段訂；小紅書建議作為 Residence Inn 替代 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Le+Centre+Sheraton+Montreal) | 🔸 沒廚房 |
-| 學期轉租（如 Drummond 街） | ~9 分 | 共用 | — | ❌ | — | 未標價 | 小紅書轉租多為 1–4 月整學期，沒有正式收據 | [小紅書](https://www.rednote.com/discovery/item/6ae56206000000001201ed1d) | ❌ |
+| 1 ⭐ | [Hôtel Le Cantlie Suites](https://www.hotelcantlie.com/offers/the-20-20-offer)（飯店，20/20 優惠 8 折） | 1110 Sherbrooke St W | ~7 分 | ≈CA$6,560 | ≈CA$187 | ✅ 入住 48 小時前免費取消 | ✅ 小 | 小廚房 | 不含 |
+| 2 ⭐ | [Residence Inn Montréal Downtown](https://www.marriott.com/en-us/hotels/yulri-residence-inn-montreal-downtown/overview/)（飯店） | 2045 Rue Peel | ~6 分 | ≈CA$7,210 | CA$206 | ✅ 免費取消、到店付款（期限訂房時確認） | ✅ 24 小時 | 完整 | 含 |
+| 3 | [Le Square Phillips Hôtel & Suites](https://www.squarephillips.com/en/home.html)（飯店） | 1193 Place Phillips | ~8 分 | ≈CA$8,800 | ≈CA$251 | ✅ 免費取消（期限待確認） | ✅＋室內泳池 | 套房廚房 | 含 |
+| 4 | [L'Appartement Hôtel](https://www.appartementhotel.com/)（飯店） | 455 Sherbrooke St W | ~5 分 | CA$7,539 | ≈CA$215 | ⚠️ 35 晚取消規定待確認 | ✅＋室內泳池 | 小廚房 | 含 |
+| 5 | [HAVN Suites Studio 1704](https://www.airbnb.ca/rooms/1192752630663661429)（Airbnb，最少 31 晚） | 355 Blvd De Maisonneuve O（與 HONEYROSE 同棟） | ~6–7 分 | ≈CA$2,555 | ≈CA$73 | ⚠️ 12/6 前免費取消；之後與提早離開都不退 | ✅＋泳池、三溫暖 | 完整 | 不含 |
 
-\* 步行時間＝直線距離 × 1.3 ÷ 80 m/分 的估算值。粗體價格是 2026-11 在官網查到的 **2027 年 1 月入住、36 晚**實際報價，其餘為參考價。
+\* 步行時間＝直線距離 × 1.3 ÷ 80 m/分 的估算值。飯店通常只收實際住的晚數，但可能有提早退房費，訂房前要確認。HONEYROSE（每晚約 CA$480，太貴）和 Le Centre Sheraton（1/5 起無法連住 35 晚）已從候選移除。
 
 > 🏋️🍳 **廚房＋健身房都有的只有前三家**：Le Cantlie、Residence Inn、L'Appartement。
 > ⚠️ Le Cantlie 最便宜的「Studio 1 King」（約 200／晚）只有微波爐和冰箱，**沒有爐台**；要煮飯請選 Deluxe Studio。

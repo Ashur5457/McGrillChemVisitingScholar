@@ -32,14 +32,14 @@
   <Folder>
     <name>可考慮（沒有廚房）</name>
     <Placemark>
-      <name>HONEYROSE Hotel</name>
-      <description>355 Blvd De Maisonneuve O｜步行約 8 分｜健身房＋泳池｜小紅書高讚</description>
+      <name>HAVN Suites Studio 1704（Airbnb）</name>
+      <description>與 HONEYROSE 同棟；最少 31 晚</description>
       <Point><coordinates>-73.5694001,45.5071963,0</coordinates></Point>
     </Placemark>
     <Placemark>
-      <name>Le Centre Sheraton</name>
-      <description>1201 Blvd René-Lévesque O｜步行約 11 分（座標約略）</description>
-      <Point><coordinates>-73.5735,45.4985,0</coordinates></Point>
+      <name>Le Square Phillips Hôtel &amp; Suites</name>
+      <description>飯店，有健身房和室內泳池（座標約略）</description>
+      <Point><coordinates>-73.5688,45.5035,0</coordinates></Point>
     </Placemark>
   </Folder>
   <Folder>

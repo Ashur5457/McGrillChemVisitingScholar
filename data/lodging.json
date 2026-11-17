@@ -13,13 +13,13 @@
    "rank": 1,
    "kitchen": "⚠️ Studio 只有小廚房；完整廚房選 Deluxe Studio（20/20 優惠約 CA$198／晚，35 晚 ≈CA$6,931）",
    "breakfast": "不含（自助餐約 CA$25.5）",
-   "price": 184,
+   "price": 187,
    "gym": "✅（偏小、設備舊）",
    "gmap": "https://maps.google.com/?cid=9907050724386320025",
    "official": "https://www.hotelcantlie.com/offers/the-20-20-offer",
    "rednote": null,
-   "memo": "官網 2026-11-09 結帳頁實價：20/20 優惠 Studio 1 King 35 晚房價 CA$5,404.80＋稅 CA$1,026.86＝CA$6,431.66（約 CA$183.76／晚）。信用卡擔保即可，入住 48 小時前取消免費。頂樓泳池在戶外，冬天不開",
-   "total": "35 晚 CA$6,432",
+   "memo": "官網 2026-11-17 查價：20/20 優惠 Studio 1 King 每晚房價 CA$157.42＋稅約 19%≈CA$187。入住 48 小時前免費取消，只需信用卡擔保。頂樓泳池在戶外，冬天不開",
+   "total": "35 晚 ≈CA$6,560",
    "smoke": "待確認",
    "heat": "無特別抱怨",
    "longstay": "✅ 「20/20 優惠」：住宿 8 折＋Le Mezz 午晚餐 8 折，1/5–2/9 可用。要從官網優惠頁的專屬連結訂，一般訂房頁只顯示 88 折。信用卡擔保即可，入住 48 小時前取消免費；沒有月租價。",
@@ -37,20 +37,12 @@
    ],
    "stays": [
     [
-     "14 晚",
-     "≈CA$2,492"
+     "26 晚（到 1/31）",
+     "≈CA$4,910"
     ],
     [
-     "21 晚",
-     "≈CA$3,763"
-    ],
-    [
-     "28 晚",
-     "≈CA$5,172"
-    ],
-    [
-     "35 晚",
-     "CA$6,431.66"
+     "35 晚（到 2/9）",
+     "≈CA$6,560"
     ]
    ],
    "short": {
@@ -59,17 +51,18 @@
     "breakfast": "不含",
     "smoke": "待確認",
     "heat": "—",
-    "longstay": "✅ 20/20 八折"
+    "longstay": "✅ 20/20 八折",
+    "cancel": "✅ 入住 48 小時前免費取消"
    },
-   "note": "最便宜；不含早餐、有 24h 洗衣房",
-   "stays_note": "Studio 1 King，20/20 優惠。35 晚是結帳頁實價；其他是房價 × 1.19 估算。Deluxe Studio（完整廚房）每晚約多 CA$14。"
+   "note": "最便宜的飯店；取消規定最寬鬆；不含早餐",
+   "stays_note": "Studio 1 King，20/20 優惠，房價 × 1.19 估算。每晚價格不太隨天數變動。Deluxe Studio（完整廚房）每晚約多 CA$14。"
   },
   {
    "name": "Residence Inn Montréal Downtown",
    "addr": "2045 Rue Peel",
    "lat": 45.501465,
    "lng": -73.57542,
-   "rank": 2,
+   "rank": 1,
    "kitchen": "✅ 完整",
    "breakfast": "含（無法扣除）",
    "price": 206,
@@ -77,7 +70,7 @@
    "gmap": "https://maps.google.com/?cid=16845641953501163360",
    "official": "https://www.marriott.com/en-us/hotels/yulri-residence-inn-montreal-downtown/photos/",
    "rednote": null,
-   "memo": "Marriott 官網 2026-11-09 查價：長住價依天數分段（見下方「不同天數總價」）；可免費取消。停車在館外 CA$29／天",
+   "memo": "Marriott 官網 2026-11-17 查價：35 晚長住價含稅 CA$206／晚；可免費取消、到店付款（取消期限訂房時確認）。停車在館外 CA$29／天",
    "total": "35 晚 ≈CA$7,210",
    "smoke": "✅ 全館禁菸",
    "heat": "無特別抱怨",
@@ -97,19 +90,11 @@
    ],
    "stays": [
     [
-     "14 晚",
-     "≈CA$3,668"
+     "26 晚（到 1/31）",
+     "≈CA$5,670"
     ],
     [
-     "21 晚",
-     "≈CA$4,578"
-    ],
-    [
-     "28 晚",
-     "≈CA$6,104"
-    ],
-    [
-     "35 晚",
+     "35 晚（到 2/9）",
      "≈CA$7,210"
     ]
    ],
@@ -119,10 +104,57 @@
     "breakfast": "含",
     "smoke": "✅",
     "heat": "—",
-    "longstay": "✅ 住越久越便宜"
+    "longstay": "✅ 住越久越便宜",
+    "cancel": "✅ 免費取消、到店付款"
    },
-   "note": "完整廚房；免費代買雜貨、代收包裹",
-   "stays_note": "Marriott 官網每晚含稅價 × 晚數：2 週內 262、3–4 週 218、31 晚以上 206–207。"
+   "note": "健身房最好（24h）；完整廚房；每天打掃",
+   "stays_note": "長住價依天數：2 週內約 CA$262、3–4 週約 CA$218、31 晚以上約 CA$206／晚。提早退房可能改按較短天數的價格計算，訂房前要問。"
+  },
+  {
+   "name": "Le Square Phillips Hôtel & Suites",
+   "addr": "1193 Place Phillips",
+   "lat": 45.5035,
+   "lng": -73.5688,
+   "rank": 3,
+   "kitchen": "✅ 套房內有廚房",
+   "breakfast": "含",
+   "price": 251,
+   "gym": "✅＋室內泳池",
+   "gmap": "https://www.google.com/maps/search/?api=1&query=Le+Square+Phillips+Hotel+Suites+Montreal",
+   "official": "https://www.squarephillips.com/en/home.html",
+   "rednote": null,
+   "memo": "Booking.com 2026-11-17：35 晚房價 CA$7,615＋稅費 CA$1,181≈CA$8,796（約 CA$251／晚）；可免費取消（期限要確認）。官網每晚房價 CA$217.57 起（未稅）。地圖座標為約略位置",
+   "total": "35 晚 ≈CA$8,800",
+   "smoke": "✅ 禁菸客房",
+   "heat": "—",
+   "longstay": "❌ 沒有長住優惠，但住超過 31 晚免 3.5% 住宿稅，所以 35 晚每晚比 26 晚便宜一點。",
+   "facilities": [
+    "🏋️ 健身房",
+    "🏊 室內泳池＋頂樓露台",
+    "🍳 套房內有廚房",
+    "🥐 免費早餐（可帶回房間或外帶）",
+    "📍 Place des Festivals、Quartier des Spectacles 旁"
+   ],
+   "stays": [
+    [
+     "26 晚（到 1/31）",
+     "≈CA$6,740"
+    ],
+    [
+     "35 晚（到 2/9）",
+     "≈CA$8,800"
+    ]
+   ],
+   "stays_note": "Booking.com 顯示的含稅總價。",
+   "short": {
+    "kitchen": "✅ 套房廚房",
+    "gym": "✅＋泳池",
+    "breakfast": "含",
+    "smoke": "✅",
+    "heat": "—",
+    "cancel": "✅ 免費取消（期限待確認）"
+   },
+   "note": "設施多（室內泳池）但較貴；含早餐"
   },
   {
    "name": "L'Appartement Hôtel",
@@ -137,7 +169,7 @@
    "gmap": "https://maps.google.com/?cid=454884633131937210",
    "official": "http://www.appartementhotel.com/",
    "rednote": null,
-   "memo": "官網 2026-11-09 結帳頁實價：Superior Studio Queen 含稅 CA$215.39／晚，住幾晚都一樣，住超過 31 晚也沒自動扣住宿稅；有完整小廚房；取消規定訂房前要確認",
+   "memo": "官網 2026-11-17 查價：Superior Studio Queen 每晚 CA$181＋稅＝CA$215.39，住幾晚每晚都一樣；35 晚的取消規定要問飯店",
    "total": "35 晚 CA$7,539",
    "smoke": "✅ 房型標明 non smoking",
    "heat": "⚠️ 有評論說冬天暖氣不足",
@@ -156,20 +188,12 @@
    ],
    "stays": [
     [
-     "14 晚",
-     "CA$3,015.44"
+     "26 晚（到 1/31）",
+     "CA$5,600"
     ],
     [
-     "21 晚",
-     "CA$4,523.16"
-    ],
-    [
-     "28 晚",
-     "CA$6,030.88"
-    ],
-    [
-     "35 晚",
-     "CA$7,538.60"
+     "35 晚（到 2/9）",
+     "CA$7,539"
     ]
    ],
    "short": {
@@ -178,127 +202,59 @@
     "breakfast": "含",
     "smoke": "✅",
     "heat": "⚠️ 不足",
-    "longstay": "❌"
+    "longstay": "❌",
+    "cancel": "⚠️ 35 晚取消規定待確認"
    },
-   "note": "有爐台；室內泳池；冬天暖氣評價差",
-   "stays_note": "結帳頁實價：房價 CA$181＋稅 19%，住幾晚每晚都一樣（CA$215.39）。"
+   "note": "最近；有室內泳池；冬天暖氣評價差",
+   "stays_note": "房價 CA$181＋稅 19%，住幾晚每晚都一樣。"
   },
   {
-   "name": "HONEYROSE Hotel",
-   "addr": "355 Blvd De Maisonneuve O",
+   "name": "HAVN Suites Studio 1704（Airbnb）",
+   "addr": "355 Blvd De Maisonneuve O（與 HONEYROSE 同棟）",
    "lat": 45.5071963,
    "lng": -73.5694001,
    "rank": 3,
-   "kitchen": "❌",
+   "kitchen": "✅ 完整",
    "breakfast": "不含",
-   "price": 480,
-   "gym": "✅ 15 樓＋三溫暖",
+   "price": 73,
+   "gym": "✅＋泳池、三溫暖",
    "gmap": "https://maps.google.com/?cid=3061317539415499440",
-   "official": "https://www.marriott.com/en-us/hotels/yultx-honeyrose-hotel-montreal-a-tribute-portfolio-hotel/photos/",
-   "rednote": "https://www.rednote.com/discovery/item/698297d60000000028023e16",
-   "memo": "Marriott 官網 2026-11-09 查價：35 晚含稅 CA$480／晚。條件都符合但貴一倍以上；小紅書 352 讚「性價比爆棚」是短住心得。停車 CA$36.5／天",
-   "total": "35 晚 ≈CA$16,800",
-   "smoke": "✅ 全館禁菸",
-   "heat": "無特別抱怨",
-   "longstay": "❌ 沒有長住優惠；只有 Marriott 一般折扣（會員價、銀髮族、CAA 汽車協會會員、政府員工等）。",
-   "facilities": [
-    "🏋️ 15 樓健身房＋運動教室＋乾式三溫暖＋SPA",
-    "🏊 15 樓室內泳池＋按摩池",
-    "🍽️ COMMODORE 法式餐廳、COMMODORE Café（白天咖啡＋紅酒吧，可外帶）、客房送餐；頂樓餐廳冬天不開",
-    "🧺 沒有自助洗衣房，只有送洗／乾洗（收費）",
-    "🧹 隔天打掃一次；浴袍、拖鞋、房內平板",
-    "❌ 房內沒有廚房",
-    "🛍️ 禮品店＋便利商店、商務中心、手機當房卡",
-    "🚗 停車 CA$36.5／天、電動車充電",
-    "🚭 全館禁菸；🐶 不能帶寵物"
-   ],
-   "stays": [
-    [
-     "14 晚",
-     "≈CA$6,720"
-    ],
-    [
-     "21 晚",
-     "≈CA$10,080"
-    ],
-    [
-     "28 晚",
-     "≈CA$13,440"
-    ],
-    [
-     "35 晚",
-     "≈CA$16,800"
-    ]
-   ],
-   "short": {
-    "kitchen": "❌",
-    "gym": "✅＋三溫暖",
-    "breakfast": "不含",
-    "smoke": "✅",
-    "heat": "—",
-    "longstay": "❌"
-   },
-   "note": "設施最好但最貴；沒廚房、沒自助洗衣",
-   "stays_note": "Marriott 官網每晚含稅 CA$480 × 晚數。"
-  },
-  {
-   "name": "Le Centre Sheraton",
-   "addr": "1201 Blvd René-Lévesque O",
-   "lat": 45.4985,
-   "lng": -73.5735,
-   "rank": 3,
-   "kitchen": "❌",
-   "breakfast": "不含",
-   "price": 286,
-   "gym": "✅ 24 小時",
-   "gmap": "https://www.google.com/maps/search/?api=1&query=Le+Centre+Sheraton+Montreal",
-   "official": "https://www.marriott.com/en-us/hotels/yulsi-le-centre-sheraton-montreal-hotel/",
+   "official": "https://www.airbnb.ca/rooms/1192752630663661429",
    "rednote": null,
-   "memo": "Marriott 官網 2026-11-09：1/5 起連續最多訂到 1/20（15 晚，含稅 CA$287／晚）；1/20–2/9 另訂一段 CA$285／晚。分兩段訂要請飯店保留同一間房；兩段都沒超過 31 晚，3.5% 住宿稅免不掉",
-   "total": "35 晚 ≈CA$10,005（分兩段）",
-   "smoke": "✅ 全館禁菸",
-   "heat": "無特別抱怨",
-   "longstay": "❌ 沒有長住優惠；只有 Marriott 一般折扣。1/5 起連續最多訂到 1/20，要分兩段訂。",
+   "memo": "Airbnb 2026-11-17 查價：35 晚約 CA$2,555（月租價 × 35/30 推算）。最少住 31 晚；12/6 前免費取消，之後不退款，房東確認提早離開也不退款",
+   "total": "35 晚 ≈CA$2,555",
+   "smoke": "—",
+   "heat": "新大樓，評論沒人說冷",
+   "longstay": "✅ Airbnb 月租折扣（已含在價格內）。最少住 31 晚；12/6 前免費取消，之後前 30 晚不退款；房東確認提早離開不退款。",
    "facilities": [
-    "🏋️ 24 小時健身房",
-    "🏊 室內溫水泳池、三溫暖（按摩池暫停）",
-    "🍽️ Stanley 餐廳（週末早午餐）、大廳 Starbucks、客房送餐、便利商店",
-    "🎯 6 樓露台：桌球、擲斧頭、玉米袋拋擲遊戲、小圖書區",
-    "👔 37 樓貴賓廳（早餐、傍晚小點、全天飲料）：CA$150 開通，Bonvoy 白金卡以上會員免費",
-    "🧺 沒有自助洗衣房，只有送洗／當日乾洗",
-    "🧹 每天打掃；24 小時櫃台＋禮賓、外幣兌換",
-    "❌ 房內沒有廚房（官網沒寫有沒有冰箱或微波爐）",
-    "🚗 停車 CA$35／天",
-    "🚭 全館禁菸；🐶 寵物可（一隻、18 公斤以下，CA$75＋清潔費 CA$75）"
+    "🏋️ 15 樓健身房＋室內泳池、三溫暖、按摩池（與 HONEYROSE 共用）",
+    "🛎️ 24 小時門房",
+    "🚇 大樓直通 Place-des-Arts 地鐵站",
+    "🍳 完整廚房（爐台、烤箱、洗碗機）",
+    "🧺 房內洗衣機、烘衣機",
+    "🧴 有毛巾；香皂、洗髮精、衛生紙只附 1–2 晚份量",
+    "🧹 住宿期間不打掃（只有退房清潔）"
    ],
    "stays": [
     [
-     "14 晚",
-     "≈CA$4,004"
+     "31 晚（到 2/5，最短）",
+     "≈CA$2,480"
     ],
     [
-     "15 晚",
-     "≈CA$4,305"
-    ],
-    [
-     "21 晚以上",
-     "分兩段訂"
-    ],
-    [
-     "35 晚",
-     "≈CA$10,005（兩段）"
+     "35 晚（到 2/9）",
+     "≈CA$2,555"
     ]
    ],
+   "stays_note": "Airbnb 住 28 晚以上只顯示月租價，總價 ≈ 月租價 × 晚數 ÷ 30 推算；確切金額要登入看結帳頁。",
    "short": {
-    "kitchen": "❌",
-    "gym": "✅ 24h",
+    "kitchen": "✅ 完整",
+    "gym": "✅＋泳池",
     "breakfast": "不含",
-    "smoke": "✅",
+    "smoke": "—",
     "heat": "—",
-    "longstay": "❌"
+    "cancel": "⚠️ 12/6 前免費；之後與提早離開都不退"
    },
-   "note": "1/5 起連續最多住到 1/20，要分兩段訂",
-   "stays_note": "Marriott 官網每晚含稅：1/5–1/20 約 286–287；1/20–2/9 另訂一段 285。分兩段要請飯店保留同一間房。"
+   "note": "最便宜；最少 31 晚、提早離開不退；不打掃"
   }
  ]
 }
